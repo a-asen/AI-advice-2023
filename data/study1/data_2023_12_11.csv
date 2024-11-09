@@ -1,0 +1,386 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Consent,Age,Education,Education_8_TEXT,Current_state,Current_state_3_TEXT,Gender,Gender_3_TEXT,Source,Source_9_TEXT,Country,Country_9_TEXT,GPT3_Q1,GPT3.5_Q1,GPT4_Q1,GPT3_Q3,GPT3.5_Q3,GPT4_Q3,GPT3_Q5,GPT3.5_Q5,GPT4_Q5,GPT3_Q11,GPT3.5_Q11,GPT4_Q11,GPT3_Q12,GPT3.5_Q12,GPT4_Q12,GPT3_Q13,GPT3.5_Q13,GPT4_Q13,GPT3_Q16,GPT3.5_Q16,GPT4_Q16,GPT3_Q20,GPT3.5_Q20,GPT4_Q20,GPT3_Q26,GPT3.5_Q26,GPT4_Q26,GPT3_Q28,GPT3.5_Q28,GPT4_Q28,GPT3_Q30,GPT3.5_Q30,GPT4_Q30,GPT3_Q35,GPT3.5_Q35,GPT4_Q35,GPT3_Q38,GPT3.5_Q38,GPT4_Q38,GPT3_Q41,GPT3.5_Q41,GPT4_Q41,GPT3_Q47,GPT3.5_Q47,GPT4_Q47,Trust,Comment
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,"By taking part, you agree to the following:
+
+	I am 18 years or older.
+	I'm aware that my responses are anonymous and cannot be traced back to me.
+	I understand that my participation is voluntary
+	I understand the information that has been presented to me in the information letter.
+	I'm aware that some questions may include explicit language and sensitive topics.",What is your age?,What is the highest degree or level of school you have completed? - Selected Choice,What is the highest degree or level of school you have completed? - Other (Specify below) - Text,What is your current employment status? - Selected Choice,"What is your current employment status? - Neither of the above (Specify below, if you like) - Text",What is your gender? - Selected Choice,"What is your gender? - Other (Specify below, if you like) - Text",Where did you find this study? - Selected Choice,Where did you find this study? - Other (Specify below) - Text,What is your home country? - Selected Choice,What is your home country? - Other (Specify below) - Text,"Question
+
+Is it weird to semi-regularly talk to your sister’s boyfriend?
+
+I’m tired of explaining this but again tonight my boyfriend said it was weird “how much” I talk to my sisters boyfriend, we’ll just say K for brevity. First off, we talk like 2-3 times a week and it’s a few texts that he usually leaves on delivered for days. I’ve known K for like 6 years at this point, even rented an apartment with him and my sister for a bit last year. And I have never, literally never thought about him in any more than a platonic way. I just don’t see him that way. And the thought of doing anything w him makes my skin crawl. Yet my mother, sister, and my boyfriend have acted suspicious and insinuated I liked him multiple times over the years. I don’t want to cut someone off that I genuinely enjoy talking to, but I also don’t want to make my sister or boyfriend uncomfortable by making them feel like I’m doing something shady.
+
+ 
+
+Possible solutions: Block him, don’t block him, talk even less than we already do. But I feel the problem would remain and I’d lose a good friend.","Question
+
+Is it weird to semi-regularly talk to your sister’s boyfriend? I’m tired of explaining this but again tonight my boyfriend said it was weird “how much” I talk to my sisters boyfriend, we’ll just say K for brevity. First off, we talk like 2-3 times a week and it’s a few texts that he usually leaves on delivered for days. I’ve known K for like 6 years at this point, even rented an apartment with him and my sister for a bit last year. And I have never, literally never thought about him in any more than a platonic way. I just don’t see him that way. And the thought of doing anything w him makes my skin crawl. Yet my mother, sister, and my boyfriend have acted suspicious and insinuated I liked him multiple times over the years. I don’t want to cut someone off that I genuinely enjoy talking to, but I also don’t want to make my sister or boyfriend uncomfortable by making them feel like I’m doing something shady. Possible solutions: Block him, don’t block him, talk even less than we already do. But I feel the problem would remain and I’d lose a good friend.","Question:
+ Is it weird to semi-regularly talk to your sister’s boyfriend? I’m tired of explaining this but again tonight my boyfriend said it was weird “how much” I talk to my sisters boyfriend, we’ll just say K for brevity. First off, we talk like 2-3 times a week and it’s a few texts that he usually leaves on delivered for days. I’ve known K for like 6 years at this point, even rented an apartment with him and my sister for a bit last year. And I have never, literally never thought about him in any more than a platonic way. I just don’t see him that way. And the thought of doing anything w him makes my skin crawl. Yet my mother, sister, and my boyfriend have acted suspicious and insinuated I liked him multiple times over the years. I don’t want to cut someone off that I genuinely enjoy talking to, but I also don’t want to make my sister or boyfriend uncomfortable by making them feel like I’m doing something shady. Possible solutions: Block him, don’t block him, talk even less than we already do. But I feel the problem would remain and I’d lose a good friend.","Question
+
+Is it unreasonable for me to ask my friend not to smoke weed when we're together? i Simply dislike it. I don't like the smell nor the way she behaves when she's high. also it gets kinda awkward because i don't smoke and she's by herself giggling all the time and we can't do shit cause she's high. before she stared smoking we would do a lot together but now it's just me going to her place (she never comes to mine) and watching her smoke. is it selfish of me to ask her to change her habits when I'm around? be brutally honest.","Question
+
+Is it unreasonable for me to ask my friend not to smoke weed when we're together? i Simply dislike it. I don't like the smell nor the way she behaves when she's high. also it gets kinda awkward because i don't smoke and she's by herself giggling all the time and we can't do shit cause she's high. before she stared smoking we would do a lot together but now it's just me going to her place (she never comes to mine) and watching her smoke. is it selfish of me to ask her to change her habits when I'm around? be brutally honest.","Question
+
+Is it unreasonable for me to ask my friend not to smoke weed when we're together? i Simply dislike it. I don't like the smell nor the way she behaves when she's high. also it gets kinda awkward because i don't smoke and she's by herself giggling all the time and we can't do shit cause she's high. before she stared smoking we would do a lot together but now it's just me going to her place (she never comes to mine) and watching her smoke. is it selfish of me to ask her to change her habits when I'm around? be brutally honest.","Question
+
+should I(f32) sue hairdresser for not refunding $140
+
+Long story short, I went into a salon to dye my hair. They said, ""we can dye it that color, no problem, no bleach will be used."" After dyeing it, my hair came out two very different colors. Then they apply something in my hair. I ask what it is and, it's bleach. I express how much I didn't want that and that and how dare they just put it on my hair without telling me even after it was agreed that bleach wouldnt be used etc. They're like, ""oh you'll be fine"" and then proceeded to dye my hair a second time after the bleach. I look like a clown now with different colors on my hair (orange at the root and brownish red at the body). But the worst of it all is that I have bleach in my hair and I'm upset that my hair will never be the same. I will have to keep cutting it until the damaged bleached hair is gone. I have curly hair so my curls will most likely not be the same also.
+
+
+
+I wanted a refund for this experience. These stylist did whatever they wanted to me. Bleached my hair and dyed it twice in 1 day. Instead the stylist and the owner start yelling at me telling me they can't refund me and that I'm wasting their time and that the most they could do for me is give me some type of moisturizing treatment the next time I come in. (They are so clueless) I explain that I'm never coming back and leave with damaged hair, orange roots, and redish/brown hair, a lousy blowout, an uneven trim, and the delight of being shouted at by two extremely unprofessional ladies. Not to mention I paid $140 for this nightmare.
+
+
+
+I spoke to friends they're all in shock of such an experience and they warn me that in a couple of months, my hair might fall out bc of the bleach 😢 . I am considering suing this business. What are your thoughts?","Question
+
+should I(f32) sue hairdresser for not refunding $140
+
+Long story short, I went into a salon to dye my hair. They said, ""we can dye it that color, no problem, no bleach will be used."" After dyeing it, my hair came out two very different colors. Then they apply something in my hair. I ask what it is and, it's bleach. I express how much I didn't want that and that and how dare they just put it on my hair without telling me even after it was agreed that bleach wouldnt be used etc. They're like, ""oh you'll be fine"" and then proceeded to dye my hair a second time after the bleach. I look like a clown now with different colors on my hair (orange at the root and brownish red at the body). But the worst of it all is that I have bleach in my hair and I'm upset that my hair will never be the same. I will have to keep cutting it until the damaged bleached hair is gone. I have curly hair so my curls will most likely not be the same also.
+
+
+
+I wanted a refund for this experience. These stylist did whatever they wanted to me. Bleached my hair and dyed it twice in 1 day. Instead the stylist and the owner start yelling at me telling me they can't refund me and that I'm wasting their time and that the most they could do for me is give me some type of moisturizing treatment the next time I come in. (They are so clueless) I explain that I'm never coming back and leave with damaged hair, orange roots, and redish/brown hair, a lousy blowout, an uneven trim, and the delight of being shouted at by two extremely unprofessional ladies. Not to mention I paid $140 for this nightmare.
+
+
+
+I spoke to friends they're all in shock of such an experience and they warn me that in a couple of months, my hair might fall out bc of the bleach 😢 . I am considering suing this business. What are your thoughts?","Question
+
+should I(f32) sue hairdresser for not refunding $140
+
+Long story short, I went into a salon to dye my hair. They said, ""we can dye it that color, no problem, no bleach will be used."" After dyeing it, my hair came out two very different colors. Then they apply something in my hair. I ask what it is and, it's bleach. I express how much I didn't want that and that and how dare they just put it on my hair without telling me even after it was agreed that bleach wouldnt be used etc. They're like, ""oh you'll be fine"" and then proceeded to dye my hair a second time after the bleach. I look like a clown now with different colors on my hair (orange at the root and brownish red at the body). But the worst of it all is that I have bleach in my hair and I'm upset that my hair will never be the same. I will have to keep cutting it until the damaged bleached hair is gone. I have curly hair so my curls will most likely not be the same also.
+
+
+
+I wanted a refund for this experience. These stylist did whatever they wanted to me. Bleached my hair and dyed it twice in 1 day. Instead the stylist and the owner start yelling at me telling me they can't refund me and that I'm wasting their time and that the most they could do for me is give me some type of moisturizing treatment the next time I come in. (They are so clueless) I explain that I'm never coming back and leave with damaged hair, orange roots, and redish/brown hair, a lousy blowout, an uneven trim, and the delight of being shouted at by two extremely unprofessional ladies. Not to mention I paid $140 for this nightmare.
+
+
+
+I spoke to friends they're all in shock of such an experience and they warn me that in a couple of months, my hair might fall out bc of the bleach 😢 . I am considering suing this business. What are your thoughts?","Question
+
+I am dying, I don’t want people to know. What should I do?
+
+I just started therapy so Reddit is not the only place for this but I am feeling alone. I don’t want to tell people I have less than a year to live. I’m so fucking exhausted. Chemo is horrible. My body is failing me. I have nothing left to live for and I don’t want to be around my crying family and friends. I don’t want anything anymore but to just hurry up and die. Sorry I know it’s morbid but it’s how I feel. Can barely type this. The hospital is depressing and I feel like I’ve done nothing in life worth anything and I’m only in my twenties. How do I feel better again and does it even matter if I do if I’ll be dead soon anyways? Idk anymore","Question
+
+I am dying, I don’t want people to know. What should I do?
+
+I just started therapy so Reddit is not the only place for this but I am feeling alone. I don’t want to tell people I have less than a year to live. I’m so fucking exhausted. Chemo is horrible. My body is failing me. I have nothing left to live for and I don’t want to be around my crying family and friends. I don’t want anything anymore but to just hurry up and die. Sorry I know it’s morbid but it’s how I feel. Can barely type this. The hospital is depressing and I feel like I’ve done nothing in life worth anything and I’m only in my twenties. How do I feel better again and does it even matter if I do if I’ll be dead soon anyways? Idk anymore","Question
+
+I am dying, I don’t want people to know. What should I do?
+
+I just started therapy so Reddit is not the only place for this but I am feeling alone. I don’t want to tell people I have less than a year to live. I’m so fucking exhausted. Chemo is horrible. My body is failing me. I have nothing left to live for and I don’t want to be around my crying family and friends. I don’t want anything anymore but to just hurry up and die. Sorry I know it’s morbid but it’s how I feel. Can barely type this. The hospital is depressing and I feel like I’ve done nothing in life worth anything and I’m only in my twenties. How do I feel better again and does it even matter if I do if I’ll be dead soon anyways? Idk anymore","Question
+
+I'm 15. I have a job, but I'm not saving for anything in particular yet. Might save for a car when I turn 16. Is it a waste of my money to spend it on things that don't benefit me in the long run, like video games?","Question
+
+I'm 15. I have a job, but I'm not saving for anything in particular yet. Might save for a car when I turn 16. Is it a waste of my money to spend it on things that don't benefit me in the long run, like video games?","Question
+
+I'm 15. I have a job, but I'm not saving for anything in particular yet. Might save for a car when I turn 16. Is it a waste of my money to spend it on things that don't benefit me in the long run, like video games?","Question
+
+am I (19) silly for giving money away to the homeless?
+
+
+
+I (19) have moved to a city with a big homeless population and walk by homeless people everyday on the way to school, mall, whatever. i always feel super bad and today i gave 20 dollar bills to 2 people separately, 40 dollars each because i just felt bad for them. one women was on the street looking sad and disheveled and she said god bless u which made me happy as someone kinda religious. the other guy had a sign saying he was in a fire and he looked it so i gave him a twenty after debating with myself (i was gonna give a five but felt bad and figured i didn’t need it). i know this seems like i’m bad with money maybe? i’m worried but i figured i would just spend that on weed so i was better off doing this. i don’t know if this is reckless spending but my parents gave me spending money and i’m worried they would disprove ig. also i heard “reckless spending” is a result of mental illness and i’m not sure if this qualifies?","Question
+
+am I (19) silly for giving money away to the homeless?
+
+
+
+I (19) have moved to a city with a big homeless population and walk by homeless people everyday on the way to school, mall, whatever. i always feel super bad and today i gave 20 dollar bills to 2 people separately, 40 dollars each because i just felt bad for them. one women was on the street looking sad and disheveled and she said god bless u which made me happy as someone kinda religious. the other guy had a sign saying he was in a fire and he looked it so i gave him a twenty after debating with myself (i was gonna give a five but felt bad and figured i didn’t need it). i know this seems like i’m bad with money maybe? i’m worried but i figured i would just spend that on weed so i was better off doing this. i don’t know if this is reckless spending but my parents gave me spending money and i’m worried they would disprove ig. also i heard “reckless spending” is a result of mental illness and i’m not sure if this qualifies?","Question
+
+am I (19) silly for giving money away to the homeless?
+
+
+
+I (19) have moved to a city with a big homeless population and walk by homeless people everyday on the way to school, mall, whatever. i always feel super bad and today i gave 20 dollar bills to 2 people separately, 40 dollars each because i just felt bad for them. one women was on the street looking sad and disheveled and she said god bless u which made me happy as someone kinda religious. the other guy had a sign saying he was in a fire and he looked it so i gave him a twenty after debating with myself (i was gonna give a five but felt bad and figured i didn’t need it). i know this seems like i’m bad with money maybe? i’m worried but i figured i would just spend that on weed so i was better off doing this. i don’t know if this is reckless spending but my parents gave me spending money and i’m worried they would disprove ig. also i heard “reckless spending” is a result of mental illness and i’m not sure if this qualifies?","Question
+
+My boyfriend (23m) is a dealer and won’t get a legal job what do
+
+Hello everyone, I (22f) am having a hard time with my bf (23m). We have been together for almost 6 years, as the title states he is a dealer. I have been trying to encourage him to get a job for years, and he acts like a complete man child about it, he has a temper problem when it comes to any kind of authority over him. Other than that we really don’t get into disagreements so it makes this harder for me. When we started dating we only did it because it was what we had to do if we wanted food or shelter, but now he’s became lazy. He just wants fast easy ways to get rich (y’all don’t even know how many crypto scams I have prevented him from giving our savings to) and not put in effort for anything he wants in life. Obviously I can’t just change him and make him work, but idk what to do anymore and I’m tired of it. To make things worse I’m a very introverted person and don’t have any near friends I could just move in with if I decided to leave. I hate saying I’m with him only for financial reasons because I do really love him, but ultimately if I had the money I would have been gone long ago. He just keeps saying he’s going to get a job as an “entrepreneur” but as I said he wants everything handed to him with no effort.  Anyways what can or should I do?","Question
+
+My boyfriend (23m) is a dealer and won’t get a legal job what do
+
+Hello everyone, I (22f) am having a hard time with my bf (23m). We have been together for almost 6 years, as the title states he is a dealer. I have been trying to encourage him to get a job for years, and he acts like a complete man child about it, he has a temper problem when it comes to any kind of authority over him. Other than that we really don’t get into disagreements so it makes this harder for me. When we started dating we only did it because it was what we had to do if we wanted food or shelter, but now he’s became lazy. He just wants fast easy ways to get rich (y’all don’t even know how many crypto scams I have prevented him from giving our savings to) and not put in effort for anything he wants in life. Obviously I can’t just change him and make him work, but idk what to do anymore and I’m tired of it. To make things worse I’m a very introverted person and don’t have any near friends I could just move in with if I decided to leave. I hate saying I’m with him only for financial reasons because I do really love him, but ultimately if I had the money I would have been gone long ago. He just keeps saying he’s going to get a job as an “entrepreneur” but as I said he wants everything handed to him with no effort.  Anyways what can or should I do?","Question
+
+My boyfriend (23m) is a dealer and won’t get a legal job what do
+
+Hello everyone, I (22f) am having a hard time with my bf (23m). We have been together for almost 6 years, as the title states he is a dealer. I have been trying to encourage him to get a job for years, and he acts like a complete man child about it, he has a temper problem when it comes to any kind of authority over him. Other than that we really don’t get into disagreements so it makes this harder for me. When we started dating we only did it because it was what we had to do if we wanted food or shelter, but now he’s became lazy. He just wants fast easy ways to get rich (y’all don’t even know how many crypto scams I have prevented him from giving our savings to) and not put in effort for anything he wants in life. Obviously I can’t just change him and make him work, but idk what to do anymore and I’m tired of it. To make things worse I’m a very introverted person and don’t have any near friends I could just move in with if I decided to leave. I hate saying I’m with him only for financial reasons because I do really love him, but ultimately if I had the money I would have been gone long ago. He just keeps saying he’s going to get a job as an “entrepreneur” but as I said he wants everything handed to him with no effort.  Anyways what can or should I do?","Question
+
+Someone here gonna have to explain what I said wrong?
+
+So Prom was a few days ago and I starred talking to this girl and we rly got along and we’re genuinely having a good conversation and it was going well, one of her friends even came over and said they were going and she responded back to her friend “give me a few more minutes” and we continued talking for about 10 more minutes then Prom ended and I got her snap
+
+
+
+We were snapping back and forth for a few days with just random pics then I texted her “Hey” and she texts back “Hi” and then asked her “So what type stuff u into” and then checked my phone a few minutes later and she had blocked me, ima need someone to explain what happened here because I clearly missed something, because I thought things were going pretty good and that we both liked each other","Question
+
+Someone here gonna have to explain what I said wrong?
+
+So Prom was a few days ago and I starred talking to this girl and we rly got along and we’re genuinely having a good conversation and it was going well, one of her friends even came over and said they were going and she responded back to her friend “give me a few more minutes” and we continued talking for about 10 more minutes then Prom ended and I got her snap
+
+
+
+We were snapping back and forth for a few days with just random pics then I texted her “Hey” and she texts back “Hi” and then asked her “So what type stuff u into” and then checked my phone a few minutes later and she had blocked me, ima need someone to explain what happened here because I clearly missed something, because I thought things were going pretty good and that we both liked each other","Question
+
+Someone here gonna have to explain what I said wrong?
+
+So Prom was a few days ago and I starred talking to this girl and we rly got along and we’re genuinely having a good conversation and it was going well, one of her friends even came over and said they were going and she responded back to her friend “give me a few more minutes” and we continued talking for about 10 more minutes then Prom ended and I got her snap
+
+
+
+We were snapping back and forth for a few days with just random pics then I texted her “Hey” and she texts back “Hi” and then asked her “So what type stuff u into” and then checked my phone a few minutes later and she had blocked me, ima need someone to explain what happened here because I clearly missed something, because I thought things were going pretty good and that we both liked each other","Question
+
+My boyfriend of 8 months refuses to do anything most days besides playing video games
+
+Me (25F) and my boyfriend (44M) refuses to do anything with me out in public most days and seems to think that eventually in time I’ll have to be responsible for all the household tasks and if we ever have kids I’ll have to be the sole provider so all he’ll have to do is pay bills and go to work. He does pay a majority of the bills because he does make more money. I think that we both need to split the needs of work in the house 50/50, I’ve mentioned to him before that it bothers me that we don’t do things together and he’ll usually come back with something like “ well we watched a movie together the other day” or “I’m trying to save money” even though he gets Amazon packages like everyday. Am I being unreasonable or annoying? Or is boyfriend the one who should step up?
+
+
+
+Clarification:
+
+I am not a mom I don’t have children, I don’t really have a desire to have children when America is the way it is. I’m all set. I am however am about to finish my first year of college and I work 30+ hours a week as an LNA. I don’t expect this to make anyone’s opinions change in the comments I just wanted to clarify I am not a mom. But I am one busy chick.","Question
+
+My boyfriend of 8 months refuses to do anything most days besides playing video games
+
+Me (25F) and my boyfriend (44M) refuses to do anything with me out in public most days and seems to think that eventually in time I’ll have to be responsible for all the household tasks and if we ever have kids I’ll have to be the sole provider so all he’ll have to do is pay bills and go to work. He does pay a majority of the bills because he does make more money. I think that we both need to split the needs of work in the house 50/50, I’ve mentioned to him before that it bothers me that we don’t do things together and he’ll usually come back with something like “ well we watched a movie together the other day” or “I’m trying to save money” even though he gets Amazon packages like everyday. Am I being unreasonable or annoying? Or is boyfriend the one who should step up?
+
+
+
+Clarification:
+
+I am not a mom I don’t have children, I don’t really have a desire to have children when America is the way it is. I’m all set. I am however am about to finish my first year of college and I work 30+ hours a week as an LNA. I don’t expect this to make anyone’s opinions change in the comments I just wanted to clarify I am not a mom. But I am one busy chick.","Question
+
+My boyfriend of 8 months refuses to do anything most days besides playing video games
+
+Me (25F) and my boyfriend (44M) refuses to do anything with me out in public most days and seems to think that eventually in time I’ll have to be responsible for all the household tasks and if we ever have kids I’ll have to be the sole provider so all he’ll have to do is pay bills and go to work. He does pay a majority of the bills because he does make more money. I think that we both need to split the needs of work in the house 50/50, I’ve mentioned to him before that it bothers me that we don’t do things together and he’ll usually come back with something like “ well we watched a movie together the other day” or “I’m trying to save money” even though he gets Amazon packages like everyday. Am I being unreasonable or annoying? Or is boyfriend the one who should step up?
+
+
+
+Clarification:
+
+I am not a mom I don’t have children, I don’t really have a desire to have children when America is the way it is. I’m all set. I am however am about to finish my first year of college and I work 30+ hours a week as an LNA. I don’t expect this to make anyone’s opinions change in the comments I just wanted to clarify I am not a mom. But I am one busy chick.","Question
+
+Ultimate Karen Mamabear, help
+
+My 2nd grade son was involved in a scuffle at recess. Before I even heard anything of it from school, I received an email from the mother of one of the boys involved. At the end of it she threatened to file a police report.bPeople are absolutely insane these days but I laughed and dismissed her bizarre behavior. Didn't reply. Untill one night at 730, a knock on the door to reveal 2 armed patrol officers looking to interrogate my 7 year old son. This psycho really called the cops on a 2nd grader. I'm floored. I'm thinking about going with a Harassment or Restraining Order but what do you all think? If she is so mentally unstable as to call police on a 7 year old, what's she liable to do or say if she ever sees my son around school, for example, and I am not there?
+
+Thoughts?","Question
+
+Ultimate Karen Mamabear, help
+
+My 2nd grade son was involved in a scuffle at recess. Before I even heard anything of it from school, I received an email from the mother of one of the boys involved. At the end of it she threatened to file a police report. People are absolutely insane these days but I laughed and dismissed her bizarre behavior. Didn't reply. Untill one night at 730, a knock on the door to reveal 2 armed patrol officers looking to interrogate my 7 year old son. This psycho really called the cops on a 2nd grader. I'm floored. I'm thinking about going with a Harassment or Restraining Order but what do you all think? If she is so mentally unstable as to call police on a 7 year old, what's she liable to do or say if she ever sees my son around school, for example, and I am not there?
+
+
+
+Thoughts?","Question
+
+Ultimate Karen Mamabear, help
+
+My 2nd grade son was involved in a scuffle at recess. Before I even heard anything of it from school, I received an email from the mother of one of the boys involved. At the end of it she threatened to file a police report. People are absolutely insane these days but I laughed and dismissed her bizarre behavior. Didn't reply. Untill one night at 730, a knock on the door to reveal 2 armed patrol officers looking to interrogate my 7 year old son. This psycho really called the cops on a 2nd grader. I'm floored. I'm thinking about going with a Harassment or Restraining Order but what do you all think? If she is so mentally unstable as to call police on a 7 year old, what's she liable to do or say if she ever sees my son around school, for example, and I am not there?
+
+
+
+Thoughts?","Question
+
+My dad was diagnosed with ALS a few months ago and is starting to go downhill a bit. He’ll be 75 at the end of the year, and my mom and I are trying to come up with fun things to do, so I’m reaching out! Any ideas are welcome! Thank you in advance ☺️","Question
+
+My dad was diagnosed with ALS a few months ago and is starting to go downhill a bit. He’ll be 75 at the end of the year, and my mom and I are trying to come up with fun things to do, so I’m reaching out! Any ideas are welcome! Thank you in advance ☺️","Question
+
+My dad was diagnosed with ALS a few months ago and is starting to go downhill a bit. He’ll be 75 at the end of the year, and my mom and I are trying to come up with fun things to do, so I’m reaching out! Any ideas are welcome! Thank you in advance ☺️","Question
+
+Why am I still disgusted with my boyfriend
+
+I’ve been dating my boyfriend for three years now. Honestly when we met I wasn’t looking for a relationship, and I don’t think he was either.
+
+So when we first met I saw him and I felt disgusted. This overwhelming feeling of disgust…
+
+I ignored it then, as we’d only just met, but to this day it’s still there.
+
+There’s things I’ve grown to love about him, but still underneath this feeling of disgust is there.
+
+Why do I feel this way?","Question
+
+Why am I still disgusted with my boyfriend
+
+I’ve been dating my boyfriend for three years now. Honestly when we met I wasn’t looking for a relationship, and I don’t think he was either.
+
+So when we first met I saw him and I felt disgusted. This overwhelming feeling of disgust…
+
+I ignored it then, as we’d only just met, but to this day it’s still there.
+
+There’s things I’ve grown to love about him, but still underneath this feeling of disgust is there.
+
+Why do I feel this way?","Question
+
+Why am I still disgusted with my boyfriend
+
+I’ve been dating my boyfriend for three years now. Honestly when we met I wasn’t looking for a relationship, and I don’t think he was either.
+
+So when we first met I saw him and I felt disgusted. This overwhelming feeling of disgust…
+
+I ignored it then, as we’d only just met, but to this day it’s still there.
+
+There’s things I’ve grown to love about him, but still underneath this feeling of disgust is there.
+
+Why do I feel this way?","Question
+
+My mom has been crying and is devastated since I moved out what do I do?
+
+I grew up with a single mom and for a while was my only guardian before my dad came back to be part of my life. Where very close and to her it’s just me in her family. I decided I wanted to move out for college with a friend and get an apartment in the city but since then my mom has been torn and never even wanted me to move out in the first place. She’s lived alone since and said how much she miss me and wants me to move back in but today she called and was crying on the phone how lonely she is and how afraid she is and wants me to consider moving back in when my lease is up though I’ve been planning for me and my gf to then move in which again she’s not fond of. I visit her each week between school and work but she’s still sad. What do I do, I don’t like my mom being so lonely and sad but then again I’m almost 20 and should live my own life?","Question
+
+My mom has been crying and is devastated since I moved out what do I do?
+
+I grew up with a single mom and for a while was my only guardian before my dad came back to be part of my life. Where very close and to her it’s just me in her family. I decided I wanted to move out for college with a friend and get an apartment in the city but since then my mom has been torn and never even wanted me to move out in the first place. She’s lived alone since and said how much she miss me and wants me to move back in but today she called and was crying on the phone how lonely she is and how afraid she is and wants me to consider moving back in when my lease is up though I’ve been planning for me and my gf to then move in which again she’s not fond of. I visit her each week between school and work but she’s still sad. What do I do, I don’t like my mom being so lonely and sad but then again I’m almost 20 and should live my own life?","Question
+
+My mom has been crying and is devastated since I moved out what do I do?
+
+I grew up with a single mom and for a while was my only guardian before my dad came back to be part of my life. Where very close and to her it’s just me in her family. I decided I wanted to move out for college with a friend and get an apartment in the city but since then my mom has been torn and never even wanted me to move out in the first place. She’s lived alone since and said how much she miss me and wants me to move back in but today she called and was crying on the phone how lonely she is and how afraid she is and wants me to consider moving back in when my lease is up though I’ve been planning for me and my gf to then move in which again she’s not fond of. I visit her each week between school and work but she’s still sad. What do I do, I don’t like my mom being so lonely and sad but then again I’m almost 20 and should live my own life?","Question
+
+Are any teen moms, dads, or parents, in general, able to advise me on caring for a baby at 16?
+
+# I got my girlfriend pregnant and she doesn't want an abortion but neither do I. Im gonna be 16 in about 2 weeks so I can get a decent amount of jobs but pretty low pay. I don't know how my mom is going to react, she could kick me out but I'm not sure. Would it be better to move in with my GF and care for the baby or stay with my mom? I also need help knowing what I need for a baby.","Question
+
+Are any teen moms, dads, or parents, in general, able to advise me on caring for a baby at 16?
+
+# I got my girlfriend pregnant and she doesn't want an abortion but neither do I. Im gonna be 16 in about 2 weeks so I can get a decent amount of jobs but pretty low pay. I don't know how my mom is going to react, she could kick me out but I'm not sure. Would it be better to move in with my GF and care for the baby or stay with my mom? I also need help knowing what I need for a baby.","Question
+
+Are any teen moms, dads, or parents, in general, able to advise me on caring for a baby at 16?
+
+# I got my girlfriend pregnant and she doesn't want an abortion but neither do I. Im gonna be 16 in about 2 weeks so I can get a decent amount of jobs but pretty low pay. I don't know how my mom is going to react, she could kick me out but I'm not sure. Would it be better to move in with my GF and care for the baby or stay with my mom? I also need help knowing what I need for a baby.","Question
+
+Is it ok to walk away?
+
+Yesterday I was wearing a pullover of my favorite baseball team. At the grocery store. Doing my thing. Minding my business.
+
+This man, a creepy squirrelly type, starts talking to me about the team. He makes zero sense. I can barely understand him and I’m trying to be polite and saying mmmhmm and walk away. Again. I don’t know him. I think that’s generous.
+
+But, he turns his cart around and starts following me to talk more. I end up turning again, because … I don’t care to continue this conversation because I feel he’s being a little racist. But, I feel he’s taken advantage of my being nice.
+
+He approaches again an aisle over and continues, at this point, I try an uh-huh and walk off.
+
+
+
+In this situation, is it ok to walk off? I don’t know this person. He’s a little on the creeper side. I don’t want trouble. I was just minding my business, shopping.","Question
+
+Is it ok to walk away?
+
+Yesterday I was wearing a pullover of my favorite baseball team. At the grocery store. Doing my thing. Minding my business.
+
+This man, a creepy squirrelly type, starts talking to me about the team. He makes zero sense. I can barely understand him and I’m trying to be polite and saying mmmhmm and walk away. Again. I don’t know him. I think that’s generous.
+
+But, he turns his cart around and starts following me to talk more. I end up turning again, because … I don’t care to continue this conversation because I feel he’s being a little racist. But, I feel he’s taken advantage of my being nice.
+
+He approaches again an aisle over and continues, at this point, I try an uh-huh and walk off.
+
+
+
+In this situation, is it ok to walk off? I don’t know this person. He’s a little on the creeper side. I don’t want trouble. I was just minding my business, shopping.","Question
+
+Is it ok to walk away?
+
+Yesterday I was wearing a pullover of my favorite baseball team. At the grocery store. Doing my thing. Minding my business.
+
+This man, a creepy squirrelly type, starts talking to me about the team. He makes zero sense. I can barely understand him and I’m trying to be polite and saying mmmhmm and walk away. Again. I don’t know him. I think that’s generous.
+
+But, he turns his cart around and starts following me to talk more. I end up turning again, because … I don’t care to continue this conversation because I feel he’s being a little racist. But, I feel he’s taken advantage of my being nice.
+
+He approaches again an aisle over and continues, at this point, I try an uh-huh and walk off.
+
+
+
+In this situation, is it ok to walk off? I don’t know this person. He’s a little on the creeper side. I don’t want trouble. I was just minding my business, shopping.","If you were seeking advice and received a response generated by artificial intelligence, to what extent would you trust this advice?","If you have any comments, please write them here."
+"{""ImportId"":""startDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""endDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID1213989933""}","{""ImportId"":""QID153""}","{""ImportId"":""QID154""}","{""ImportId"":""QID154_8_TEXT""}","{""ImportId"":""QID175""}","{""ImportId"":""QID175_3_TEXT""}","{""ImportId"":""QID155""}","{""ImportId"":""QID155_3_TEXT""}","{""ImportId"":""QID156""}","{""ImportId"":""QID156_9_TEXT""}","{""ImportId"":""QID174""}","{""ImportId"":""QID174_9_TEXT""}","{""ImportId"":""QID1""}","{""ImportId"":""QID10""}","{""ImportId"":""QID11""}","{""ImportId"":""QID9""}","{""ImportId"":""QID14""}","{""ImportId"":""QID15""}","{""ImportId"":""QID20""}","{""ImportId"":""QID21""}","{""ImportId"":""QID22""}","{""ImportId"":""QID38""}","{""ImportId"":""QID39""}","{""ImportId"":""QID40""}","{""ImportId"":""QID41""}","{""ImportId"":""QID42""}","{""ImportId"":""QID43""}","{""ImportId"":""QID44""}","{""ImportId"":""QID45""}","{""ImportId"":""QID46""}","{""ImportId"":""QID53""}","{""ImportId"":""QID54""}","{""ImportId"":""QID55""}","{""ImportId"":""QID65""}","{""ImportId"":""QID66""}","{""ImportId"":""QID67""}","{""ImportId"":""QID83""}","{""ImportId"":""QID84""}","{""ImportId"":""QID85""}","{""ImportId"":""QID89""}","{""ImportId"":""QID90""}","{""ImportId"":""QID91""}","{""ImportId"":""QID95""}","{""ImportId"":""QID96""}","{""ImportId"":""QID97""}","{""ImportId"":""QID110""}","{""ImportId"":""QID111""}","{""ImportId"":""QID112""}","{""ImportId"":""QID119""}","{""ImportId"":""QID120""}","{""ImportId"":""QID121""}","{""ImportId"":""QID128""}","{""ImportId"":""QID129""}","{""ImportId"":""QID130""}","{""ImportId"":""QID146""}","{""ImportId"":""QID147""}","{""ImportId"":""QID148""}","{""ImportId"":""QID173""}","{""ImportId"":""QID157_TEXT""}"
+2023-11-25 15:23:36,2023-11-25 15:34:34,IP Address,100,658,True,2023-11-25 15:34:34,R_vZhayzLlKXOpG7L,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Working,,Male,,Reddit,,USA,,,,,,Human,,,,,,,,,,AI,,,,,,,,,,,,,,,AI,,,,Human,,,,AI,,,,,,AI,,Neutral / Unsure,
+2023-11-25 15:34:26,2023-11-25 15:34:54,IP Address,100,27,True,2023-11-25 15:34:55,R_xmUbZwo7Mko2785,anonymous,EN,I prefer not to participate.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 15:40:16,2023-11-25 15:50:46,IP Address,100,629,True,2023-11-25 15:50:47,R_1kTiSYSB0KGfzvc,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Master's degree,,Working,,Female,,Reddit,,USA,,,,,,,,,,,,,,,,AI,,,,,,,,,AI,AI,,,,,,,,,,,,,AI,,,Human,,AI,,,Somewhat trustworthy,"As I understand it's current form, ai like chatgpt was trained to put words together in an order that sounds natural to people.  It was also trained on information/knowledge to use when it writes texts.  It's just putting words in a human-sounding order that are related to the prompt, it's not really giving advice and can't really be trusted to give you factual information either"
+2023-11-25 16:20:33,2023-11-25 16:25:16,IP Address,100,283,True,2023-11-25 16:25:17,R_27BQLgW9HbVQbUz,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Master's degree,,Working,,,,Social Media,,Finland,,Human Answer,,,,,,,,,,,,,,,,,,,,,,,Human,,Human,,,AI,,,,Human,,,,,,,,,AI,,,,Slightly trustworthy,
+2023-11-25 16:15:46,2023-11-25 16:36:57,IP Address,100,1270,True,2023-11-25 16:36:57,R_3flpRSLhCbEoDXX,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,Other (Specify below),"It was shared to me by the creator ",Finland,,,,,,,,,,Human,,,Human,,,AI,,,,,,,,,AI,,,,,,,,,,,,Human,,,,,,,,AI,,Reasonably trustworthy,
+2023-11-25 16:26:44,2023-11-25 16:38:51,IP Address,100,727,True,2023-11-25 16:38:52,R_2xYqHLNJ40V0O48,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Professional degree,,Working,,Male,,It was shared to me by a friend,,Finland,,,,,,,,AI,,,,,AI,,,,,,,,,,AI,,,AI,,,,,,,,,Human,,,AI,,,,,,,,,Somewhat trustworthy,
+2023-11-25 16:22:28,2023-11-25 16:39:04,IP Address,100,996,True,2023-11-25 16:39:05,R_2fe84fsur6y5a9n,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Studying,,Female,,Social Media,,Norway,,,,,,,,,Human,,,,,,,,,AI,,,,,AI,,,,,,AI,,,,,,,Human,,,,,,,AI,,,,Somewhat trustworthy,
+2023-11-25 16:37:52,2023-11-25 16:53:16,IP Address,100,923,True,2023-11-25 16:53:16,R_XFBUKwMXsGlpc2d,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Reddit,,Other (Specify below),"Hungary ",,,,,,,,Human,,,,,AI,,,,,,,,,,,,,Human,,,,,,,Human,,Human,,,AI,,,,,,,,Reasonably trustworthy,
+2023-11-25 17:08:30,2023-11-25 17:25:36,IP Address,100,1025,True,2023-11-25 17:25:37,R_3iKjRLqCjbOmIsc,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,It was shared to me by a friend,,Poland,,,,,,,,,,AI,Human,,,,,,,,,,,AI,,,,,,AI,,,,,,,,AI,,,AI,,,,,,,,Reasonably trustworthy,
+2023-11-25 17:08:08,2023-11-25 17:26:15,IP Address,100,1087,True,2023-11-25 17:26:16,R_ssVlSS2STirD9CN,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Male,,Social Media,,Finland,,,,,,Human,,AI,,,,,,,,,Human,,,,,,,AI,,,,,,,,,,,AI,,,,,,AI,,,,,,Reasonably trustworthy,"Good luck! "
+2023-11-25 17:21:58,2023-11-25 17:36:23,IP Address,100,865,True,2023-11-25 17:36:24,R_10CsE6mT8y4tYNE,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Social Media,,Finland,,,,,,,,,AI,,,,,,,AI,,,,AI,,,,,,,,,,,,,,,,,AI,,,,AI,,,,,AI,Very trustworthy,
+2023-11-25 17:51:38,2023-11-25 18:02:00,IP Address,100,621,True,2023-11-25 18:02:01,R_3nP1mQ5Hg8obUWY,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,High-School,,Working,,Female,,Social Media,,Finland,,,AI,,,AI,,,,,Human,,,,,,,,,,,,,,,,AI,,,,,,,,,,,,,Human,,AI,,,,,Somewhat trustworthy,
+2023-11-25 18:44:55,2023-11-25 19:02:36,IP Address,100,1061,True,2023-11-25 19:02:37,R_2Bx7MZZiEbcdWvQ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,65 - 74,Master's degree,,Working,,Male,,Social Media,,Finland,,,,,,,Human,,,,,,,,AI,,Human,,,,,,,,,,,,,,,,,,,,Human,,AI,,,,AI,,,,Reasonably trustworthy,"Nice job... "
+2023-11-25 20:21:28,2023-11-25 20:40:59,IP Address,100,1171,True,2023-11-25 20:41:00,R_3Hp1ppCXJCmdTpn,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,High-School,,Working,,Male,,Social Media,,Finland,,,AI,,,,,,,AI,,,,,,,,,,,AI,,,,,,,,,AI,,Human,,,,,,,,,,AI,,,,,Somewhat trustworthy,
+2023-11-26 00:56:12,2023-11-26 01:13:11,IP Address,100,1018,True,2023-11-26 01:13:12,R_smMGGlPWcNgEEtX,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,It was shared to me by a friend,,Poland,,,,,,,,,,AI,,AI,,,,,,,,,,,Human,,,,,,Human,,,,,AI,,,,,,,,,,,,AI,Neutral / Unsure,
+2023-11-26 03:52:20,2023-11-26 04:09:30,IP Address,100,1029,True,2023-11-26 04:09:31,R_12oleMqbhPoIcz1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,Reddit,,USA,,,,AI,,,,,AI,,,,,,AI,,,,,,,AI,AI,,,,,Human,,,,,,,,,,,,,,,,,,,Neutral / Unsure,
+2023-11-26 05:11:06,2023-11-26 05:18:08,IP Address,100,422,True,2023-11-26 05:18:10,R_31GdJ9AgS087yRK,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,It was shared to me by a friend,,Finland,,,,,,,,,,,AI,,,,,,AI,,,,,,AI,,,,,Human,,,,,AI,,,,,,,,,Human,,,,,Neutral / Unsure,Good luck
+2023-11-26 10:00:09,2023-11-26 10:15:58,IP Address,100,949,True,2023-11-26 10:15:59,R_1ezX19bOJP4RhsP,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,"Neither of the above (Specify below, if you like)",On family leave,Female,,Social Media,,Finland,,,,,,,,,,,,,,Human,,,,,,,Human,,,,,,,,,,AI,,,,,,,Human,,,,,AI,Human,,,Neutral / Unsure,
+2023-11-26 11:58:58,2023-11-26 12:05:33,IP Address,100,395,True,2023-11-26 12:05:34,R_z6WT7pFPlYh8uFb,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Other (Specify below),Associate's degree,"Neither of the above (Specify below, if you like)",Unemployed,Female,,Reddit,,Other (Specify below),China,,,,,,,,,AI,,,,,,,,,,,,,,,,,,AI,,,,AI,,,AI,,,,AI,,,,,AI,,,Neutral / Unsure,
+2023-11-26 12:51:36,2023-11-26 13:00:19,IP Address,100,522,True,2023-11-26 13:00:20,R_3fUehCGrip3vP2S,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,High-School,,Working,,Male,,Social Media,,Finland,,,,,,,,,,,,,Human,,,AI,AI,,,,,,,,,,,,,,Human,,Human,,,,,,,,,,,AI,,,Somewhat trustworthy,
+2023-11-26 14:38:04,2023-11-26 14:47:31,IP Address,100,566,True,2023-11-26 14:47:31,R_PFLpvIKPougx6jn,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,It was shared to me by a friend,,Other (Specify below),Spain,,,,,,AI,,,,,,,Human,,,,,,,,AI,,,,,,,,,,,,,,,Human,,,AI,,,,AI,,,No,
+2023-11-26 15:16:01,2023-11-26 15:34:42,IP Address,100,1120,True,2023-11-26 15:34:42,R_XSzZvWkhbLN4aJz,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Studying,,Female,,Reddit,,Other (Specify below),Greece,,,,,,,Human,,,,,,,,,AI,,,,,Human,,,Human,,,,,,,,,,,Human,,,,,,Human,,,,,Somewhat trustworthy,"Interesting research. I am going to guess that one of the responces was AI generated in each case? I am curious which one it was, though I would say the 2nd one every time"
+2023-11-26 19:09:46,2023-11-26 19:15:23,IP Address,100,336,True,2023-11-26 19:15:24,R_30c1BLIBGRsPLBi,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Social Media,,Finland,,AI,,,AI,,,,,,,,,,,,,,AI,,,,,,,,,,,,AI,,,,,,,,AI,,AI,,,,,,Neutral / Unsure,
+2023-11-26 20:10:00,2023-11-26 20:17:27,IP Address,100,446,True,2023-11-26 20:17:28,R_3GwXhHirQZAuP2C,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Doctorate degree,,"Neither of the above (Specify below, if you like)",Maternity leave,Female,,Social Media,,Finland,,,,,,,,AI,,,,,,,,,,,,,,,,,,,,AI,Human,,,,AI,,,,,AI,,,,,AI,,,,Reasonably trustworthy,
+2023-11-26 23:15:28,2023-11-26 23:57:27,IP Address,100,2519,True,2023-11-26 23:57:28,R_1HuN9aBYtyacWul,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,Reddit,,Other (Specify below),The Netherlands,,,,,,,,,Human,,,Human,,,,Human,,,,,,,,,,,,,,,,Human,,Human,,,,,,,,,,,AI,No,"I already found myself wondering if at least one of the responses was AI. One response would feel personally tailored and real, even when that truth was harsh, and the other would be the most generic, vaguely uplifting and morally acceptable advice you'd get. I don't use AI but I know a bit about how it works and this is exactly the type of bland text I'd expect. There was only one instance where this type of answer was most useful, and it was when both pieces of advice were very short, and the more lived-in one just missed crucial advice."
+2023-11-27 03:59:09,2023-11-27 04:02:41,IP Address,100,211,True,2023-11-27 04:02:41,R_2CK8DBvvCI8VgwR,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,High-School,,Working,,Male,,Social Media,,Finland,,,,,,,,,,,,,AI,,AI,,AI,,,,AI,,,,,,AI,,,,,,,,,,,,,,,,,Human,,,Somewhat trustworthy,
+2023-11-27 06:25:42,2023-11-27 06:32:58,IP Address,100,435,True,2023-11-27 06:32:59,R_0UmcFB4XnmXecvf,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,High-School,,Working,,Male,,Social Media,,Finland,,,,,,,Human,,,,,,AI,,,AI,,,,,,,,,,AI,,,,,,,,,,Human,,,,,,,,,,AI,Slightly trustworthy,
+2023-11-27 17:56:34,2023-11-27 18:03:51,IP Address,100,437,True,2023-11-27 18:03:52,R_27eXZwsqrhF4O80,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Master's degree,,Working,,Female,,Social Media,,Other (Specify below),Italy,,,,,,,,,,,,,,,,,,,,,AI,,AI,,,,,AI,,,,,,,AI,,AI,,,,,,,,Human,Slightly trustworthy,
+2023-11-28 03:14:13,2023-11-28 03:21:27,IP Address,100,433,True,2023-11-28 03:21:28,R_27s1Rc3MtMh6AZN,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Social Media,,Other (Specify below),Australia,,,,,,,,AI,,,,,,,,,,AI,,,,AI,,,,,,,,,,AI,,,Human,,,,,AI,,,,,,Slightly trustworthy,
+2023-11-28 06:34:31,2023-11-28 07:05:41,IP Address,100,1869,True,2023-11-28 07:05:42,R_1pxkYkcM6omy14J,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Bachelor's degree,,Working,,Female,,Social Media,,Finland,,AI,,,,,,,,Human,,,Human,Human,,,,Human,,,,,,,,,,,AI,,,,,,,,,,,,,,,,,,Somewhat trustworthy,
+2023-11-28 16:04:10,2023-11-28 16:10:00,IP Address,100,350,True,2023-11-28 16:10:01,R_2vewaYRnw029iuu,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Bachelor's degree,,"Neither of the above (Specify below, if you like)",Stay at home mom,Female,,Reddit,,USA,,,,,AI,,,,,,,,AI,,,,,,,,,AI,,AI,,AI,,,,,,,,,,,,,,,,,,AI,,,Neutral / Unsure,
+2023-11-28 17:03:00,2023-11-28 17:12:35,IP Address,100,574,True,2023-11-28 17:12:36,R_2zMaC7rvCqqXy22,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Working,,Female,,Reddit,,USA,,AI,,,,Human,,,,,,,,,,,,,,Human,,,,,,Human,,,,,,,,Human,,,,,,,,Human,,,,,No,
+2023-11-28 23:49:17,2023-11-28 23:57:00,IP Address,100,462,True,2023-11-28 23:57:01,R_3ESy1jFGxKtS8F9,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Studying,,Male,,Reddit,,Other (Specify below),Canada,,AI,,AI,,,,,,Human,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Human,,,AI,,AI,,Neutral / Unsure,
+2023-11-29 04:25:20,2023-11-29 04:32:54,IP Address,100,453,True,2023-11-29 04:32:55,R_2ONNYPOFe9czqRY,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Reddit,,USA,,,,,,AI,,,,AI,Human,,,,,,AI,,,,,Human,,,,,,,,,,,AI,,,,,,,,,,,,,,Slightly trustworthy,
+2023-11-29 13:36:28,2023-11-29 13:43:26,IP Address,100,417,True,2023-11-29 13:43:27,R_RElPz9HRF7wh7t7,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Studying,,Male,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,AI,,,AI,,,,,,,,,,,,AI,,,AI,,AI,,,,,AI,Reasonably trustworthy,
+2023-11-29 19:10:44,2023-11-29 19:43:46,IP Address,100,1981,True,2023-11-29 19:43:47,R_2ahmKohn2OcE62K,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Primary-School,,"Neither of the above (Specify below, if you like)",,Female,,Reddit,,Other (Specify below),Sweden,,,Human,,,,,,,,AI,,,,,,AI,,,,,,,,,,,,Human,,,,,,AI,,,AI,,,,,,,,Neutral / Unsure,
+2023-11-24 18:16:57,2023-11-24 18:17:26,IP Address,5,29,False,2023-12-01 18:17:34,R_RWcnAwXf56Yx4rL,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:12:41,2023-11-25 16:13:29,IP Address,64,47,False,2023-12-02 16:13:29,R_2ZKSzu8ZoScDxPl,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:16:52,2023-11-25 16:17:20,IP Address,64,27,False,2023-12-02 16:17:22,R_zePgJiLUqN5EOu5,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:22:57,2023-11-25 16:23:21,IP Address,5,23,False,2023-12-02 16:23:28,R_3plRap8TB0MAvwK,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:29:08,2023-11-25 16:30:09,IP Address,64,60,False,2023-12-02 16:30:13,R_3LXAmFLpRnh9u0Y,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:38:02,2023-11-25 16:38:49,IP Address,64,46,False,2023-12-02 16:38:49,R_3CJ9gBGZJ1nmhCW,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,"Neither of the above (Specify below, if you like)",Parental leave,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:42:36,2023-11-25 16:43:22,IP Address,64,46,False,2023-12-02 16:43:23,R_1ONRGa59loM3VJI,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:44:32,2023-11-25 16:44:48,IP Address,2,16,False,2023-12-02 16:44:50,R_1HoTFQG8jUYpksF,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:55:35,2023-11-25 17:05:48,IP Address,86,613,False,2023-12-02 17:05:49,R_2eOnFQZNEm5a5U1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,It was shared to me by a friend,,Finland,,,,,AI,,,,,,AI,,,,,,,,,,,,,,,,,AI,,,,,,,,,,,,,,,,,AI,,,
+2023-11-25 17:12:56,2023-11-25 17:15:48,IP Address,75,172,False,2023-12-02 17:15:52,R_2xPOxReviOTTBZv,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Primary-School,,Working,,Male,,It was shared to me by a friend,,Finland,,,,,,Human,,,,,,,,,,,,,,,,,AI,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 17:24:48,2023-11-25 17:28:11,IP Address,64,203,False,2023-12-02 17:28:18,R_1i3TQKZzecV1GXw,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Other (Specify below),Some higher education,Studying,,"Other (Specify below, if you like)",Agender,Reddit,,USA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 17:36:14,2023-11-25 17:54:41,IP Address,75,1106,False,2023-12-02 17:54:44,R_2wslbGTQf25mF7o,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,AI,,,,,,,,AI,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 18:02:57,2023-11-25 18:03:26,IP Address,2,28,False,2023-12-02 18:03:31,R_27TFUM0kp56ZUex,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 18:15:35,2023-11-25 18:16:40,IP Address,64,65,False,2023-12-02 18:16:42,R_3oBGzyJqjkrwVS9,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,It was shared to me by a friend,,Other (Specify below),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 18:48:58,2023-11-25 18:49:02,IP Address,2,3,False,2023-12-02 18:49:02,R_9AKnyrwuf9ZTEd3,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 19:23:38,2023-11-25 19:25:01,IP Address,64,83,False,2023-12-02 19:25:07,R_294oppmjJRf4zct,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,Primary-School,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 19:46:26,2023-11-25 19:49:10,IP Address,64,163,False,2023-12-02 19:49:10,R_WBQKymwzjSHNRgB,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,Master's degree,,Working,,Female,,Reddit,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 20:16:36,2023-11-25 20:16:51,IP Address,2,14,False,2023-12-02 20:16:54,R_6RKbxjPOh5awlEZ,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 19:28:08,2023-11-25 21:19:31,IP Address,64,6682,False,2023-12-02 21:19:39,R_3CVmeWU55kwDbY4,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Studying,,Male,,Social Media,,Other (Specify below),Denmark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 22:41:55,2023-11-25 22:42:27,IP Address,64,31,False,2023-12-02 22:42:31,R_2V3hVOVGi2txS9J,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Studying,,Male,,It was shared to me by a friend,,Norway,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-26 05:20:01,2023-11-26 05:45:31,IP Address,64,1530,False,2023-12-03 05:45:33,R_24zO1UL3RRTLwSb,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Working,,Male,,Reddit,,Other (Specify below),Poland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-26 08:28:49,2023-11-26 08:35:31,IP Address,75,401,False,2023-12-03 08:35:34,R_2wMsWRckQNal2Ni,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,"Neither of the above (Specify below, if you like)",Parenting leave,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,AI,,,,,,,,,,,,,Human,,,,,,,,,,,,,
+2023-11-26 08:37:23,2023-11-26 08:40:59,IP Address,75,215,False,2023-12-03 08:41:00,R_Br06kh5FvkfvpPb,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AI,,,,Human,,,,,,,,,,,,,
+2023-11-26 11:34:45,2023-11-26 11:38:46,IP Address,70,240,False,2023-12-03 11:38:49,R_325ai7t8mqibATf,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Studying,,Female,,It was shared to me by a friend,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Human,,,,,,,,,,,
+2023-11-26 12:59:46,2023-11-26 13:02:16,IP Address,64,149,False,2023-12-03 13:02:19,R_2c72Y0wgAsEhoyU,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Bachelor's degree,,"Neither of the above (Specify below, if you like)",Disabled,Male,,Reddit,,USA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-26 15:25:04,2023-11-26 15:25:59,IP Address,64,55,False,2023-12-03 15:26:02,R_1cTy48jvLN6OzPY,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Other (Specify below),,Working,,Male,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-26 16:46:05,2023-11-26 17:01:29,IP Address,98,924,False,2023-12-03 17:01:34,R_2xwTN8xlPKLX5YE,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Working,,Female,,Social Media,,Norway,,,,,,,AI,,,AI,,,,,,,AI,,,,,,AI,,,,,,,,,,AI,,,,,,,AI,,,,,,,Very trustworthy,
+2023-12-03 16:54:22,2023-12-03 17:03:22,IP Address,100,539,True,2023-12-03 17:03:23,R_21oInxQiHrUQozh,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Studying,,Male,,Reddit,,Other (Specify below),Spain,,,,,AI,,,,,Human,,,,,,,,,,,,AI,,,,,,,AI,,,,Human,,,,,,,,,,AI,,,Reasonably trustworthy,
+2023-12-03 19:47:53,2023-12-03 19:57:59,IP Address,100,606,True,2023-12-03 19:58:00,R_239wMnrAPSHB82w,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Reddit,,Other (Specify below),Canada,,,,,,,,,,,,,,AI,,,,,,,AI,,,AI,,,,,Human,,,Human,,,,,,,AI,,,,,,,Reasonably trustworthy,
+2023-11-26 22:21:38,2023-11-26 22:22:49,IP Address,64,70,False,2023-12-03 22:22:56,R_pSNrB25seNY0chj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Reddit,,Poland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 00:14:52,2023-12-04 00:25:27,IP Address,100,634,True,2023-12-04 00:25:28,R_10JDKQJ88CIE3Ru,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Studying,,,,Reddit,,Other (Specify below),Australia,,,,,,Human,,,,,,,,,,,,Human,,,,,Human,,,,,,,,,,,,AI,,,,Human,Human,,,,,,No,Figured those were AI! Redditors can offer pretty terrible advice sometimes but at least it usually means something.
+2023-11-27 19:59:54,2023-11-27 20:00:25,IP Address,2,31,False,2023-12-04 20:00:26,R_1OoxiN4SCJQi957,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-27 20:52:08,2023-11-27 20:52:31,IP Address,5,22,False,2023-12-04 20:52:34,R_2pKK7IPr7N6XvyC,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-27 22:04:06,2023-11-27 22:06:27,IP Address,70,140,False,2023-12-04 22:06:31,R_3PmYOdDDahss8hJ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AI,,,,,,,,,,,
+2023-11-28 07:34:14,2023-11-28 07:34:50,IP Address,64,36,False,2023-12-05 07:34:56,R_Q6QFREqGHsfGQ7v,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-28 15:47:59,2023-11-28 15:50:27,IP Address,75,148,False,2023-12-05 15:50:29,R_1MRugCR2duHqIuW,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Studying,,Female,,Reddit,,Other (Specify below),Canada,,,,AI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AI,,,,,,
+2023-11-28 16:40:55,2023-11-28 16:43:11,IP Address,64,135,False,2023-12-05 16:43:17,R_31ggCzsUoTYzoFS,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Studying,,Male,,Reddit,,Other (Specify below),Germany,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-28 17:04:37,2023-11-28 17:07:42,IP Address,70,185,False,2023-12-05 17:07:50,R_2DNw6npJPKC3OCB,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Social Media,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Human,,,,,,,,,,,
+2023-11-29 03:13:38,2023-11-29 03:17:20,IP Address,91,221,False,2023-12-06 03:17:24,R_2X5yiPyEwunt1vU,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Studying,,Male,,Reddit,,USA,,,,,,,,,AI,,,Human,,,,,,,,,,,,,,,,,,,,,AI,,AI,,,,,,,,,Human,,,,
+2023-11-29 04:36:32,2023-11-29 04:37:35,IP Address,2,62,False,2023-12-06 04:37:39,R_3Mmpd4P27My8YzN,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 09:42:59,2023-11-29 09:43:27,IP Address,5,28,False,2023-12-06 09:43:30,R_PHhyBYYXkcCeL3r,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 12:00:24,2023-11-29 12:03:15,IP Address,80,171,False,2023-12-06 12:03:19,R_2wRKDolB3seWiaY,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Reddit,,Finland,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Human,,,AI,,,,,Human,,,,
+2023-12-06 14:29:51,2023-12-06 14:47:24,IP Address,100,1052,True,2023-12-06 14:47:25,R_2bKxcD5Zc66NDR0,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Bachelor's degree,,Working,,Female,,It was shared to me by a friend,,Finland,,,AI,,,Human,,,,,,,Human,,,,,,,,,,,,,,,,AI,,,,,,,,,,,Human,,AI,,,,,Very trustworthy,
+2023-12-06 20:36:04,2023-12-06 22:16:37,IP Address,100,6032,True,2023-12-06 22:16:38,R_27HddLZPO77tiKD,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,Social Media,,Poland,,,,,,,,,,,,Human,,,,,,,,,,Human,AI,,,,,,,,Human,,Human,,,,,,,,,,,,AI,,Slightly trustworthy,
+2023-12-07 00:33:35,2023-12-07 00:47:21,IP Address,100,825,True,2023-12-07 00:47:22,R_6JP7UX8KbOEngVH,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Studying,,Female,,Social Media,,Other (Specify below),Belgium,,,,AI,,,,,,,,,,,,,,AI,,,,,,,,,,,Human,,Human,,,,,,,AI,,AI,,,,,,Reasonably trustworthy,Some spelling mistakes but the rest was clear
+2023-11-30 12:51:19,2023-11-30 12:52:07,IP Address,98,47,False,2023-12-07 12:52:10,R_1jDrwnNxKKYlTdj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Professional degree,,,,,,Reddit,,Norway,,,,,,,,,,,,,,,,,,AI,,,Human,,,,AI,,,,,Human,,,AI,,,,,,,AI,,,,,,,Very trustworthy,
+2023-12-07 19:52:35,2023-12-07 19:58:48,IP Address,100,373,True,2023-12-07 19:58:49,R_31LUh41Kdm4DraC,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Studying,,Female,,Social Media,,Poland,,,,,,,,,,,,,,,AI,,,,,AI,,,AI,,,,,,,,,AI,,,,AI,,,,AI,,,,,,,Reasonably trustworthy,
+2023-12-07 22:58:38,2023-12-07 23:06:55,IP Address,100,497,True,2023-12-07 23:06:56,R_3HokPWpwB4NMTrq,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,High-School,,Working,,Male,,Reddit,,Other (Specify below),Cyprus,,,,,,AI,,,,,,,,,AI,,AI,,,,,,,,,AI,,AI,,,Human,,,,,,,,,,,,,,,Neutral / Unsure,
+2023-12-08 02:52:00,2023-12-08 02:55:33,IP Address,100,212,True,2023-12-08 02:55:34,R_2V7pO28bZY2yg4e,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Primary-School,,Studying,,Male,,Reddit,,USA,,,,,,,,,,,,Human,,Human,,,,,,,,,,,Human,,,,,,,,,,,AI,,,,,AI,,,,AI,,Slightly trustworthy,
+2023-11-27 21:01:56,2023-12-01 12:43:23,IP Address,70,315687,False,2023-12-08 12:43:30,R_QcZe4ySnJWDNA6l,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Studying,,Female,,Social Media,,Norway,,,,,,,,,,,,,,,,,,,,AI,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-08 18:32:38,2023-12-08 18:41:19,IP Address,100,521,True,2023-12-08 18:41:20,R_1mgfOtqaeSrm1i3,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Studying,,Female,,Reddit,,Other (Specify below),Ireland,,,Human,,,,,Human,,,,,,,,,,Human,,,,,,Human,,,,,,AI,,,,,Human,,,,,,,,,,,No,"It was very clear which ones were written by artificial intelligence, and not just because they're more formal. They always include these generic condescending comments (like ""remain calm and respectful"".) Then the actual advice is always so generic that it's basically useless, it's just common sense. If I'm asking for advice I want it specifically for my situation from people who have experienced something similar. (In my mind, advice is essentially learning from other people's mistakes.)"
+2023-12-08 18:44:16,2023-12-08 19:08:07,IP Address,100,1430,True,2023-12-08 19:08:08,R_3RmQCVevRFircsW,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Professional degree,,Studying,,Female,,Reddit,,Other (Specify below),Sweden,,,,,,,AI,,,,,,,,Human,,,,,,,,,,,,Human,,,,,,,,Human,,,,,AI,,,AI,,,Somewhat trustworthy,I would have wanted a progress bar on this
+2023-12-08 19:05:35,2023-12-08 19:13:58,IP Address,100,503,True,2023-12-08 19:13:59,R_27Oqnciciw9NDwK,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Studying,,Male,,Reddit,,Other (Specify below),Canada,,,,,,,,,,,,,,,,,,,,,,,,,,,AI,Human,,,,,Human,,AI,,AI,,,,AI,,,,,Neutral / Unsure,
+2023-12-01 20:24:04,2023-12-01 20:24:48,IP Address,64,44,False,2023-12-08 20:24:49,R_1pGa2sw0F3tigcJ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Reddit,,Other (Specify below),Thailand,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 04:10:23,2023-12-04 04:10:49,IP Address,64,26,False,2023-12-11 04:10:52,R_1Kd0VKmeOBQhf1O,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Working,,Female,,Reddit,,USA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 10:32:13,2023-12-04 10:35:57,IP Address,70,224,False,2023-12-11 10:36:00,R_27xtxKsNYRbXrk6,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Primary-School,,"Neither of the above (Specify below, if you like)",,Male,,Reddit,,USA,,,,,AI,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
