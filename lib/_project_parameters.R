@@ -56,9 +56,5 @@ if( getOption("project_custom_ggplot") ){
 }
 
 
-#'                       **SET VARIABLES**                                   =======
-data_loss <- list(
-  study1 = list(),
-  study2 = list(),
-  study3 = list()
-)
+
+
