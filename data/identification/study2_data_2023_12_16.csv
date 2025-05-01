@@ -1,0 +1,601 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,DistributionChannel,UserLanguage,Consent,age,education,education_8_TEXT,Current_state,Current_state_3_TEXT,gender,gender_3_TEXT,Country,Country_9_TEXT,source,source_9_TEXT,AI expertice,AI expertice_10_TEXT,GPT3_Q3_1,GPT3.5_Q3_1,GPT4_Q3_1,Human_Q3_1,GPT3_Q12_1,GPT3.5_Q12_1,GPT4_Q12_1,Human_Q12_1,GPT3_Q16_1,GPT3.5_Q16_1,GPT4_Q16_1,Human_Q16_1,GPT3_Q20_1,GPT3.5_Q20_1,GPT4_Q20_1,Human_Q20_1,GPT3_Q26_1,GPT3.5_Q26_1,GPT4_Q26_1,Human_Q26_1,GPT3_Q28_1,GPT3.5_Q28_1,GPT4_Q28_1,Human_Q28_1,GPT3_Q35_1,GPT3.5_Q35_1,GPT4_Q35_1,Human_Q35_1,GPT3_Q38_1,GPT3.5_Q38_1,GPT4_Q38_1,Human_Q38_1,GPT3_Q47_1,GPT3.5_Q47_1,GPT4_Q47_1,Human_Q47_1,Comment
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,"By taking part, you agree to the following:
+
+	I am 18 years or older.
+	I'm aware that my responses are anonymous and cannot be traced back to me.
+	I understand that my participation is voluntary
+	I understand the information that has been presented to me in the information letter.
+	I'm aware that some questions may include explicit language and sensitive topics.",What is your age?,What is the highest degree or level of school you have completed? - Selected Choice,What is the highest degree or level of school you have completed? - Other (Specify Below) - Text,What is your current employment status? - Selected Choice,"What is your current employment status? - None, of the above (Specify below, if you like) - Text",What is your gender? - Selected Choice,What is your gender? - Other - Text,What is your home country? - Selected Choice,What is your home country? - Other (Specify Below) - Text,Where did you find this study? - Selected Choice,Where did you find this study? - Other (Specify Below) - Text,How familiar are you with Large Language Models (LLM) (Example: Chat-GPT) - Selected Choice,How familiar are you with Large Language Models (LLM) (Example: Chat-GPT) - Other (Specify Below) - Text,"Question
+
+Is it unreasonable for me to ask my friend not to smoke weed when we're together? i Simply dislike it. I don't like the smell nor the way she behaves when she's high. also it gets kinda awkward because i don't smoke and she's by herself giggling all the time and we can't do shit cause she's high. before she stared smoking we would do a lot together but now it's just me going to her place (she never comes to mine) and watching her smoke. is it selfish of me to ask her to change her habits when I'm around? be brutally honest. - Advice
+
+No, it is not selfish of you to ask your friend not to smoke weed when you're together. It is perfectly reasonable for you to make your boundaries clear in terms of what kind of behavior you are comfortable with. If your friend values your friendship, she should be willing to respect your preferences when you are together. On the other hand, it would also be reasonable for you to respect that your friend may use weed at times and to be flexible when it comes to spending time with her.","Question
+
+Is it unreasonable for me to ask my friend not to smoke weed when we're together? i Simply dislike it. I don't like the smell nor the way she behaves when she's high. also it gets kinda awkward because i don't smoke and she's by herself giggling all the time and we can't do shit cause she's high. before she stared smoking we would do a lot together but now it's just me going to her place (she never comes to mine) and watching her smoke. is it selfish of me to ask her to change her habits when I'm around? be brutally honest. - Advice
+
+It is not selfish of you to ask your friend not to smoke weed when you're together. You have the right to set boundaries in your relationship and express what makes you feel uncomfortable. However, you should approach the conversation with care and respect for your friend's choices.
+
+
+
+You could start by explaining how you feel when she smokes weed around you, and how it affects your time together. Be honest but also try to be understanding of her perspective. You could also suggest alternative activities that you both can do together instead of smoking weed.
+
+
+
+Ultimately, it is up to your friend whether or not they want to smoke weed when you're together, but it is important that you communicate your feelings and needs in the friendship.","Question
+
+Is it unreasonable for me to ask my friend not to smoke weed when we're together? i Simply dislike it. I don't like the smell nor the way she behaves when she's high. also it gets kinda awkward because i don't smoke and she's by herself giggling all the time and we can't do shit cause she's high. before she stared smoking we would do a lot together but now it's just me going to her place (she never comes to mine) and watching her smoke. is it selfish of me to ask her to change her habits when I'm around? be brutally honest. - Advice
+
+Communicating your feelings and preferences concerning shared experiences to your friend is crucial, requiring open and honest dialogue. Should you need guidance initiating this conversation, consider a few points. First, aim for a relaxed setting when your friend is sober, as it makes the dialogue more effective.
+
+
+
+Be honest yet respectful when describing how her smoking weed affects your time together. Suggest mutually enjoyable, sober activities to help you reconnect and make new memories. Be open to compromises, like asking her to smoke less during your get-togethers, and be prepared for possible concessions. Lastly, reassure her of the importance of your friendship, emphasizing that your intentions are to improve shared experiences. Keep in mind that successful friendships depend on open communication and mutual understanding.","Question
+
+Is it unreasonable for me to ask my friend not to smoke weed when we're together? i Simply dislike it. I don't like the smell nor the way she behaves when she's high. also it gets kinda awkward because i don't smoke and she's by herself giggling all the time and we can't do shit cause she's high. before she stared smoking we would do a lot together but now it's just me going to her place (she never comes to mine) and watching her smoke. is it selfish of me to ask her to change her habits when I'm around? be brutally honest. - Advice
+
+It's fair for you to not want to chill with her while she smokes. I would just say, ""Hey it’s not really fun for me just to sit at your house and watch you smoke. Maybe if you want to meet at the park before or after and do x y and z that would be more fun for me."" And if she says nah then cut your losses.","Question
+
+I'm 15. I have a job, but I'm not saving for anything in particular yet. Might save for a car when I turn 16. Is it a waste of my money to spend it on things that don't benefit me in the long run, like video games? - Advice
+
+No, it is not a waste of your money to spend it on things like video games. Even if such purchases do not benefit you in the long-run, they are still a form of temporary pleasure that can make you feel good and be rewarding in the present. Saving for a car or any other goal is important, but it can also be helpful to have some fun and enjoyment with your money too.","Question
+
+I'm 15. I have a job, but I'm not saving for anything in particular yet. Might save for a car when I turn 16. Is it a waste of my money to spend it on things that don't benefit me in the long run, like video games? - Advice
+
+It's great to hear that you have a job at such a young age and are thinking about saving for the future! While it's important to save for big goals, it's also important to enjoy your hard-earned money by spending it on things that bring you joy in the present.
+
+
+
+Video games can provide a source of entertainment and relaxation, which can be beneficial for your mental health. However, it's important to strike a balance between spending on leisure activities and saving for future needs.
+
+
+
+One idea is to allocate a certain percentage of your income towards saving and the rest towards discretionary spending. For example, you could save 50% of your income and use the other 50% for fun activities like buying video games or going out with friends. This way, you can enjoy your money now and work towards financial stability in the future.
+
+
+
+Remember, personal finance is all about balance and finding what works best for you. Keep up the good work with your job and savings goals, and don't forget to have a little fun along the way!","Question
+
+I'm 15. I have a job, but I'm not saving for anything in particular yet. Might save for a car when I turn 16. Is it a waste of my money to spend it on things that don't benefit me in the long run, like video games? - Advice
+
+It's impressive you're thinking about your finances at this stage. Balancing spending and saving is important. It's okay to spend some funds on things you enjoy, as long as you save for the future. Creating a budget can help manage your money by allocating income for saving, spending, and financial goals. Setting goals, both short-term and long-term, can keep you focused and motivated.
+
+
+
+Consider the 50/30/20 rule; 50% of income for necessities, 30% for personal spending, and 20% for savings. But remember, you can adjust these numbers according to your needs and ambitions.
+
+
+
+Set aside 'fun money' for leisure activities, so you can enjoy the present without sacrificing future plans. Learning about personal finance, like budgeting, investing, and debt management, can help shape healthy financial habits.
+
+
+
+Remember, the right balance between spending and saving depends on your financial goals and priorities. Spending on things that bring you joy is fine, as long as you're also progressing towards your financial goals.","Question
+
+I'm 15. I have a job, but I'm not saving for anything in particular yet. Might save for a car when I turn 16. Is it a waste of my money to spend it on things that don't benefit me in the long run, like video games? - Advice
+
+Do both. Practice self-restraint and don’t splurge on games. You don’t need a brand new car just something used that will last as long as you can make it. I’d like to tell you that you should just have fun (what I did at your age) but odds are if you’re expected to buy your own car you might not be getting financial help from your parents with college.","Question
+
+My boyfriend (23m) is a dealer and won’t get a legal job what do
+
+Hello everyone, I (22f) am having a hard time with my bf (23m). We have been together for almost 6 years, as the title states he is a dealer. I have been trying to encourage him to get a job for years, and he acts like a complete man child about it, he has a temper problem when it comes to any kind of authority over him. Other than that we really don’t get into disagreements so it makes this harder for me. When we started dating we only did it because it was what we had to do if we wanted food or shelter, but now he’s became lazy. He just wants fast easy ways to get rich (y’all don’t even know how many crypto scams I have prevented him from giving our savings to) and not put in effort for anything he wants in life. Obviously I can’t just change him and make him work, but idk what to do anymore and I’m tired of it. To make things worse I’m a very introverted person and don’t have any near friends I could just move in with if I decided to leave. I hate saying I’m with him only for financial reasons because I do really love him, but ultimately if I had the money I would have been gone long ago. He just keeps saying he’s going to get a job as an “entrepreneur” but as I said he wants everything handed to him with no effort.  Anyways what can or should I do? - Advice
+
+It sounds like you have been trying hard to encourage your boyfriend to get a legitimate job, and it sounds like he doesn't take the issue seriously. I think the first step is to have a serious discussion with him about his career and financial prospects. Make it clear that it is important for you both to have a stable source of income in order to plan for the future. Explain that getting a legal job is a necessary step for him to get to where he wants to be. If he is still resistant to the idea, then you need to think about what is best for your long-term goals. If leaving the relationship is something you would consider, then start putting together the resources and plan of action you would need to do so.
+
+
+
+In the meantime, it would be a good idea to talk with a counselor or a trusted friend to help you think through your options. It is okay to feel frustrated, but it might be helpful to discuss your thoughts with someone who is objective and can provide you with a different perspective.","Question
+
+My boyfriend (23m) is a dealer and won’t get a legal job what do
+
+Hello everyone, I (22f) am having a hard time with my bf (23m). We have been together for almost 6 years, as the title states he is a dealer. I have been trying to encourage him to get a job for years, and he acts like a complete man child about it, he has a temper problem when it comes to any kind of authority over him. Other than that we really don’t get into disagreements so it makes this harder for me. When we started dating we only did it because it was what we had to do if we wanted food or shelter, but now he’s became lazy. He just wants fast easy ways to get rich (y’all don’t even know how many crypto scams I have prevented him from giving our savings to) and not put in effort for anything he wants in life. Obviously I can’t just change him and make him work, but idk what to do anymore and I’m tired of it. To make things worse I’m a very introverted person and don’t have any near friends I could just move in with if I decided to leave. I hate saying I’m with him only for financial reasons because I do really love him, but ultimately if I had the money I would have been gone long ago. He just keeps saying he’s going to get a job as an “entrepreneur” but as I said he wants everything handed to him with no effort.  Anyways what can or should I do? - Advice
+
+It sounds like you are in a challenging situation. It might be helpful to have a conversation with your boyfriend about your concerns and how his behavior and choices are affecting your relationship. You can try to approach the conversation from a place of concern and love for him, but also be firm in your expectations around what you need in the relationship. It might be helpful to come up with some specific goals or actions that he can take to show that he is serious about making changes.
+
+
+
+At the same time, it's important to prioritize your own well-being and safety. If his behavior is putting you at risk or making you uncomfortable, you may need to consider leaving the relationship, even if it means finding alternative housing options. It might also be helpful to seek support from a therapist or counselor, who can help you work through your feelings and options in a safe and non-judgmental space. Ultimately, remember that you deserve to be with someone who shares your values and is committed to building a healthy and stable future together.","Question
+
+My boyfriend (23m) is a dealer and won’t get a legal job what do
+
+Hello everyone, I (22f) am having a hard time with my bf (23m). We have been together for almost 6 years, as the title states he is a dealer. I have been trying to encourage him to get a job for years, and he acts like a complete man child about it, he has a temper problem when it comes to any kind of authority over him. Other than that we really don’t get into disagreements so it makes this harder for me. When we started dating we only did it because it was what we had to do if we wanted food or shelter, but now he’s became lazy. He just wants fast easy ways to get rich (y’all don’t even know how many crypto scams I have prevented him from giving our savings to) and not put in effort for anything he wants in life. Obviously I can’t just change him and make him work, but idk what to do anymore and I’m tired of it. To make things worse I’m a very introverted person and don’t have any near friends I could just move in with if I decided to leave. I hate saying I’m with him only for financial reasons because I do really love him, but ultimately if I had the money I would have been gone long ago. He just keeps saying he’s going to get a job as an “entrepreneur” but as I said he wants everything handed to him with no effort.  Anyways what can or should I do? - Advice
+
+Firstly, acknowledge your conflict over your boyfriend's illegal job. The key to handling this is open, honest communication. Discuss your concerns and their effects on you and the relationship calmly. Be upfront about your feelings and expectations. Setting boundaries is also critical. Define what you can and can't tolerate, and ensure you stick to these. Be a positive influence, and inspire him to consider legal entrepreneurial pursuits or additional education, aiding him in finding resources if possible.
+
+
+
+Don't neglect your own needs. Evaluate your financial and emotional status. Consider getting a job for financial independence and, if needed, the option to exit the relationship.Consult a therapist or counselor if you're stuck or if the situation isn't improving. They could offer valuable advice and a way forward.
+
+
+
+Finally, prioritize your stability and safety. If your boyfriend's decisions continue to harm you and he's unwilling to change, reassess your relationship. You deserve a healthy, supportive, and secure relationship.","Question
+
+My boyfriend (23m) is a dealer and won’t get a legal job what do
+
+Hello everyone, I (22f) am having a hard time with my bf (23m). We have been together for almost 6 years, as the title states he is a dealer. I have been trying to encourage him to get a job for years, and he acts like a complete man child about it, he has a temper problem when it comes to any kind of authority over him. Other than that we really don’t get into disagreements so it makes this harder for me. When we started dating we only did it because it was what we had to do if we wanted food or shelter, but now he’s became lazy. He just wants fast easy ways to get rich (y’all don’t even know how many crypto scams I have prevented him from giving our savings to) and not put in effort for anything he wants in life. Obviously I can’t just change him and make him work, but idk what to do anymore and I’m tired of it. To make things worse I’m a very introverted person and don’t have any near friends I could just move in with if I decided to leave. I hate saying I’m with him only for financial reasons because I do really love him, but ultimately if I had the money I would have been gone long ago. He just keeps saying he’s going to get a job as an “entrepreneur” but as I said he wants everything handed to him with no effort.  Anyways what can or should I do? - Advice
+
+Ya, you’re an adult woman still hanging out with some kid you dated in high school. It’s time to change that.
+
+
+
+It’s nice that you love him and all but that’s not actually a basis for an adult relationship on its own. If it was, the divorce rate wouldn’t be so high. You need compatible goals, dreams and values and you two don’t have that. Your relationship has a hard end date and whether that’s today or a decade from now, this isn’t the man you’re going to decide to spend your life with. Do both of you a favor and go your separate ways.
+
+
+
+Move back in with your parents or find someplace cheap, but you need to end this.","Question
+
+Someone here gonna have to explain what I said wrong?
+
+So Prom was a few days ago and I starred talking to this girl and we rly got along and we’re genuinely having a good conversation and it was going well, one of her friends even came over and said they were going and she responded back to her friend “give me a few more minutes” and we continued talking for about 10 more minutes then Prom ended and I got her snap
+
+
+
+We were snapping back and forth for a few days with just random pics then I texted her “Hey” and she texts back “Hi” and then asked her “So what type stuff u into” and then checked my phone a few minutes later and she had blocked me, ima need someone to explain what happened here because I clearly missed something, because I thought things were going pretty good and that we both liked each other - Advice
+
+It's difficult to say for sure exactly what happened here as we don't have all the information, but it does seem like something went wrong. It's possible that your question about what type of stuff she is into was too personal for her and made her feel uncomfortable or it could be something completely unrelated. The best thing you can do is just accept that she blocked you and move on.","Question
+
+Someone here gonna have to explain what I said wrong?
+
+So Prom was a few days ago and I starred talking to this girl and we rly got along and we’re genuinely having a good conversation and it was going well, one of her friends even came over and said they were going and she responded back to her friend “give me a few more minutes” and we continued talking for about 10 more minutes then Prom ended and I got her snap
+
+
+
+We were snapping back and forth for a few days with just random pics then I texted her “Hey” and she texts back “Hi” and then asked her “So what type stuff u into” and then checked my phone a few minutes later and she had blocked me, ima need someone to explain what happened here because I clearly missed something, because I thought things were going pretty good and that we both liked each other - Advice
+
+Based on the information provided, it's difficult to say exactly what went wrong. However, it's possible that the way you started the conversation with the girl over SnapChat may have made her uncomfortable. ""So what type stuff u into"" can come across as a bit forward or even potentially creepy, especially if you don't know someone very well. Additionally, it's possible that she could have changed her mind or simply lost interest for any number of reasons.
+
+
+
+If you want to try to salvage the relationship, it might be a good idea to reflect on how you're coming across and consider starting with more light or friendly conversation next time. In general, it's best to try to get to know someone gradually and not put too much pressure on them to share personal information or move things forward too quickly.","Question
+
+Someone here gonna have to explain what I said wrong?
+
+So Prom was a few days ago and I starred talking to this girl and we rly got along and we’re genuinely having a good conversation and it was going well, one of her friends even came over and said they were going and she responded back to her friend “give me a few more minutes” and we continued talking for about 10 more minutes then Prom ended and I got her snap
+
+
+
+We were snapping back and forth for a few days with just random pics then I texted her “Hey” and she texts back “Hi” and then asked her “So what type stuff u into” and then checked my phone a few minutes later and she had blocked me, ima need someone to explain what happened here because I clearly missed something, because I thought things were going pretty good and that we both liked each other - Advice
+
+A sudden halt in communication can be confusing and annoying. However, it's important to realize that many factors, many unrelated to you could affect one's behavior. There could be multiple reasons. She may have misinterpreted your question or found it too vague, leading to discomfort. External factors like personal problems or stress which are unrelated to you could be influencing her. Fear of commitment or getting close can cause people to pull away when they feel a bond forming. Influence from friends could also affect her decision to block you. Lastly, sometimes, people simply lose interest or change their minds without any clear reason. Even though it's natural to want to understand her actions, try not to take it personally. You can't control others' actions, and sometimes things don't work out as expected. Focus on moving forward and establishing relationships with those who share your interests and values.","Question
+
+Someone here gonna have to explain what I said wrong?
+
+So Prom was a few days ago and I starred talking to this girl and we rly got along and we’re genuinely having a good conversation and it was going well, one of her friends even came over and said they were going and she responded back to her friend “give me a few more minutes” and we continued talking for about 10 more minutes then Prom ended and I got her snap
+
+
+
+We were snapping back and forth for a few days with just random pics then I texted her “Hey” and she texts back “Hi” and then asked her “So what type stuff u into” and then checked my phone a few minutes later and she had blocked me, ima need someone to explain what happened here because I clearly missed something, because I thought things were going pretty good and that we both liked each other - Advice
+
+""So what do you like to do in your spare time?"" That's like a ""1.""
+
+
+
+""So what kinky shit are you willing to let me do to you?"" That's like an ""8.""
+
+
+
+[Unsolicited dick pic] That's about an ""11.""
+
+
+
+""So what are you into?"" That's about a ""6.5"" or a ""7.""
+
+
+
+Hope this helps.","Question
+
+My boyfriend of 8 months refuses to do anything most days besides playing video games
+
+Me (25F) and my boyfriend (44M) refuses to do anything with me out in public most days and seems to think that eventually in time I’ll have to be responsible for all the household tasks and if we ever have kids I’ll have to be the sole provider so all he’ll have to do is pay bills and go to work. He does pay a majority of the bills because he does make more money. I think that we both need to split the needs of work in the house 50/50, I’ve mentioned to him before that it bothers me that we don’t do things together and he’ll usually come back with something like “ well we watched a movie together the other day” or “I’m trying to save money” even though he gets Amazon packages like everyday. Am I being unreasonable or annoying? Or is boyfriend the one who should step up?
+
+
+
+Clarification:
+
+I am not a mom I don’t have children, I don’t really have a desire to have children when America is the way it is. I’m all set. I am however am about to finish my first year of college and I work 30+ hours a week as an LNA. I don’t expect this to make anyone’s opinions change in the comments I just wanted to clarify I am not a mom. But I am one busy chick. - Advice
+
+It sounds like you are feeling very frustrated with your boyfriend's lack of engagement in activities you can do together. It is reasonable to expect that both people in a relationship should make an effort to spend time together and share in the responsibilities of the household. It does not sound like your boyfriend is making any effort to meet you halfway on this. It may be helpful to talk to him about how you are feeling and see if you can come to a resolution about how to better engage in shared activities. If he refuses to listen or make any changes, you may want to consider if the relationship is really worth the effort.","Question
+
+My boyfriend of 8 months refuses to do anything most days besides playing video games
+
+Me (25F) and my boyfriend (44M) refuses to do anything with me out in public most days and seems to think that eventually in time I’ll have to be responsible for all the household tasks and if we ever have kids I’ll have to be the sole provider so all he’ll have to do is pay bills and go to work. He does pay a majority of the bills because he does make more money. I think that we both need to split the needs of work in the house 50/50, I’ve mentioned to him before that it bothers me that we don’t do things together and he’ll usually come back with something like “ well we watched a movie together the other day” or “I’m trying to save money” even though he gets Amazon packages like everyday. Am I being unreasonable or annoying? Or is boyfriend the one who should step up?
+
+
+
+Clarification:
+
+I am not a mom I don’t have children, I don’t really have a desire to have children when America is the way it is. I’m all set. I am however am about to finish my first year of college and I work 30+ hours a week as an LNA. I don’t expect this to make anyone’s opinions change in the comments I just wanted to clarify I am not a mom. But I am one busy chick. - Advice
+
+You are not being unreasonable or annoying. It is important for both of you to have a healthy and balanced relationship where you both contribute equally, not just financially but also in terms of household tasks and spending quality time together outside of the house. Your boyfriend needs to understand that being in a relationship means compromise, effort, and making time for each other. It is not fair for him to expect you to take on all the household tasks and become the sole provider if you have children in the future.
+
+
+
+I suggest having a serious and honest conversation with your boyfriend, expressing your concerns and expectations for the relationship, and coming up with a plan together that works for both of you. Additionally, it may be helpful to seek relationship counseling to work through any underlying issues and ensure that both of you are on the same page about the future of the relationship.","Question
+
+My boyfriend of 8 months refuses to do anything most days besides playing video games
+
+Me (25F) and my boyfriend (44M) refuses to do anything with me out in public most days and seems to think that eventually in time I’ll have to be responsible for all the household tasks and if we ever have kids I’ll have to be the sole provider so all he’ll have to do is pay bills and go to work. He does pay a majority of the bills because he does make more money. I think that we both need to split the needs of work in the house 50/50, I’ve mentioned to him before that it bothers me that we don’t do things together and he’ll usually come back with something like “ well we watched a movie together the other day” or “I’m trying to save money” even though he gets Amazon packages like everyday. Am I being unreasonable or annoying? Or is boyfriend the one who should step up?
+
+
+
+Clarification:
+
+I am not a mom I don’t have children, I don’t really have a desire to have children when America is the way it is. I’m all set. I am however am about to finish my first year of college and I work 30+ hours a week as an LNA. I don’t expect this to make anyone’s opinions change in the comments I just wanted to clarify I am not a mom. But I am one busy chick. - Advice
+
+To address imbalance in a relationship, both partners need to communicate openly and commit to a balanced dynamic. If you feel ignored while your boyfriend spends lots of time gaming, express your feelings honestly and calmly. Emphasize the importance of shared household responsibility and quality time. Establish clear expectations and boundaries around responsibilities, finances, and leisure activities. Suggest enjoyable, affordable activities to strengthen your relationship. Discuss your finances and the necessity to balance savings with expenses. Urge your boyfriend to balance his gaming hobby with time spent with you by setting gaming and non-gaming times. If issues continue despite your efforts, consider couples counseling to aid conversations and provide insights on healthier dynamics. It's vital for both partners to contribute equally in a relationship and support each other. Communication is key, and the goal should always be a mutually agreeable solution.","Question
+
+My boyfriend of 8 months refuses to do anything most days besides playing video games
+
+Me (25F) and my boyfriend (44M) refuses to do anything with me out in public most days and seems to think that eventually in time I’ll have to be responsible for all the household tasks and if we ever have kids I’ll have to be the sole provider so all he’ll have to do is pay bills and go to work. He does pay a majority of the bills because he does make more money. I think that we both need to split the needs of work in the house 50/50, I’ve mentioned to him before that it bothers me that we don’t do things together and he’ll usually come back with something like “ well we watched a movie together the other day” or “I’m trying to save money” even though he gets Amazon packages like everyday. Am I being unreasonable or annoying? Or is boyfriend the one who should step up?
+
+
+
+Clarification:
+
+I am not a mom I don’t have children, I don’t really have a desire to have children when America is the way it is. I’m all set. I am however am about to finish my first year of college and I work 30+ hours a week as an LNA. I don’t expect this to make anyone’s opinions change in the comments I just wanted to clarify I am not a mom. But I am one busy chick. - Advice
+
+Ask yourself why he can't date anyone his age. What self-respecting 44-year-old woman would date someone like this? Imagine being the sole provider for a 44-year-old man. This isn't fucking worth it. You don't have to be with this guy, even if you love him, sometimes dating is a test to see if someone is a life partner. Also good luck having kids with his biological clock. Do you want your children's father to be in his mid-70s when they're in college?","Question
+
+Ultimate Karen Mamabear, help
+
+
+My 2nd grade son was involved in a scuffle at recess. Before I even heard anything of it from school, I received an email from the mother of one of the boys involved. At the end of it she threatened to file a police report.
+People are absolutely insane these days but I laughed and dismissed her bizarre behavior. Didn't reply.
+Untill one night at 730, a knock on the door to reveal 2 armed patrol officers looking to interrogate my 7 year old son.
+This psycho really called the cops on a 2nd grader. I'm floored.
+I'm thinking about going with a Harassment or Restraining Order but what do you all think?
+If she is so mentally unstable as to call police on a 7 year old, what's she liable to do or say if she ever sees my son around school, for example, and I am not there?
+
+
+
+Thoughts? - Advice
+
+Unfortunately, it seems that this mother is clearly unhinged and taking things to an extreme. The best thing to do would be to talk to the school first and make sure they are aware of the situation and that they are taking it seriously. If the school is not taking appropriate action, you may wish to consider a restraining or harassment order to protect your son. It is important to be proactive and take this seriously so that your son is protected from further harassment and intimidation from this mother. You should also address the matter with the police directly and see if they are willing to investigate the matter further.","Question
+
+Ultimate Karen Mamabear, help
+
+
+My 2nd grade son was involved in a scuffle at recess. Before I even heard anything of it from school, I received an email from the mother of one of the boys involved. At the end of it she threatened to file a police report.
+People are absolutely insane these days but I laughed and dismissed her bizarre behavior. Didn't reply.
+Untill one night at 730, a knock on the door to reveal 2 armed patrol officers looking to interrogate my 7 year old son.
+This psycho really called the cops on a 2nd grader. I'm floored.
+I'm thinking about going with a Harassment or Restraining Order but what do you all think?
+If she is so mentally unstable as to call police on a 7 year old, what's she liable to do or say if she ever sees my son around school, for example, and I am not there?
+
+
+
+Thoughts? - Advice
+
+I'm sorry to hear about your situation, and I can understand how you must be feeling. It's understandable that you would want to take action to protect your son and yourself from this person's erratic behavior.
+
+
+
+If you believe that this person is a threat to you or your son, and you feel unsafe, then seeking a restraining order may be a good idea. This can provide a legal barrier between you and this person, which may help you feel more secure.
+
+
+
+It's important to document everything that has happened so far, including the email, the visit from the police, and any other interactions you have had with this person. This documentation can help support your case if you do decide to seek legal action. It's also a good idea to speak with a lawyer, who can advise you on the best course of action.
+
+
+
+In the meantime, it may be helpful to have a conversation with your son about the importance of avoiding this person and seeking out a teacher or other authority figure if he ever feels uncomfortable or unsafe. This can help him feel empowered and give him tools to cope with the situation.
+
+
+
+Remember that you are not alone in dealing with difficult people like this. There are resources available to help you navigate this challenging situation.","Question
+
+Ultimate Karen Mamabear, help
+
+
+
+My 2nd grade son was involved in a scuffle at recess. Before I even heard anything of it from school, I received an email from the mother of one of the boys involved. At the end of it she threatened to file a police report.
+
+People are absolutely insane these days but I laughed and dismissed her bizarre behavior. Didn't reply.
+
+Untill one night at 730, a knock on the door to reveal 2 armed patrol officers looking to interrogate my 7 year old son.
+
+This psycho really called the cops on a 2nd grader. I'm floored.
+
+I'm thinking about going with a Harassment or Restraining Order but what do you all think?
+
+If she is so mentally unstable as to call police on a 7 year old, what's she liable to do or say if she ever sees my son around school, for example, and I am not there?
+
+
+
+Thoughts? - Advice
+
+Your situation with your son is worrisome. Although I can't give legal advice, I can propose general steps. Start by discussing the incident and the other mother's response with your son's school. The staff might help mediate the situation. Keep a record of all interactions with the other mother. This could prove helpful in potential legal action or providing an account to the school. Despite provocation, stay calm and respectful towards the other mother to avoid escalation. If her behavior threatens your son or crosses boundaries, consider seeking legal guidance. Prioritize your son's feelings and experiences, encourage open dialogue about the incident, and give support. If things remain difficult, a mediation session with the other mother and a neutral third party might help. Remember to prioritize your son's well-being. By collaborating with the school, keeping composure, and possibly consulting with legal professionals, you can manage this tough situation.","Question
+
+Ultimate Karen Mamabear, help
+
+
+My 2nd grade son was involved in a scuffle at recess. Before I even heard anything of it from school, I received an email from the mother of one of the boys involved. At the end of it she threatened to file a police report.
+People are absolutely insane these days but I laughed and dismissed her bizarre behavior. Didn't reply.
+Untill one night at 730, a knock on the door to reveal 2 armed patrol officers looking to interrogate my 7 year old son.
+This psycho really called the cops on a 2nd grader. I'm floored.
+I'm thinking about going with a Harassment or Restraining Order but what do you all think?
+If she is so mentally unstable as to call police on a 7 year old, what's she liable to do or say if she ever sees my son around school, for example, and I am not there?
+
+
+
+Thoughts? - Advice
+
+This is a matter for school administration since it happened during recess. Make an appointment with the admin to discuss the next steps. Usually if police are involved they will contact the school. I'm surprised you haven't heard from the school. The thing is schools easily label kids and sometimes those labels affect how they are dealt with going forward. You will want to get their take on the event. It will give you a good idea of how they viewed and recorded the event. Don't escalate. Investigate.","Question
+
+Why am I still disgusted with my boyfriend
+
+I’ve been dating my boyfriend for three years now. Honestly when we met I wasn’t looking for a relationship, and I don’t think he was either.
+
+So when we first met I saw him and I felt disgusted. This overwhelming feeling of disgust…
+
+I ignored it then, as we’d only just met, but to this day it’s still there.
+
+There’s things I’ve grown to love about him, but still underneath this feeling of disgust is there.
+
+Why do I feel this way? - Advice
+
+It is possible that this feeling of disgust comes from unresolved issues you have with yourself. For example, you may be projecting feelings of low self-worth onto this relationship, subconsciously believing that you don’t deserve someone better or that you don’t deserve to be in a healthy, loving relationship.
+
+
+
+It’s also possible that you are being influenced by insecurities from past relationships, if you have any. Furthermore, this feeling of disgust could be due to a traumatic experience in your past that has impacted the way you view relationships and/or intimate connections.
+
+
+
+Our emotions can often be mysterious and difficult to decipher. It is possible that in order to get to the bottom of your feelings and make sense of them, you may need to seek the assistance of a professional. Counseling or psychotherapy can be a great way to explore and understand your feelings and identify any underlying issues that could be causing them.","Question
+
+Why am I still disgusted with my boyfriend
+
+I’ve been dating my boyfriend for three years now. Honestly when we met I wasn’t looking for a relationship, and I don’t think he was either.
+
+So when we first met I saw him and I felt disgusted. This overwhelming feeling of disgust…
+
+I ignored it then, as we’d only just met, but to this day it’s still there.
+
+There’s things I’ve grown to love about him, but still underneath this feeling of disgust is there.
+
+Why do I feel this way? - Advice
+
+It's difficult to say for sure without more information, but it's possible that you could be experiencing something called ""disgust sensitivity."" This is a common and natural response to things that we perceive as unsanitary, dangerous, or generally unappealing. It can be caused by a variety of factors, including personal experiences, cultural influences, and even genetics.
+
+
+
+In the case of your relationship, it's possible that something about your boyfriend triggers this response in you. It could be a physical trait, a habit or behavior, or even something about his personality. It's important to explore these feelings and try to pinpoint what specifically is causing you to feel this way.
+
+
+
+Keep in mind that feeling disgusted does not necessarily mean that your relationship is doomed. Many couples have differences or annoyances that they learn to work through and overcome. However, if the feeling persists and is impacting your ability to have a healthy relationship, it may be worth seeking the help of a therapist or counselor to explore your feelings more deeply.","Question
+
+Why am I still disgusted with my boyfriend
+
+I’ve been dating my boyfriend for three years now. Honestly when we met I wasn’t looking for a relationship, and I don’t think he was either.
+
+So when we first met I saw him and I felt disgusted. This overwhelming feeling of disgust…
+
+I ignored it then, as we’d only just met, but to this day it’s still there.
+
+There’s things I’ve grown to love about him, but still underneath this feeling of disgust is there.
+
+Why do I feel this way? - Advice
+
+Identifying the cause of your disgust for your boyfriend without more context is difficult. Several possibilities could explain this. One is that your first impression about him still affects your emotions. Also, despite your three-year relationship, certain incompatibilities might trigger these feelings. Feelings of disgust may also act as a defense mechanism in a relationship. Unresolved issues within your relationship could also be a cause. It's important to address any conflicts or communication issues you might have. To better understand and manage your feelings, you may want to consult a mental health professional. Open conversations with your boyfriend about your feelings can improve your understanding and connection.","Question
+
+Why am I still disgusted with my boyfriend
+
+I’ve been dating my boyfriend for three years now. Honestly when we met I wasn’t looking for a relationship, and I don’t think he was either.
+
+So when we first met I saw him and I felt disgusted. This overwhelming feeling of disgust…
+
+I ignored it then, as we’d only just met, but to this day it’s still there.
+
+There’s things I’ve grown to love about him, but still underneath this feeling of disgust is there.
+
+Why do I feel this way? - Advice
+
+Why did you date someone you think is disgusting in the first place? Why are you still dating him? You are doing neither him nor yourself any favors. You haven't changed in feelings towards him and honestly it's going to turn to resentment eventually, it doesn't matter if you've ""grown to love some stuff...""  Break up so he can find someone who truly loves and accepts him, you'll be cruel to stay. And if your only arguments to this are ""but we've been together this long.."" and ""but I kinda love him.."", that's not a good enough reason to stay","Question
+
+My mom has been crying and is devastated since I moved out what do I do?
+
+I grew up with a single mom and for a while was my only guardian before my dad came back to be part of my life. Where very close and to her it’s just me in her family. I decided I wanted to move out for college with a friend and get an apartment in the city but since then my mom has been torn and never even wanted me to move out in the first place. She’s lived alone since and said how much she miss me and wants me to move back in but today she called and was crying on the phone how lonely she is and how afraid she is and wants me to consider moving back in when my lease is up though I’ve been planning for me and my gf to then move in which again she’s not fond of. I visit her each week between school and work but she’s still sad. What do I do, I don’t like my mom being so lonely and sad but then again I’m almost 20 and should live my own life? - Advice
+
+It sounds like you have a very close relationship with your mom, and it must be difficult to see her so upset. It's understandable that you want to live your own life and have your own independence, but it's important to consider your mother's feelings and emotions.
+
+
+
+One thing you could do is have a conversation with your mom about it and try to come up with a solution that is mutually beneficial. Explain to her that you still want to live your own life, but also have some way to make her feel more connected to you. Perhaps you can offer to video call her every week, or maybe you could take her out on special occasions or plan regular mother-daughter weekends. It's also possible that she just needs some extra assurance that you still love her and that you won't forget about her even though you don't live in the same house. It's important to be patient and understanding as you talk to your mom and work out a solution that works for both of you.","Question
+
+My mom has been crying and is devastated since I moved out what do I do?
+
+I grew up with a single mom and for a while was my only guardian before my dad came back to be part of my life. Where very close and to her it’s just me in her family. I decided I wanted to move out for college with a friend and get an apartment in the city but since then my mom has been torn and never even wanted me to move out in the first place. She’s lived alone since and said how much she miss me and wants me to move back in but today she called and was crying on the phone how lonely she is and how afraid she is and wants me to consider moving back in when my lease is up though I’ve been planning for me and my gf to then move in which again she’s not fond of. I visit her each week between school and work but she’s still sad. What do I do, I don’t like my mom being so lonely and sad but then again I’m almost 20 and should live my own life? - Advice
+
+It is understandable that you feel conflicted about your mom's sadness but also want to live your own life. It sounds like your mom may be experiencing empty nest syndrome, which is a common feeling for parents when their children move out. You can have an open and honest conversation with your mom and express your love and concern for her, but also let her know that it's important for you to have your own life and independence.
+
+
+
+You can reassure her that you will still visit and keep in touch regularly. You can also suggest activities or hobbies for her to do that can help her feel less lonely and more engaged. Encourage her to connect with her own friends or family members for support, and to seek professional help if she feels overwhelmed.
+
+
+
+It's important to remember that you are not responsible for your mom's happiness, but you can be supportive and understanding. Ultimately, you have to make the best decision for yourself and your future, and your mom will eventually have to adjust to this new phase in both of your lives.","Question
+
+My mom has been crying and is devastated since I moved out what do I do?
+
+I grew up with a single mom and for a while was my only guardian before my dad came back to be part of my life. Where very close and to her it’s just me in her family. I decided I wanted to move out for college with a friend and get an apartment in the city but since then my mom has been torn and never even wanted me to move out in the first place. She’s lived alone since and said how much she miss me and wants me to move back in but today she called and was crying on the phone how lonely she is and how afraid she is and wants me to consider moving back in when my lease is up though I’ve been planning for me and my gf to then move in which again she’s not fond of. I visit her each week between school and work but she’s still sad. What do I do, I don’t like my mom being so lonely and sad but then again I’m almost 20 and should live my own life? - Advice
+
+Balancing your mother's well-being with your growing independence can be complex but manageable. Begin by discussing your feelings and ambitions clearly while also understanding and acknowledging her loneliness. Help her combat this by developing a wider social circle through activities or reaching out to friends. Regular contact with her can also make her feel connected and reassure her that your stepping into independence isn't abandonment. If her feelings of sadness persist, professional counselling may be beneficial. Don't neglect your own needs, too. Remember, your future plans, including cohabitation with your girlfriend, shouldn't be compromised. Striking a balance between supporting your mother and moving ahead in life is vital. You can do this through open communication, encouraging her social interactions, and maintaining regular contact.","Question
+
+My mom has been crying and is devastated since I moved out what do I do?
+
+I grew up with a single mom and for a while was my only guardian before my dad came back to be part of my life. Where very close and to her it’s just me in her family. I decided I wanted to move out for college with a friend and get an apartment in the city but since then my mom has been torn and never even wanted me to move out in the first place. She’s lived alone since and said how much she miss me and wants me to move back in but today she called and was crying on the phone how lonely she is and how afraid she is and wants me to consider moving back in when my lease is up though I’ve been planning for me and my gf to then move in which again she’s not fond of. I visit her each week between school and work but she’s still sad. What do I do, I don’t like my mom being so lonely and sad but then again I’m almost 20 and should live my own life? - Advice
+
+Your mom needs therapy. I can understand being lonely but the whole point of being a parent is getting your child to the point where they can be independent. Everyone has to deal with being alone at some point. Even if you lived with just her your whole life, one day she will die and then the roles are reversed. You visit her every week. I don’t even hang out with certain friends that often. You shouldn’t change anything you’re doing because of her. She’s the one who’s going to have to learn to cope with her empty nest syndrome. If I were you I’d gently recommend counseling, but don’t try to compromise any more than you have been. You’ll just be stunting your own growth.","Question
+
+Is it ok to walk away?
+
+Yesterday I was wearing a pullover of my favorite baseball team. At the grocery store. Doing my thing. Minding my business.
+
+This man, a creepy squirrelly type, starts talking to me about the team. He makes zero sense. I can barely understand him and I’m trying to be polite and saying mmmhmm and walk away. Again. I don’t know him. I think that’s generous.
+
+But, he turns his cart around and starts following me to talk more. I end up turning again, because … I don’t care to continue this conversation because I feel he’s being a little racist. But, I feel he’s taken advantage of my being nice.
+
+He approaches again an aisle over and continues, at this point, I try an uh-huh and walk off.
+
+
+
+In this situation, is it ok to walk off? I don’t know this person. He’s a little on the creeper side. I don’t want trouble. I was just minding my business, shopping. - Advice
+
+Yes, it is completely ok to walk away! You were minding your own business and you can choose not to engage in conversations you aren't comfortable with. No one should ever make you feel unsafe or uncomfortable and it is important to trust your gut if you feel like something isn't right or if someone is making you feel uncomfortable. You have every right to politely excuse yourself and walk away.","Question
+
+Is it ok to walk away?
+
+Yesterday I was wearing a pullover of my favorite baseball team. At the grocery store. Doing my thing. Minding my business.
+
+This man, a creepy squirrelly type, starts talking to me about the team. He makes zero sense. I can barely understand him and I’m trying to be polite and saying mmmhmm and walk away. Again. I don’t know him. I think that’s generous.
+
+But, he turns his cart around and starts following me to talk more. I end up turning again, because … I don’t care to continue this conversation because I feel he’s being a little racist. But, I feel he’s taken advantage of my being nice.
+
+He approaches again an aisle over and continues, at this point, I try an uh-huh and walk off.
+
+
+
+In this situation, is it ok to walk off? I don’t know this person. He’s a little on the creeper side. I don’t want trouble. I was just minding my business, shopping. - Advice
+
+Yes, it is absolutely okay to walk away in this situation. Your safety and well-being come first, and you should never feel obligated to engage with someone who is making you uncomfortable or being inappropriate. It sounds like you made multiple attempts to politely disengage from the conversation, and that is more than enough. It's important to trust your instincts and remove yourself from any situation that doesn't feel safe or comfortable.","Question
+
+Is it ok to walk away?
+
+Yesterday I was wearing a pullover of my favorite baseball team. At the grocery store. Doing my thing. Minding my business.
+
+This man, a creepy squirrelly type, starts talking to me about the team. He makes zero sense. I can barely understand him and I’m trying to be polite and saying mmmhmm and walk away. Again. I don’t know him. I think that’s generous.
+
+But, he turns his cart around and starts following me to talk more. I end up turning again, because … I don’t care to continue this conversation because I feel he’s being a little racist. But, I feel he’s taken advantage of my being nice.
+
+He approaches again an aisle over and continues, at this point, I try an uh-huh and walk off.
+
+
+
+In this situation, is it ok to walk off? I don’t know this person. He’s a little on the creeper side. I don’t want trouble. I was just minding my business, shopping. - Advice
+
+Sure, it's alright to leave if you're uncomfortable. Your safety and comfort matter. If someone makes you uneasy, you're entitled to exit the situation. Trust your instincts and prioritize your health. You don't owe anyone your time or attention, especially if they cross personal boundaries. If harassment continues, seek help from store staff or security.","Question
+
+Is it ok to walk away?
+
+Yesterday I was wearing a pullover of my favorite baseball team. At the grocery store. Doing my thing. Minding my business.
+
+This man, a creepy squirrelly type, starts talking to me about the team. He makes zero sense. I can barely understand him and I’m trying to be polite and saying mmmhmm and walk away. Again. I don’t know him. I think that’s generous.
+
+But, he turns his cart around and starts following me to talk more. I end up turning again, because … I don’t care to continue this conversation because I feel he’s being a little racist. But, I feel he’s taken advantage of my being nice.
+
+He approaches again an aisle over and continues, at this point, I try an uh-huh and walk off.
+
+
+
+In this situation, is it ok to walk off? I don’t know this person. He’s a little on the creeper side. I don’t want trouble. I was just minding my business, shopping. - Advice
+
+Yes, perfectly fine. Also it would be okay for you to be firm and straight up tell him to please leave you alone. Men can sometimes be persistent unless their directly told to go pound rocks.","If you have any comments, please write them here."
+"{""ImportId"":""startDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""endDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""Europe/Berlin""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID199""}","{""ImportId"":""QID1213989762""}","{""ImportId"":""QID1213989763""}","{""ImportId"":""QID1213989763_8_TEXT""}","{""ImportId"":""QID208""}","{""ImportId"":""QID208_3_TEXT""}","{""ImportId"":""QID1213989764""}","{""ImportId"":""QID1213989764_3_TEXT""}","{""ImportId"":""QID207""}","{""ImportId"":""QID207_9_TEXT""}","{""ImportId"":""QID1213989765""}","{""ImportId"":""QID1213989765_9_TEXT""}","{""ImportId"":""QID206""}","{""ImportId"":""QID206_10_TEXT""}","{""ImportId"":""QID9_2""}","{""ImportId"":""QID14_2""}","{""ImportId"":""QID15_2""}","{""ImportId"":""QID151_1""}","{""ImportId"":""QID41_2""}","{""ImportId"":""QID42_2""}","{""ImportId"":""QID43_2""}","{""ImportId"":""QID160_1""}","{""ImportId"":""QID53_2""}","{""ImportId"":""QID54_2""}","{""ImportId"":""QID55_2""}","{""ImportId"":""QID164_1""}","{""ImportId"":""QID65_2""}","{""ImportId"":""QID66_2""}","{""ImportId"":""QID67_2""}","{""ImportId"":""QID168_1""}","{""ImportId"":""QID83_2""}","{""ImportId"":""QID84_2""}","{""ImportId"":""QID85_2""}","{""ImportId"":""QID174_1""}","{""ImportId"":""QID89_2""}","{""ImportId"":""QID90_2""}","{""ImportId"":""QID91_2""}","{""ImportId"":""QID176_1""}","{""ImportId"":""QID110_2""}","{""ImportId"":""QID111_2""}","{""ImportId"":""QID112_2""}","{""ImportId"":""QID183_1""}","{""ImportId"":""QID119_2""}","{""ImportId"":""QID120_2""}","{""ImportId"":""QID121_2""}","{""ImportId"":""QID186_1""}","{""ImportId"":""QID146_2""}","{""ImportId"":""QID147_2""}","{""ImportId"":""QID148_2""}","{""ImportId"":""QID195_1""}","{""ImportId"":""QID205_TEXT""}"
+2023-11-25 16:24:15,2023-11-25 16:37:11,IP Address,100,775,True,2023-11-25 16:37:12,R_DSP958vrPoIXsZz,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,Human,,,,,,Human,,,Human,,,Human,,,,Human,,,,,AI,,,AI,,,,,Human,,,Human,,,
+2023-11-25 16:30:15,2023-11-25 16:39:38,IP Address,100,562,True,2023-11-25 16:39:38,R_1K3DJWdByXnfK4R,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Student,,Other,,Other (Specify Below),Germany,It was shared to me by a friend,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,Human,,,Human,,,,,,Human,Human,,,,,,AI,,Human,,,,,,AI,,,,AI,,,AI,,,
+2023-11-25 16:19:26,2023-11-25 16:40:18,IP Address,100,1251,True,2023-11-25 16:40:18,R_tFouEiq4Hf9rOO5,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Working,,Female,,Finland,,Other (Specify Below),Shared to me by the creator of the study,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,,,,AI,,,,Human,,,,Human,Human,,,,,AI,,,AI,,,,,AI,,,,,,AI,
+2023-11-25 16:36:11,2023-11-25 16:49:31,IP Address,100,799,True,2023-11-25 16:49:31,R_2sbRPjr7hGfgCo4,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Master's degree,,Working,,Female,,Finland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,,,,Human,,,AI,,,Human,,,,Human,,,,,AI,,,Human,,,,AI,,,,,Human,,"This was really hard! At first I was really sure of myself and the thoughts of AI. Longer this questioner got, more unsure I got. I hope my answers were helpful for your studies. "
+2023-11-25 16:35:03,2023-11-25 16:55:10,IP Address,100,1207,True,2023-11-25 16:55:11,R_2ctoW1kjXFVPrG7,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Bachelor's degree,,Working,,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,,,Human,Human,,,,AI,,,,,AI,,,Human,,,,,,AI,,AI,,,,Human,,,,Human,,,,
+2023-11-25 16:49:23,2023-11-25 16:55:11,IP Address,100,348,True,2023-11-25 16:55:12,R_1gv7SEAAoDxJqLB,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Bachelor's degree,,Student,,Female,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,Human,Human,,,,AI,,,,,,AI,,,AI,,,Human,,,,AI,,,,AI,,,,,,,Human,
+2023-11-25 17:10:52,2023-11-25 17:34:27,IP Address,100,1415,True,2023-11-25 17:34:28,R_3G0t0I77Gy5yfgU,anonymous,EN,I agree to participate -- Take me to the questionnaire!,65 - 74,Bachelor's degree,,"None, of the above (Specify below, if you like)",Retired,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,AI,,,,,Human,,,Human,,,,,,AI,,Human,,,,Human,,,,,AI,,,,,Human,,Human,,,
+2023-11-25 17:40:41,2023-11-25 17:43:51,IP Address,100,189,True,2023-11-25 17:43:52,R_3gXedrSq539RBRi,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Master's degree,,Student,,Female,,Other (Specify Below),Netherlands,It was shared to me by a friend,,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,,,,Human,,,AI,,Human,,,,,,Human,,,Human,,,,Human,,,,,AI,,,,Human,,
+2023-11-25 18:04:59,2023-11-25 18:20:31,IP Address,100,931,True,2023-11-25 18:20:32,R_3g5DCpzclXwZ5a5,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,Human,,,,,Human,,,,AI,,,,AI,,Human,,,,,Human,,,,,AI,,,,AI,,,Human,,,
+2023-11-25 18:43:20,2023-11-25 19:00:15,IP Address,100,1015,True,2023-11-25 19:00:16,R_2rIY8tN69nh9GPX,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Student,,Female,,Finland,,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,AI,,,,,,Human,,,AI,,Human,,,,,,,Human,,,AI,,,AI,,,,,,Human,,,Human,,
+2023-11-25 19:23:20,2023-11-25 19:34:27,IP Address,100,666,True,2023-11-25 19:34:28,R_2aa8Z92OS1Rc9Z1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Master's degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,AI,,,AI,,,,Human,,,,Human,,,,,,Human,,,,Human,Human,,,,Human,,,,Human,,,,"Heh, this was like reading Reddit. "
+2023-11-25 19:02:44,2023-11-25 19:41:24,IP Address,100,2319,True,2023-11-25 19:41:25,R_OHiTiVrHJlPXN9n,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Professional degree,,Working,,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,,AI,,,Human,,,,Human,,,,,Human,,,,,Human,,,,Human,,AI,,,,,Human,,,,Human,,
+2023-11-25 21:08:42,2023-11-25 21:15:32,IP Address,100,409,True,2023-11-25 21:15:33,R_qxOGlu66M68In7j,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Poland,,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,,Human,,,Human,,,,,Human,,AI,,,AI,,,,Human,,,,,Human,,,,,AI,,,,,Human,
+2023-11-25 22:22:48,2023-11-25 22:29:53,IP Address,100,424,True,2023-11-25 22:29:54,R_QhQFcZNwmPtrG7f,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,"None, of the above (Specify below, if you like)",Stay at home wife,Female,,Poland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,Human,,,AI,,,,,,,Human,,,AI,,,Human,,,,,Human,,,,,Human,,,AI,,AI,,,,
+2023-11-24 23:01:37,2023-11-24 23:03:52,IP Address,6,134,False,2023-11-25 23:03:53,R_2aWyIDw02SRRDQI,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 23:22:44,2023-11-25 23:31:31,IP Address,100,527,True,2023-11-25 23:31:33,R_3lxWbjIxkL9kCer,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,Finland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,,AI,,,,,Human,,,Human,,,,,,AI,,Human,,,AI,,,,,Human,,,Human,,,,,,Human,,
+2023-11-26 03:19:56,2023-11-26 03:27:40,IP Address,100,463,True,2023-11-26 03:27:41,R_331o3OIdETq1whb,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Student,,Male,,Other (Specify Below),Spain,Other (Specify Below),"Tromso WhatsApp ",Advanced (I'm highly skilled in advanced and creative uses of LLMs.),,AI,,,,Human,,,,,,,Human,Human,,,,,Human,,,,AI,,,AI,,,,,,,AI,AI,,,,
+2023-11-26 07:19:20,2023-11-26 07:41:44,IP Address,100,1343,True,2023-11-26 07:41:44,R_2rYnLdDb8lvBxLO,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Bachelor's degree,,Working,,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,,,Human,,Human,,,,,,Human,,,AI,,,,,Human,AI,,,,,Human,,,,,,AI,,Human,,,
+2023-11-26 07:53:49,2023-11-26 07:58:31,IP Address,100,282,True,2023-11-26 07:58:32,R_2Pdt5fB7HgLxcYh,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,"None, of the above (Specify below, if you like)",,Other,,USA,,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,AI,,,,,,Human,,,,AI,,,AI,,,,,AI,,AI,,,,AI,,,,,AI,,,,,,Human,
+2023-11-26 09:31:40,2023-11-26 09:39:45,IP Address,100,485,True,2023-11-26 09:39:46,R_10N0164DWRrMj70,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Student,,Male,,Finland,,It was shared to me by a friend,,Novice (I'm aware of LLMs but have no practical experience.),,AI,,,,AI,,,,,,Human,,,,AI,,,,,Human,,AI,,,,,,Human,,,,Human,,AI,,,Good luck with your thesis Otto
+2023-11-26 10:16:30,2023-11-26 10:28:24,IP Address,100,713,True,2023-11-26 10:28:24,R_3FVit0V3x0c7S7f,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Student,,Female,,Norway,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,Human,,,,,,AI,,,,,Human,,AI,,,Human,,,,AI,,,,AI,,,,,,AI,,,Human,,,
+2023-11-26 11:47:18,2023-11-26 11:52:13,IP Address,100,295,True,2023-11-26 11:52:14,R_WlIQi3UgeTcqhjj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,,Bachelor's degree,,Working,,Female,,USA,,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,AI,,,,AI,,,,AI,,,,,,,Human,,Human,,,,Human,,,,,,Human,,AI,,,,,AI,,
+2023-11-26 12:14:33,2023-11-26 12:28:59,IP Address,100,866,True,2023-11-26 12:29:00,R_2a8oKchorvLkDln,anonymous,EN,I agree to participate -- Take me to the questionnaire!,65 - 74,Professional degree,,Working,,Male,,Finland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,Human,,,,,,,Human,AI,,,,Human,,,,,AI,,,,,,Human,,,,Human,AI,,,,Human,,,,"Otto, this was really interesting. It is hard to guess between human and AI these days. I just went with a hunch: if it's too formal, then AI, if there's a human touch, real opinions, it's human. Best of luck with your plans. ~(;^)~"
+2023-11-25 15:47:47,2023-11-25 15:48:07,IP Address,6,19,False,2023-11-26 15:48:11,R_3EMBfDCrQiLRpzn,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-26 15:52:28,2023-11-26 15:58:28,IP Address,100,360,True,2023-11-26 15:58:29,R_TpTp7Lj8wC2X43L,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,High-School,,Working,,Female,,Other (Specify Below),"England ",Reddit,,None (I'm not aware of what it is),,,,,Human,,,,Human,,Human,,,AI,,,,AI,,,,,,,AI,,Human,,,,,Human,,,,Human,,
+2023-11-25 16:01:59,2023-11-25 16:03:02,IP Address,4,63,False,2023-11-26 16:03:03,R_3Mu3wvoGBplrlHf,anonymous,EN,I agree to participate -- Take me to the questionnaire!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:06:45,2023-11-25 16:08:51,IP Address,21,126,False,2023-11-26 16:08:55,R_3LiLFdK2s7GqEl1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:25:50,2023-11-25 16:28:32,IP Address,30,162,False,2023-11-26 16:28:33,R_2WVACAc9XY05qc1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Other,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,AI,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:26:19,2023-11-25 16:28:44,IP Address,21,144,False,2023-11-26 16:28:45,R_3saISzdcvzBcpaj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Student,,Female,,Other (Specify Below),"France ",Other (Specify Below),"whatsapp group erasmus tromsø ",Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 16:32:15,2023-11-25 16:35:51,IP Address,30,215,False,2023-11-26 16:35:58,R_3oQKAEz1o5F0KSF,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Finland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AI,,
+2023-11-25 17:22:32,2023-11-25 17:22:42,IP Address,2,9,False,2023-11-26 17:22:47,R_3hu8H62plW95tVG,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 18:34:36,2023-11-25 18:35:04,IP Address,2,27,False,2023-11-26 18:35:06,R_10I1UnnIF88JdlC,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 20:53:48,2023-11-25 20:54:44,IP Address,21,56,False,2023-11-26 20:54:46,R_0diQOSas9uh1v21,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Doctorate degree,,Working,,Male,,Finland,,Social Media,,None (I'm not aware of what it is),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 20:51:02,2023-11-25 20:55:32,IP Address,30,269,False,2023-11-26 20:55:32,R_QgH4vTvxPlZth2V,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,Finland,,It was shared to me by a friend,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,Human,,,,,,,,,,,,,,,,,
+2023-11-25 21:01:59,2023-11-25 21:03:11,IP Address,21,72,False,2023-11-26 21:03:14,R_3MhvzVTpwyxIaVj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,Master's degree,,Working,,Male,,Finland,,It was shared to me by a friend,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-25 21:26:57,2023-11-25 21:31:03,IP Address,30,245,False,2023-11-26 21:31:07,R_3j8tjSpQl1L2vBs,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Student,,Female,,Poland,,It was shared to me by a friend,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,Human,,,,,,,,,,,,,
+2023-11-25 22:02:15,2023-11-25 22:05:49,IP Address,21,213,False,2023-11-26 22:05:50,R_1LMbOCLKYV2NgbQ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Male,,Finland,,It was shared to me by a friend,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-26 22:04:53,2023-11-26 22:17:16,IP Address,100,742,True,2023-11-26 22:17:16,R_1N3vRWY19hcV9LS,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Student,,Female,,Other (Specify Below),Germany,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,,Human,,AI,,,,AI,,,,,,Human,AI,,,,Human,,,,,,,Human,,,AI,,,,,Human,
+2023-11-26 20:07:55,2023-11-26 22:22:57,IP Address,100,8102,True,2023-11-26 22:22:58,R_2zkhLY6xdgC7KGt,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,Professional degree,,Working,,Male,,Poland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,,Human,,,,Human,,,Human,,,,,,Human,,,AI,,,AI,,,,,,AI,,,,,Human,,,Human,,it's hard to figure out
+2023-11-26 22:18:38,2023-11-26 22:27:16,IP Address,100,517,True,2023-11-26 22:27:17,R_aWWlvtPlP6w4p33,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Student,,Female,,USA,,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,Human,,,,Human,,,AI,,,AI,,,,Human,,,,Human,,,,,,Human,,AI,,,,,,Human,
+2023-11-26 00:48:39,2023-11-26 00:49:39,IP Address,21,60,False,2023-11-27 00:49:45,R_8j1gmvNMrMBuuc1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,High-School,,"None, of the above (Specify below, if you like)",,Male,,Norway,,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-27 11:22:15,2023-11-27 11:32:52,IP Address,100,636,True,2023-11-27 11:32:53,R_2bTtfXriyKmSQy1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Other (Specify Below),Romania,It was shared to me by a friend,,Advanced (I'm highly skilled in advanced and creative uses of LLMs.),,,AI,,,AI,,,,Human,,,,Human,,,,,,,Human,,AI,,,,,AI,,,,,Human,,,,Human,
+2023-11-27 11:54:29,2023-11-27 12:05:13,IP Address,100,643,True,2023-11-27 12:05:13,R_1P5JOnA1c6qGquk,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Student,,Female,,Other (Specify Below),"Italy ",It was shared to me by a friend,,Novice (I'm aware of LLMs but have no practical experience.),,,Human,,,Human,,,,Human,,,,,AI,,,AI,,,,,AI,,,,,AI,,,,,Human,,,,Human,
+2023-11-26 12:16:16,2023-11-26 12:17:36,IP Address,21,80,False,2023-11-27 12:17:37,R_31oLJWmjEnOeWxm,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-27 16:19:37,2023-11-27 16:27:20,IP Address,100,463,True,2023-11-27 16:27:21,R_CgBU21SWuiK781X,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,Human,,,AI,,AI,,,,AI,,,,,,,Human,,,,Human,,AI,,,,,,Human,,,,AI,
+2023-11-27 17:32:47,2023-11-27 17:38:25,IP Address,100,338,True,2023-11-27 17:38:26,R_3n65O74FZu7zNXE,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Primary-School,,Working,,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,Human,,,,Human,,,,AI,,,Human,,,,,Human,,,,,,AI,,,Human,,AI,,,,,,,Human,
+2023-11-27 17:30:11,2023-11-27 18:07:36,IP Address,100,2245,True,2023-11-27 18:07:37,R_3dY9FufdySKzi4c,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Bachelor's degree,,Working,,Female,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,Human,,,,,,,Human,,AI,,,,,AI,,AI,,,,,Human,,,,Human,,,,,AI,,,,Human,,
+2023-11-27 18:10:53,2023-11-27 18:35:05,IP Address,100,1451,True,2023-11-27 18:35:06,R_1OVkRaWAWePu4ih,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Student,,Male,,Norway,,Other (Specify Below),Heard about at a party,Novice (I'm aware of LLMs but have no practical experience.),,Human,,,,AI,,,,,,AI,,,,,Human,,Human,,,,,AI,,,Human,,,,AI,,,,,AI,,
+2023-11-26 20:30:46,2023-11-26 20:31:24,IP Address,21,38,False,2023-11-27 20:31:39,R_2EfQtOpkI0guj1C,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,High-School,,"None, of the above (Specify below, if you like)",,Female,,Other (Specify Below),uk,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-26 08:39:06,2023-11-26 20:56:45,IP Address,72,44259,False,2023-11-27 21:00:26,R_3L6IYDGH640HVEZ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Doctorate degree,,Working,,Female,,Finland,,It was shared to me by a friend,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,Human,,Human,,,,Human,,,,,AI,,,,Human,,,,,Human,,
+2023-11-26 21:23:04,2023-11-26 21:26:16,IP Address,30,191,False,2023-11-27 21:56:03,R_2ZVTX59YqaKxAWc,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,Other (Specify Below),Sweden,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,AI,,,,,,,,,,,,,,,,
+2023-11-27 21:46:52,2023-11-27 21:59:55,IP Address,100,783,True,2023-11-27 21:59:56,R_3h5cc71adPUWoCf,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,USA,,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,Human,,,,,,,Human,AI,,,,,,AI,,,,,AI,,,Human,,AI,,,,Human,,,,
+2023-11-27 21:35:51,2023-11-27 22:02:59,IP Address,100,1627,True,2023-11-27 22:02:59,R_2PCea5571V6M3Hk,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Other (Specify Below),"Hungary ",It was shared to me by a friend,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,AI,,,AI,,,,Human,,,,AI,,,,Human,,,Human,,,,,AI,,,,,,Human,,,,Human,
+2023-11-28 07:32:39,2023-11-28 07:50:31,IP Address,100,1072,True,2023-11-28 07:50:32,R_2f9AfQNEWwJ1qQc,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Finland,,Social Media,,None (I'm not aware of what it is),,,Human,,,Human,,,,AI,,,,,,,Human,,,AI,,,AI,,,,,AI,,AI,,,,,Human,,,
+2023-11-27 15:42:26,2023-11-27 15:43:07,IP Address,19,41,False,2023-11-28 15:43:11,R_27xJrWHZrFkotYY,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Other (Specify Below),India,It was shared to me by a friend,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-28 17:15:05,2023-11-28 17:17:42,IP Address,100,156,True,2023-11-28 17:17:43,R_1GVPMmMMeEojjw9,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Working,,Female,,USA,,Reddit,,Regular User (I frequently utilize LLMs for diverse applications.),,,AI,,,AI,,,,,,,Human,,,AI,,,,AI,,,,,Human,,,AI,,AI,,,,Human,,,,
+2023-11-27 17:34:35,2023-11-27 17:37:37,IP Address,38,181,False,2023-11-28 17:37:42,R_bdfHtMeEHMSYIvf,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Norway,,Social Media,,Regular User (I frequently utilize LLMs for diverse applications.),,,,,,,,,,,,,,,AI,,,,,,,,,,,,,,Human,,,,,,,,,
+2023-11-28 17:54:54,2023-11-28 18:06:35,IP Address,100,701,True,2023-11-28 18:06:36,R_1DvictRj2ZNlY4N,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Female,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,Human,,,,Human,AI,,,,AI,,,,,,,Human,,,,Human,,AI,,,AI,,,,AI,,,,
+2023-11-27 22:00:56,2023-11-27 22:04:06,IP Address,21,189,False,2023-11-28 22:04:12,R_2CprwLhXRDEbcln,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 06:26:50,2023-11-29 06:37:19,IP Address,100,629,True,2023-11-29 06:37:20,R_3MFqhLz4qEnT3i7,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,USA,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,AI,Human,,,,,,Human,,,Human,,,AI,,,,,,,Human,,AI,,,,AI,,,,,Human,,
+2023-11-28 07:45:28,2023-11-28 07:45:50,IP Address,4,21,False,2023-11-29 07:45:52,R_pbeeI1sVCrJM4uZ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 10:23:30,2023-11-29 10:36:22,IP Address,100,772,True,2023-11-29 10:36:24,R_3MA5TMw7URSsSuq,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,High-School,,Working,,Male,,Other (Specify Below),Australia,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,AI,,,,AI,,,AI,,,AI,,,,,AI,,,,,Human,AI,,,,,,,Human,,AI,,,
+2023-11-29 14:13:50,2023-11-29 14:23:37,IP Address,100,587,True,2023-11-29 14:23:38,R_1Lcx1W5eI0Zl0F4,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Other (Specify Below),vocational school,"None, of the above (Specify below, if you like)",,Male,,Finland,,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,,,,Human,,,,Human,,Human,,,AI,,,,,,,Human,,Human,,,,,AI,,,,Human,,
+2023-11-29 16:14:03,2023-11-29 16:17:37,IP Address,100,214,True,2023-11-29 16:17:38,R_3kEXCsNxZ1Nat5N,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Norway,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,Human,,,,,AI,,,,,,Human,Human,,,,,,AI,,,,AI,,,,Human,,,,AI,,,,AI,,
+2023-11-28 17:05:40,2023-11-28 17:12:39,IP Address,21,419,False,2023-11-29 17:12:43,R_07Apb0N5FYphWhP,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Working,,Female,,USA,,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 17:38:07,2023-11-29 17:46:56,IP Address,100,529,True,2023-11-29 17:46:57,R_eUTEiAsLHct1JWV,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Student,,Female,,Other (Specify Below),"Sweden ",Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,Human,,,,,,AI,,AI,,,,Human,,,,,,,Human,AI,,,,AI,,,,,,Human,,
+2023-11-29 19:05:37,2023-11-29 19:15:42,IP Address,100,604,True,2023-11-29 19:15:43,R_3NWdkNEanGxvNoM,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Student,,Female,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,Human,Human,,,,,AI,,,,,,Human,,AI,,,,AI,,,,,,Human,,AI,,,AI,,,,
+2023-11-29 19:34:52,2023-11-29 19:49:26,IP Address,100,874,True,2023-11-29 19:49:27,R_Duyg9ywe7Sls5B7,anonymous,EN,I agree to participate -- Take me to the questionnaire!,65 - 74,Professional degree,,"None, of the above (Specify below, if you like)",,Male,,Other (Specify Below),uk,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,,AI,,,,,,Human,,,Human,,,AI,,,,Human,,,AI,,,,,,Human,,,,,Human,
+2023-11-28 20:36:46,2023-11-28 20:37:42,IP Address,19,55,False,2023-11-29 20:37:47,R_333w7t7iPU7YWvL,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Student,,Male,,Finland,,Social Media,,Regular User (I frequently utilize LLMs for diverse applications.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-28 21:15:53,2023-11-28 21:16:28,IP Address,4,34,False,2023-11-29 21:16:31,R_DBJSuLbqB7PFgJj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-28 23:52:15,2023-11-28 23:53:24,IP Address,21,69,False,2023-11-29 23:53:28,R_2P7J0nCsFkzyxxj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,Other (Specify Below),Aotearoa,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-29 00:59:19,2023-11-29 00:59:50,IP Address,2,31,False,2023-11-30 00:59:54,R_2OTpZW0ZqBN5lcH,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-11-30 00:05:36,2023-11-30 12:53:15,IP Address,100,46058,True,2023-11-30 12:53:16,R_10GDRJbtAURB6Qt,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Student,,Male,,USA,,It was shared to me by a friend,,Regular User (I frequently utilize LLMs for diverse applications.),,,,,Human,,,Human,,,Human,,,,,,AI,,,,Human,,,,Human,,Human,,,AI,,,,,AI,,,
+2023-12-01 11:11:48,2023-12-01 11:19:56,IP Address,100,487,True,2023-12-01 11:19:57,R_2foZJbSFhfs8Nw5,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,AI,,AI,,,,,,Human,AI,,,,Human,,,,,,,Human,,,Human,,,,Human,,,,AI,,
+2023-11-30 16:06:51,2023-11-30 16:09:41,IP Address,21,169,False,2023-12-01 16:09:45,R_3meLautYwqTi0Lg,anonymous,EN,I agree to participate -- Take me to the questionnaire!,65 - 74,Bachelor's degree,,"None, of the above (Specify below, if you like)",Retired,Female,,Finland,,Social Media,,None (I'm not aware of what it is),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-01 19:28:09,2023-12-01 19:31:16,IP Address,100,186,True,2023-12-01 19:31:17,R_1ezVZTYFjgkhP10,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,AI,,,,AI,,,,Human,,,,,,Human,Human,,,,,AI,,,,,Human,,,,,Human,,,,Human,
+2023-11-30 20:16:35,2023-11-30 20:22:09,IP Address,89,333,False,2023-12-01 20:22:12,R_1g26Zx1PTLLANZ6,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,Master's degree,,Working,,Female,,Finland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,AI,,,,,,AI,,AI,,,,,,,,,Human,,,,,Human,,,,Human,,,,Human,,,,Human,,
+2023-12-01 04:56:17,2023-12-01 04:56:31,IP Address,6,14,False,2023-12-02 04:56:36,R_3EYCi9qYx2xgVDQ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-01 21:10:07,2023-12-01 21:10:41,IP Address,6,33,False,2023-12-02 21:10:45,R_OlPbwtzkOJxZalX,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-03 12:32:26,2023-12-03 12:33:41,IP Address,100,75,True,2023-12-03 12:33:42,R_1GHOSnWzySbgihj,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,,,,,,,,,Advanced (I'm highly skilled in advanced and creative uses of LLMs.),,Human,,,,,,Human,,Human,,,,Human,,,,AI,,,,,AI,,,,,AI,,,,,AI,,,AI,,
+2023-12-03 14:45:23,2023-12-03 14:55:39,IP Address,100,615,True,2023-12-03 14:55:40,R_2TZ9XKy4idQMjUi,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Student,,Female,,Other (Specify Below),Denmark,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,AI,,,,,Human,,AI,,,,,AI,,,,AI,,AI,,,,,AI,,,,AI,,,Human,,,,
+2023-12-02 17:14:02,2023-12-02 17:21:14,IP Address,64,431,False,2023-12-03 17:21:18,R_3nl1gK75ds0dIPf,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,"None, of the above (Specify below, if you like)",Self-employed,Female,,Other (Specify Below),Serbia,Reddit,,Regular User (I frequently utilize LLMs for diverse applications.),,,,,,,,AI,,,,,Human,,,,,,,AI,,,,,Human,,,,,,,,,,,,Human,
+2023-12-02 19:10:15,2023-12-02 19:15:20,IP Address,30,304,False,2023-12-03 19:15:25,R_3EaJ9OwHqTRi48W,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Student,,Female,,Finland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,AI,,,,,,,,,,,,,,,,,
+2023-12-02 21:53:16,2023-12-02 21:55:14,IP Address,21,117,False,2023-12-03 21:55:15,R_1IXZIUeYKfAOroz,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Female,,Poland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 11:23:33,2023-12-04 11:31:29,IP Address,100,476,True,2023-12-04 11:31:30,R_3Mm41QKGh6BBTaG,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,High-School,,Working,,Other,,Other (Specify Below),romania,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,Human,,,,,AI,,,Human,,,,,Human,,,,,AI,,,AI,,,,Human,,,AI,,,,,AI,,,
+2023-12-03 14:54:03,2023-12-03 14:54:16,IP Address,2,12,False,2023-12-04 14:54:18,R_3Muqt7npW3cz45F,anonymous,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-03 15:16:36,2023-12-03 15:18:18,IP Address,21,101,False,2023-12-04 15:18:20,R_wXgVJsZYeqjzO5H,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,USA,,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-04 15:58:46,2023-12-04 16:03:31,IP Address,100,285,True,2023-12-04 16:03:32,R_5ckqXuFLbPxU3lL,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Working,,Male,,Other (Specify Below),United Kingdom,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,AI,,,,AI,,,,,Human,,,AI,,,,,,Human,,AI,,,,,,Human,,,AI,,,,,Human,
+2023-12-05 17:55:37,2023-12-05 18:00:39,IP Address,100,301,True,2023-12-05 18:00:40,R_3MlFVPJUdmhxUsk,anonymous,EN,I agree to participate -- Take me to the questionnaire!,65 - 74,Master's degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,Human,,,,,Human,,,,Human,,,AI,,,,Human,,,AI,,,,AI,,,Human,,,,,,AI,,
+2023-12-06 01:56:23,2023-12-06 02:08:54,IP Address,100,751,True,2023-12-06 02:08:55,R_1LB5Z9jlJ89rlYp,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,"None, of the above (Specify below, if you like)",unemployed,Other,agender,Finland,,Reddit,,Novice (I'm aware of LLMs but have no practical experience.),,AI,,,,,,AI,,AI,,,,,AI,,,,,,Human,,AI,,,,,AI,,,,AI,,,,Human,,
+2023-12-06 12:36:36,2023-12-06 12:43:39,IP Address,100,423,True,2023-12-06 12:43:41,R_pagjYeNM1gfhXwJ,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Working,,Male,,Other (Specify Below),Australia,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,Human,,,AI,,,AI,,,,,,Human,,AI,,,,,,Human,,,,Human,,AI,,,,AI,,,"The human advice seems like a person who I knew was saying it, or someone that at least cared, but the AI felt like a book"
+2023-12-06 12:46:03,2023-12-06 14:30:17,IP Address,100,6254,True,2023-12-06 14:30:19,R_3HLJMNzqpIBxluM,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,"None, of the above (Specify below, if you like)",Student Founder,Male,,Norway,,Reddit,,Advanced (I'm highly skilled in advanced and creative uses of LLMs.),,,AI,,,,,AI,,,,AI,,,,,AI,AI,,,,Human,,,,,,AI,,,,Human,,Human,,,,
+2023-12-06 17:23:57,2023-12-06 17:33:52,IP Address,100,595,True,2023-12-06 17:33:54,R_3081XNQO8BiK0o1,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,"None, of the above (Specify below, if you like)","Part-time working, part-time student ",Female,,Other (Specify Below),Switzerland,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,AI,,,AI,,,,AI,,,Human,,,,,,,Human,,Human,,,AI,,,,,,,Human,,Human,,,
+2023-12-05 17:36:53,2023-12-05 17:39:44,IP Address,21,171,False,2023-12-06 17:39:45,R_PFXNlmDloHBg1Hz,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,Bachelor's degree,,Student,,Male,,Finland,,Reddit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-05 18:01:22,2023-12-05 18:01:58,IP Address,6,35,False,2023-12-06 18:02:05,R_3g0MP1WM35PWI97,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-06 07:03:03,2023-12-06 07:03:49,IP Address,21,45,False,2023-12-07 07:03:53,R_3HtSUgCpZQvs4Xm,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Master's degree,,Working,,Female,,Finland,,Social Media,,Novice (I'm aware of LLMs but have no practical experience.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-07 09:11:00,2023-12-07 09:31:50,IP Address,100,1250,True,2023-12-07 09:31:51,R_2aFyDAAcHLG30i4,anonymous,EN,I agree to participate -- Take me to the questionnaire!,45 - 54,Master's degree,,Working,,Male,,Finland,,It was shared to me by a friend,,Casual User (I use LLMs occasionally for straightforward tasks.),,,AI,,,,,,Human,,,,Human,Human,,,,,,,Human,Human,,,,AI,,,,AI,,,,,,,Human,Lycka till!
+2023-12-07 16:12:46,2023-12-07 16:22:44,IP Address,100,598,True,2023-12-07 16:22:45,R_1feEisovroyK79a,anonymous,EN,I agree to participate -- Take me to the questionnaire!,55 - 64,Master's degree,,Working,,Female,,Finland,,It was shared to me by a friend,,None (I'm not aware of what it is),,,,,AI,,,,AI,,AI,,,,,Human,,Human,,,,,,Human,,,,,Human,,Human,,,,,AI,,
+2023-12-07 20:54:21,2023-12-07 21:07:09,IP Address,100,768,True,2023-12-07 21:07:10,R_2ysyzEl0XK3wVNE,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Student,,Male,,Other (Specify Below),The Netherlands,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,AI,,,,Human,,,,AI,,,,,Human,,,AI,,Human,,,,,,AI,,,,,Human,,,AI,,AI's responses are very telling and annoying to read because it approaches the prompts as if it's a debate where arguments need to be defended or torn down. It's not a conversation and it feels dishonest.
+2023-12-08 15:02:32,2023-12-08 15:13:42,IP Address,100,669,True,2023-12-08 15:13:43,R_03awLkfhfHlmZBn,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Professional degree,,Working,,Male,,Finland,,Social Media,,Casual User (I use LLMs occasionally for straightforward tasks.),,,Human,,,,,Human,,,,Human,,,,AI,,,AI,,,,,AI,,,Human,,,Human,,,,,,AI,,
+2023-12-08 17:45:48,2023-12-08 17:57:30,IP Address,100,701,True,2023-12-08 17:57:31,R_1LNbdeZujonNMsk,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Master's degree,,Working,,Male,,Other (Specify Below),UK,Reddit,,Regular User (I frequently utilize LLMs for diverse applications.),,AI,,,,,,,AI,AI,,,,,,AI,,,,,Human,AI,,,,,,AI,,,,,Human,Human,,,,"It's entirely possible that all of them were AI, however, passing personal judgement still seems to be mostly human behaviour, despite many LLMs slowly learning to do so. Or some humans failed this ""Turing test"" :P"
+2023-12-08 18:09:56,2023-12-08 18:19:51,IP Address,100,594,True,2023-12-08 18:19:51,R_bIwZa8rW8zgzGlX,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,USA,,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,Human,,,,,,Human,Human,,,,,,,Human,AI,,,,,AI,,,,,AI,,,,AI,,,AI,,,
+2023-12-08 18:58:38,2023-12-08 19:00:31,IP Address,6,113,False,2023-12-09 19:00:36,R_Tio3vJiKdGEFBE5,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-08 19:15:17,2023-12-08 19:16:38,IP Address,21,80,False,2023-12-09 19:16:39,R_28Bu2vgP2Ak3sru,anonymous,EN,I agree to participate -- Take me to the questionnaire!,35 - 44,Bachelor's degree,,Working,,Male,,USA,,Reddit,,Casual User (I use LLMs occasionally for straightforward tasks.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2023-12-09 22:38:02,2023-12-09 22:45:45,IP Address,100,462,True,2023-12-09 22:45:46,R_2xWBRtQ0jHTDEnv,anonymous,EN,I agree to participate -- Take me to the questionnaire!,18 - 24,High-School,,Student,,Other,Pangender. A,USA,,Reddit,,Advanced (I'm highly skilled in advanced and creative uses of LLMs.),,,,AI,,,,,AI,,AI,,,,,Human,,,,,AI,AI,,,,,,,AI,Human,,,,,,Human,,
+2023-12-08 22:44:04,2023-12-08 22:46:16,IP Address,30,131,False,2023-12-09 22:46:17,R_uqXMG4aKGIcobuh,anonymous,EN,I agree to participate -- Take me to the questionnaire!,25 - 34,Bachelor's degree,,Working,,Female,,USA,,Reddit,,Regular User (I frequently utilize LLMs for diverse applications.),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AI,,,,
