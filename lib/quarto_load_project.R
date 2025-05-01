@@ -10,7 +10,7 @@ loader <- function(path){
         ", "
       )[["libraries"]] |>
         lapply( \(library){
-          cat("Loading library:", library, "\n")
+          message("Loading library:", library)
           library(library, character.only = T)
         })
     }
@@ -50,7 +50,9 @@ quarto_load_project <- function(relative_path,
 
   # Load libraries
   #' Specified in the .dcf file for ProjectTemplate file structure.
-  if( load_libraries ) loader( get_path("config", "\\.dcf$") )
+  if( load_libraries ){
+    loader( get_path("config", "\\.dcf$") )
+  }
 
   #' Load local libraries
   if( load_local_library ){
@@ -58,14 +60,22 @@ quarto_load_project <- function(relative_path,
     loader( get_path("lib", "\\.cpp$") )
   }
 
-  # Cache
-  if( load_caches ) loader( get_path("cache", "\\.rdata$") )
-
   # Data
-  if( load_data_data ) loader( get_path("data", "\\.rdata$") )
+  if( load_data_data ){
+    loader( get_path("data", "\\.rdata$") )
+  }
   # Data scripts
-  if( load_data_scripts ) loader (get_path("data", "\\.r$") )
+  if( load_data_scripts ){
+    loader (get_path("data", "\\.r$") )
+  }
+
+  # Cache
+  if( load_caches ){
+    loader( get_path("cache", "\\.rdata$") )
+  }
 
   # Munge
-  if( load_munges ) loader( get_path("munge", "\\.r$") )
+  if( load_munges ){
+    loader( get_path("munge", "\\.r$") )
+  }
 }
