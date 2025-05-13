@@ -11,28 +11,29 @@ if( getOption("project_custom_ggplot") ){
 }
 
 
+# Set collection variables
 loss <- list(
-  pref    = list(),
-  detect  = list(),
-  quality = list()
+  pref    = list()
+  , detect  = list()
+  , quality = list()
 )
 
 raw_data <- list(
-  pref    = list(),
-  detect  = list(),
-  quality = list()
+  pref    = list()
+  , detect  = list()
+  , quality = list()
 )
 
 pre_data <- list(
-  pref    = list(),
-  detect  = list(),
-  quality = list()
+  pref    = list()
+  , detect  = list()
+  , quality = list()
 )
 
 data <- list(
-  pref    = list(),
-  detect  = list(),
-  quality = list()
+  pref    = list()
+  , detect  = list()
+  , quality = list()
 )
 
 figs <- list()
