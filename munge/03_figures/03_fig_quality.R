@@ -9,7 +9,7 @@ figs[["Quality_of_advice"]] <-
   stat_summary(fun.data =  mean_cl_boot, position = position_dodge(.4)) +
   labs(col = "Category")
 
-condition_save_figure(
+conditional_save(
   figs[["Quality_of_advice"]]
   , name = "Quality of the Advice")
 
@@ -43,7 +43,7 @@ figs[["Quality_of_advice--model"]] <-
                  position = position_dodge(.4)) +
   labs(y = "Rating", x = "Sources", col = "Category")
 
-condition_save_figure(
+conditional_save(
   figs[["Quality_of_advice--model"]]
   , name = "Quality of the Advice--model")
 

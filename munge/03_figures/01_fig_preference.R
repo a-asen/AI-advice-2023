@@ -6,7 +6,7 @@ figs[["Advice_preference"]] <-
   coord_cartesian(ylim = c(.5,1)) +
   geom_hline(yintercept=.5, linetype="dotted", col="red")
 
-condition_save_figure(
+conditional_save(
   figs[["Advice_preference"]]
   , name = "Preference for AI vs. Human advice")
 

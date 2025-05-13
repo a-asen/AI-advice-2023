@@ -11,7 +11,7 @@ figs[["Identification_of_Sources"]] <-
   scale_y_continuous(breaks = seq(0,1,.05), labels = paste0(seq(0,100, 5), " %")) +
   coord_cartesian(ylim = c(.4,1))
 
-condition_save_figure(
+conditional_save(
   figs[["Identification_of_Sources"]]
   , name = "Identification of AI and Human advice")
 
