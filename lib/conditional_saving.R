@@ -1,302 +1,152 @@
-#' Save data based on project options.
+#' Save an `object` based on conditions set in "options()"
 #'
-#' A condition saving function for data.
-#' Based upon "project_save_data_to_file", "project_save_data_location", "project_save_data_formats".
+#' A universal function to save data, figures, and tables based on project options.
+#' Detects the object type and applies the appropriate saving method.
 #'
-#' @param data The data.
-#' @param name The name of the file.
-#' @param ... To the 'save' function.
-#' @param .relative_path Manually interject a relative path (ignores project options).
+#' @param data The object to save (data, figure/plot, or table)
+#' @param name The name for the output file
+#' @param ... Additional parameters passed to the respective save functions
+#' @param .relative_path Manually set a relative path (overrides project options)
+#' @param .suppressMessages Suppress status messages
+#' @param .suppress_print Whether the object should be printed or not
 #'
-#' @return Nothing
+#' @return Object (invisiblely if .suppress_print = TRUE)
 #'
 #' @examples
-#' # Context: Option("project_save_data_to_file" = TRUE)
-#' condition_save_data(bayes_model, "bayes_test")
-#' # Message:
-#' # "Saving enabled, saving..."
-#' # "Saving file to data/bayes_test.RData"
-#' #
+#' # Save a data object
+#' bayesian_model <- brms::brm(mpg ~ cyl, mtcars)
+#' conditional_save(bayesian_model, "bayes_test")
+#'
+#' # Save a ggplot figure
+#' p <- ggplot(mtcars, aes(mpg, wt)) + geom_point()
+#' conditional_save(p, "scatter_plot", width = 8, height = 6)
+#'
+#' # Save a gt table
+#' tbl <- gt(mtcars[1:5, 1:5])
+#' conditional_save(tbl, "car_data_table")
+#'
 #' @export
-condition_save_data <- function(data , name, ..., .relative_path = NULL){
-  if( getOption("project_save_data_to_file") ){
-    message("Saving enabled, saving...")
+conditional_save <- function(data, name, ...
+                             , .relative_path = NULL
+                             , .suppressMessages = FALSE
+                             , .print = FALSE) {
 
-    # Get the name of the inputed data
-    data_name <- deparse( substitute(data) )
+  # Get the name of the input data for data objects
+  data_name <- deparse(substitute(data))
 
-    # Get project settings
-    loc <- getOption("project_save_data_location")
-    fmts <- getOption("project_save_data_formats")
+  # Determine the class of the input object
+  obj_class <- class(data)
 
-    # Check relative path saving ...
-    if( !exists("relative_path") & is.null(.relative_path)) relative_path <- ""
-    if( !is.null(.relative_path)) relative_path <- .relative_path
+  # Handle relative path - preserving original behavior
+  if (!exists("relative_path", inherits = TRUE) && is.null(.relative_path)) {
+    relative_path_final <- ""
+  } else if (!is.null(.relative_path)) {
+    relative_path_final <- .relative_path
+  } else {
+    relative_path_final <- get("relative_path", inherits = TRUE)
+  }
 
-    # Get time ...
-    time <- ""
-    if( getOption("project_bayes_save_with_date_time") ) time <- getOption("project_date_time")
+  # Initialize datetime suffix
+  datetime_suffix <- ""
 
-    # Save (across formats)
-    walk(fmts, \(fmt){
-      filename <- paste0(relative_path, loc, name, time, fmt)
-      message("Saving file to:", filename, "\n")
-      # Save the data as
+  # Process based on object type
+  if (any(obj_class %in% c("gg", "ggplot"))) {
+    # Figure/plot object
+    if (!requireNamespace("ggplot2", quietly = TRUE)) {
+      stop("Package 'ggplot2' is required for saving figures but is not available")
+    }
+
+    obj_type <- "figure"
+    save_enabled <- getOption("project_save_figs_to_file", default = FALSE)
+    save_location <- getOption("project_save_figs_location", default = "figures/")
+    save_formats <- getOption("project_save_figs_formats", default = c(".png"))
+    save_with_datetime <- getOption("project_save_figs_with_date_time", default = FALSE)
+
+    # Validate formats
+    valid_formats <- c(".eps", ".ps", ".tex", ".pdf", ".jpeg", ".tiff", ".png", ".bmp", ".svg")
+    if (!any(save_formats %in% valid_formats)) {
+      warning("Figure format(s) not valid. Saving as .png")
+      save_formats <- ".png"
+    }
+
+    # Set save function
+    save_func <- function(filename, ...) {
+      ggplot2::ggsave(filename, plot = data, ...)
+    }
+
+  } else if (any(obj_class %in% c("gt_tbl"))) {
+    # Table object
+    if (!requireNamespace("gt", quietly = TRUE)) {
+      stop("Package 'gt' is required for saving tables but is not available")
+    }
+
+    obj_type <- "table"
+    save_enabled <- getOption("project_save_tbls_to_file", default = FALSE)
+    save_location <- getOption("project_save_tbls_location", default = "tables/")
+    save_formats <- getOption("project_save_tbls_formats", default = c(".html"))
+    save_with_datetime <- getOption("project_save_tbls_with_date_time", default = FALSE)
+
+    # Validate formats
+    valid_formats <- c(".html", ".tex", ".ltx", ".rtf", ".docx")
+    if (!any(save_formats %in% valid_formats)) {
+      warning("Table format not valid, setting to .rtf...")
+      save_formats <- ".rtf"
+    }
+
+    # Set save function
+    save_func <- function(filename, ...) {
+      gt::gtsave(data, filename, ...)
+    }
+
+  } else {
+    # Assume it's a data object
+    obj_type <- "data"
+    save_enabled <- getOption("project_save_data_to_file", default = FALSE)
+    save_location <- getOption("project_save_data_location", default = "data/")
+    save_formats <- getOption("project_save_data_formats", default = c(".RData"))
+    save_with_datetime <- getOption("project_bayes_save_with_date_time", default = FALSE)
+
+    # Set save function
+    save_func <- function(filename, ...) {
       save(list = data_name, file = filename, ...)
-        #* So this function gets the object name, from data_name,
-        #* and retrieves it from the parent environment, and saves THAT object?
-    })
-
-    message("Saved")
-
-  } else {
-    message("Saving not enabled, skipping...")
-  }
-}
-
-
-
-#' Save a figure based on the project options.
-#'
-#' A function to check the conditions to save a figure.
-#' Based on "project_save_figs_to_file", "project_save_figs_format",
-#' "project_save_figs_with_date_time", "project_save_figs_location".
-#'
-#' @param data The figure/plot.
-#' @param name The name of the file name.
-#' @param ... To the 'ggsave' function.
-#' @param .suppressMessages Suppress messages.
-#' @param .relative_path Manually interject a relative path (ignores project options).
-#'
-#' @return The plot.
-#'
-#' @examples
-#' # Context: Option("project_save_figs_to_file" = TRUE)
-#' condition_save_figure(figure, "fig_1")
-#'
-#' @export
-condition_save_figure <- function(plot, name, ..., .suppressMessages = FALSE, .relative_path = NULL){
-  #' Save ggplot figures locally
-  #'
-  #' A handy function to save ggplots with minimal effort.
-  #' Options are set at the project level, such that the function requires only
-  #' applying a saving name.
-
-  require(tidyverse)
-  require(ggplot2)
-
-  # Check whether the data has the correct data structure to be saved...
-  class <- class(plot)
-
-  if(any(class %in% c("gg", "ggplot"))){
-    if(!.suppressMessages) message("Valid figure structure found, proceeding...")
-
-    # Get settings
-    save_figure <- getOption("project_save_figs_to_file")
-
-    # Check whether we should save anything
-    if(save_figure){
-      if(!.suppressMessages) message("Saving figure...")
-
-      fmts <- getOption("project_save_figs_formats")
-
-      if(!(any( fmts %in% c(".eps", ".ps", ".tex", ".pdf", ".jpeg", ".tiff", ".png", ".bmp", ".svg")) )){
-        warning("Figure format(s) not valid. Saving as .png")
-        fmts <- ".png"
-      }
-
-      base <- getOption("project_save_figs_location")
-      cond <- NULL
-      if(getOption("project_save_figs_with_date_time")) cond <- getOption("project_date_time")
-
-      # Check relative saving parameter as "relative_path".
-      if(!exists("relative_path") & is.null(.relative_path)) relative_path <- ""
-      if(!is.null(.relative_path)) relative_path <- .relative_path
-
-      # Set filename
-      filename <- paste0(relative_path, base, name, cond)
-      message("Saving files to:", filename, "\n")
-
-      # Save across formats
-      walk(fmts, \(fmt){
-        if(!.suppressMessages) message("Saving figure with format: ", fmt)
-        ggsave(paste0(filename, fmt), plot, ...)
-      })
-
-      if(!.suppressMessages) message("Done!")
-    } else {
-      if(!.suppressMessages) message("Figure saving disabled, skipping...")
     }
-  } else {
-    warning("Data is not a ggplot object. Cannot save as figure.")
   }
-  plot
-}
 
-#' Save a table based on the project options.
-#'
-#' A function to check the conditions to save a figure.
-#' Based on "project_save_figs_to_file", "project_save_figs_format",
-#' "project_save_figs_with_date_time", "project_save_figs_location".
-#'
-#' @param data The figure/plot.
-#' @param name The name of the file name.
-#' @param ... To the 'gtsave' function.
-#' @param .suppressMessages Suppress messages.
-#' @param .relative_path Manually interject a relative path (ignores project options).
-#'
-#' @return The plot.
-#'
-#' @examples
-#' # Context: Option("project_save_figs_to_file" = TRUE)
-#' condition_save_figure(figure, "fig_1")
-#'
-#' @export
-condition_save_table <- function(table, name, ..., .suppressMessages = FALSE, .relative_path = NULL, .suppress_print = FALSE){
-  #' Save gt tables locally
-  #'
-  #' A handy function to save gt tables with minimal effort.
-  #' Options are set at the project level, such that the function requires only
-  #' applying a saving name.
+  # Add datetime suffix if configured
+  if (save_with_datetime) {
+    datetime_suffix <- getOption("project_date_time", default = format(Sys.time(), "_%Y%m%d_%H%M%S"))
+  }
 
-  require(tidyverse)
-  require(gt)
+  # Process the save operation
+  if (save_enabled) {
+    if (!.suppressMessages) message("Saving ", obj_type, "...")
 
-  # Check whether the data has the correct data structure to be saved...
-  class <- class(table)
+    # Create base filename
+    base_filename <- paste0(relative_path_final, save_location, name, datetime_suffix)
 
-  if(any(class %in% c("gt_tbl"))){
-    if(!.suppressMessages) message("Valid table structure found, proceeding...")
+    if (!.suppressMessages) message("Saving files to: ", base_filename, "[format]")
 
-    # Get settings
-    save_table <- getOption("project_save_tbls_to_file")
-
-    # Check whether we should save anything
-    if(save_table){
-      if(!.suppressMessages) message("Saving table...")
-
-      fmts <- getOption("project_save_tbls_formats")
-
-      if(!(any( fmts %in% c(".html", ".tex", ".ltx", ".rtf", ".docx")) )){
-        warning("Table format not valid, setting to .rtf...")
-        fmts <- ".rtf"
-      }
-
-      base <- getOption("project_save_tbls_location")
-      cond <- NULL
-      if(getOption("project_save_tbls_with_date_time")) cond <- getOption("project_date_time")
-
-      # Check relative saving parameter as "relative_path".
-      if(!exists("relative_path") & is.null(.relative_path)) relative_path <- ""
-      if(!is.null(.relative_path)) relative_path <- .relative_path
-
-      # Set filename
-      filename <- paste0(relative_path, base, name, cond)
-      message("Saving files to:", filename, "\n")
-
-      # Save across formats
-      walk(fmts, \(fmt){
-        if(!.suppressMessages) message("Saving table with format: ", fmt)
-        gtsave(table, paste0(filename, fmt), ...)
-      })
-
-      if(!.suppressMessages) message("Done!")
-    } else {
-      if(!.suppressMessages) message("Table saving disabled, skipping...")
+    # Save across all specified formats
+    for (fmt in save_formats) {
+      filename <- paste0(base_filename, fmt)
+      if (!.suppressMessages) message("Saving ", obj_type, " with format: ", fmt)
+      save_func(filename, ...)
     }
+
+    if (!.suppressMessages) message("Done!")
   } else {
-    warning("Data is not a gt_tbl object. Cannot save as table.")
+    if (!.suppressMessages) {
+      # Capitalize first letter of object type
+      obj_type_cap <- paste0(toupper(substr(obj_type, 1, 1)),
+                             substr(obj_type, 2, nchar(obj_type)))
+      message(obj_type_cap, " saving not enabled, skipping...")
+    }
   }
 
-  if(!.suppress_print){
-    table
+  # Return the object (invisibly if requested)
+  if (.print) {
+    data
+  } else {
+    invisible(data)
   }
 }
-
-
-
-#' Add a meta function to each of the other functions.
-
-
-#' save_output_cnd <- function(data, name, relative_path = "",  ..., .suppressMessages = FALSE, .suppress_print = FALSE){
-#'   #' Save tabel and figure locally
-#'   #'
-#'   #' A handy function to save ggplots and gttables with minimal effort.
-#'   #' Options are set at the project level, such that the function requires only
-#'   #' applying a saving name.
-#'
-#'   #' could add "..., force_diff = FALSE"
-#'
-#'   require(tidyverse)
-#'   require(gt)
-#'   require(ggplot2)
-#'
-#'   # Check whether the data has the correct data structure to be saved...
-#'   class <- class(data)
-#'
-#'   if( any( class %in% c("gg", " ggplot", "gt_tbl") ) ){
-#'     if( !.suppressMessages )  message("Valid data structure found, proceeding...")
-#'
-#'     # Get settings
-#'     save_figure <- getOption("project_save_figs_to_file")
-#'     save_table  <- getOption("project_save_tbls_to_file")
-#'
-#'     #' Check whether we should save anything and *get* the respective *parameters*
-#'     if( any( save_figure, save_table) ){
-#'       # FIGURE
-#'       if( save_figure & any( class %in% c("gg", "ggplot") ) ){
-#'         if( !.suppressMessages )   message("Saving figure...")
-#'         type <- "fig"
-#'         fmts <- getOption("project_save_figs_formats")
-#'
-#'         if( !( any( fmts %in% c(".eps", ".ps", ".tex", ".pdf", ".jpeg", ".tiff", ".png", ".bmp", ".svg") ) ) ){
-#'           warning("Figure format not valid, using default .png...")
-#'           fmts <- ".png"
-#'         }
-#'         base <- getOption("project_save_figs_location")
-#'         cond <- NULL
-#'         if( getOption("project_save_figs_with_date_time") )   cond <- getOption("project_date_time")
-#'       }
-#'
-#'       # TABLE
-#'       if( save_table & any( class %in% c("gt_tbl") ) ){
-#'         if( !.suppressMessages )   message("Saving table...")
-#'
-#'         type <- "tbl"
-#'         fmts <- getOption("project_save_tbls_formats")
-#'         if( !( any( fmts %in% c(".html", ".tex", ".ltx", ".rtf", ".docx") ) ) ){
-#'           warning("Table format not valid, setting to .rtf...")
-#'           fmts <- ".rtf"
-#'         }
-#'         base <- getOption("project_save_tbls_location")
-#'         cond <- NULL
-#'         if( getOption("project_save_tbls_with_date_time") )   cond <- getOption("project_date_time")
-#'       }
-#'
-#'       print(relative_path)
-#'       # Check relative saving parameter as "relative_path".
-#'       if( !exists("relative_path") & is.null(.relative_path) ) relative_path <- ""
-#'       if( !is.null(.relative_path) ) relative_path <- .relative_path
-#'
-#'       # Set filname
-#'       filename <- paste0(relative_path, base, name, cond)
-#'       message("Saving files to:", filename, "\n")
-#'
-#'       # Save across....
-#'       walk(fmts, \(fmt){
-#'         if( !.suppressMessages ) message("Saving object: ", type, " with format: ", fmt)
-#'         if(type == "fig")        ggsave(paste0(filename, fmt), data, ...)
-#'         if(type == "tbl")        gtsave(data, paste0(filename, fmt))
-#'       })
-#'
-#'       if( !.suppressMessages )  message("Done!")
-#'     } else {
-#'       if( !.suppressMessages )  message("Saving disabled, skipping...")
-#'     }
-#'   }
-#'
-#'   if( !.suppress_print ){
-#'     data
-#'   }
-#' }
-

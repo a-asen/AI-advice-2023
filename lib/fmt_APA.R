@@ -16,19 +16,20 @@ fmt_APA_numbers <- function(x, .p = FALSE, .psym = FALSE, .low_val = FALSE, .chr
     # Frequentist PROBABILITY (p) with SYMBOLS
     # = symbol:
     if(.psym & !.p){
-      if( num > .999 ){ # for some reason we do not have "1"
-        return("> .999")
-      }
-      if( num < .001 ){
-        return("< .001")
-      }
+      if( num == 1 | is.infinite(num) ) return("= 1.00")
+      if( num > .999 )                  return("> .999")
+      if( num < .001 )                  return("< .001")
+
       return( round(num, 3) |> as.character() |> str_replace("0.", "= .") )
     }
 
     # Frequentist PROBABILITY (p)
     if(.p){
-      if( num > .999 ) return( ".999")
-      if( num < .001 ) return( ".001")
+      if( num == 1 | is.infinite(num) ) return( "1.00" )
+      if( num > .999 )                  return( "> .999" )
+      if( num == .999 )                 return( ".999" )
+      if( num == .001 )                 return( ".001" )
+      if( num < .001 )                  return( "< .001" )
 
       # else...
       num <-
