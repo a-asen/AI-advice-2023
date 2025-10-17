@@ -66,6 +66,9 @@ data[["quality"]] <-
          name_Source, name_Question, Helpfulness, Effectiveness, Appropriateness, Sensitivity) |>
   rename(
     Source = name_Source, Question = name_Question
+  ) |>
+  mutate(
+    Source = factor(Source) |> fct_relevel("Human")
   )
 
 
