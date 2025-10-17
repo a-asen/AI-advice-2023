@@ -1,0 +1,1 @@
+This is where generated figures are stored.
