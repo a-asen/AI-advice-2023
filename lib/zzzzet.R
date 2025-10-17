@@ -2,10 +2,10 @@
 #'  custom colours for ggplot (if enabled)
 if( getOption("project_custom_ggplot") ){
   options(
-    ggplot2.continous.colour  = gen_col("brBR")
-    , ggplot2.continous.fill  = gen_col("brBR")
-    , ggplot2.discrete.colour = gen_col("brBR")
-    , ggplot2.discrete.fill   = gen_col("brBR")
+    ggplot2.continous.colour  = gen_col("br+b+r")
+    , ggplot2.continous.fill  = gen_col("br+b+r")
+    , ggplot2.discrete.colour = gen_col("br+b+r")
+    , ggplot2.discrete.fill   = gen_col("br+b+r")
   )
   theme_set( theme_bw() )
 }

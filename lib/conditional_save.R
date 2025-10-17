@@ -104,7 +104,7 @@ conditional_save <- function(data, name, ...
     save_enabled <- getOption("project_save_data_to_file", default = FALSE)
     save_location <- getOption("project_save_data_location", default = "data/")
     save_formats <- getOption("project_save_data_formats", default = c(".RData"))
-    save_with_datetime <- getOption("project_bayes_save_with_date_time", default = FALSE)
+    save_with_datetime <- getOption("project_save_data_with_date_time", default = FALSE)
 
     # Set save function
     save_func <- function(filename, ...) {
@@ -114,7 +114,7 @@ conditional_save <- function(data, name, ...
 
   # Add datetime suffix if configured
   if (save_with_datetime) {
-    datetime_suffix <- getOption("project_date_time", default = format(Sys.time(), "_%Y%m%d_%H%M%S"))
+    datetime_suffix <- getOption("project_date_time")
   }
 
   # Process the save operation

@@ -2,17 +2,17 @@ version: 0.11.0
 data_loading: TRUE
 data_loading_header: TRUE
 data_ignore:
-cache_loading: TRUE
+cache_loading: FALSE
 recursive_loading: FALSE
 munging: TRUE
 logging: FALSE
 logging_level: INFO
 load_libraries: TRUE
-libraries: tidyverse, gt, brms, tidybayes, bayesplot, BayesFactor
+libraries: tidyverse, gt, brms, tidybayes, bayesplot, BayesFactor, patchwork
 as_factors: FALSE
 tables_type: tibble
 attach_internal_libraries: FALSE
-cache_loaded_data: TRUE
+cache_loaded_data: FALSE
 sticky_variables: NONE
 underscore_variables: TRUE
 cache_file_format: RData

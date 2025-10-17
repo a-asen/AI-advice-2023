@@ -10,7 +10,7 @@ options(
   , project_save_data_to_file = TRUE
   , project_save_data_location = "data/"
   , project_save_data_formats = c(".RData")
-  , project_save_data_with_date_time = FALSE
+  , project_save_data_with_date_time = TRUE
 
   #' **Figure related settings**
   , project_save_figs_to_file = TRUE
@@ -26,32 +26,30 @@ options(
 
   #' **Bayesian related settings**
   , project_bayes_run_models          = FALSE
-  , project_bayes_save_to_file        = FALSE
-  , project_bayes_save_with_date_time = TRUE
   , project_bayes_diagnostics         = FALSE
-
-  , mc.cores                            = 6   # or as many as you have
-  , brms.backend                        = "cmdstanr"
+  , mc.cores                          = 6   # or as many as you have
+  , brms.backend                      = "cmdstanr"
 
 
   #' ** Preferred colours**
   , project_custom_colours = list(
-    `-r` = "#ffd6d2", r = "#F8766D", R = "#b20b00", `+R` = "#8c0000",
-    `-b` = "#d6e9ff", b = "#78ADFF", B = "#00348C", `+B` = "#00246D",
-    `-g` = "#c9ffd6", g = "#00BA38", G = "#006400", `+G` = "#004B00",
-    `-o` = "#ffe0c2", o = "#FF9E4A", O = "#B25000", `+O` = "#8C3D00",
-    `-y` = "#fffbd6", y = "#FFE359", Y = "#D1B000", `+Y` = "#AA8F00",
-    `-p` = "#e9d6ff", p = "#B476FF", P = "#7436B3", `+P` = "#5A1A99"
+    B = "#000000", W = "#ffffff"
+    , `/G` = "#F5F5F5", `-G` = "#D3D3D3", G = "#808080", `+G` = "#404040", `*G` = "#1A1A1A"
+    , `/r` = "#ffd6d2", `-r` = "#F8A290", r = "#F8766D", `+r` = "#b20b00", `*r` = "#8c0000"
+    , `/g` = "#c9ffd6", `-g` = "#7AD686", g = "#00BA38", `+g` = "#006400", `*g` = "#004B00"
+    , `/b` = "#d6e9ff", `-b` = "#8EBEFF", b = "#78ADFF", `+b` = "#00348C", `*b` = "#00246D"
+    , `/o` = "#ffe0c2", `-o` = "#FFC490", o = "#FF9E4A", `+o` = "#B25000", `*o` = "#8C3D00"
+    , `/y` = "#fffbd6", `-y` = "#FFF090", y = "#FFE359", `+y` = "#D1B000", `*y` = "#AA8F00"
+    , `/p` = "#e9d6ff", `-p` = "#D0B6FF", p = "#B476FF", `+p` = "#7436B3", `*p` = "#5A1A99"
   )
   # project_custom_colours_rrR      = c("#ffd6d2", "#F8766D", ),
   # project_custom_colours_rgy      = c("#F8766D", "#619CFF", "#f8ea6d"),
   # project_custom_colours_pale_bBrR = c("#4477AA","#114477","#EE6677","#991122"),
 
   #' **GGplot**
-  ,project_custom_ggplot = TRUE
+  , project_custom_ggplot = TRUE
 
 
-  #
   #' Because partial matching exists, warn whenever such an instance occur,
   #' as this can be especially problematic for statistical analysis.
   , warnPartialMatchArgs = TRUE

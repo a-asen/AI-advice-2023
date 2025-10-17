@@ -58,28 +58,32 @@ rep_bayes_coef <- function(x, .rep = "simple", ..., coef_calc = NULL, .preserve_
   #' Produce a simple text output of a Bayesian posterior vector
 
   .rep2 <- str_to_lower(.rep)
+  ..p      <- FALSE
+  ..psym   <- TRUE
 
   if( .rep2 %in% c("text", "txt", "tx", "long", "lng", "rep", "report", "text report", "text rep", "txt rep", "txt report") ){
-    .rep2 <- "long"
-    .psym = T
-    .p    = F
-  } else if ( .rep2 %in% c("df","data", "frm", "dataframe", "data.frame", "tibble", "frame") ){
-    .rep2 <- "df"
-    .psym = F
-    .p    = T
-  } else {
-    .psym = F
-    .p    = T
+    .rep2  <- "long"
+  }
+  if( .rep2 %in% c("df","tbl", "tbls", "frm","fram","frame","dframe","dfrm", "dataframe","data.frame", "tibble") ){
+    .rep2  <- "df"
+    ..p    <- TRUE
+    ..psym <- FALSE
+  }
+  # Report m_hdi
+  if(.rep2 %in% c("m_hdi", "mean_hdi")){
+    return( sprintf("b = %s %s", mean_fix, hdi) )
   }
 
-
-  if(!is.null(coef_calc)){
+  # IF coefficient transformation
+  if( !is.null(coef_calc) ){
     x2 <- bayes_estimate_transformation(x, transformation = coef_calc)
   } else {
     x2 <- x
   }
-    # MEAN
+
+  # MEAN
   mean                     <- mean(x2)
+
   # preserve negative if rounding turns very low
   if(.preserve_negative & mean < 0 & round(mean, 2)==0){
     mean_fix <- paste0("-", fmt_APA_numbers(mean, .chr=T, ...))
@@ -89,40 +93,41 @@ rep_bayes_coef <- function(x, .rep = "simple", ..., coef_calc = NULL, .preserve_
 
   # HDI
   hdi                      <- rep_bayes_hdi(x2, ...)
-  # Report m_hdi
+
+  ## RETURN m_hdi ##
+  # quick & dirty m(hdi)
   if(.rep2 %in% c("m_hdi", "mean_hdi")){
     return( sprintf("b = %s %s", mean_fix, hdi) )
   }
 
-  # ER + p
+  # ERdir + pdir
   evidence_ratio_direction <- rep_bayes_er(x, ...)
-  probability_direction    <- rep_bayes_p(x, ..., .psym = .psym, .p = .p)
+  probability_direction    <- rep_bayes_p( x, ..., .p = ..p, .psym = ..psym)
 
   # Present infinity if infinity
   if( is.infinite(evidence_ratio_direction) ){
     evidence_ratio_direction = if_else(evidence_ratio_direction < 0, "-\\infty", "\\infty")
   }
 
-  ####    RETURN    ####
-  #' If dataframe specified, return data frame.
+  ## Return a DATA FRAME ##
   if( .rep == "df" ){ return( tibble::tibble(
     m = mean_fix, hdi = hdi, er = evidence_ratio_direction, p = probability_direction
-  ))
+    ) )
   }
 
-  #' Otherwise, return text version
+  ## Return a TEXT STRING ##
   sprintf(
     switch(
       .rep2
       , simple = "b = %s, %s, ER = %s, p %s"
-      , long = "$b = %s$, %s, $\\text{ER}_\\text{dir} = %s$, $p_\\text{dir} %s$",
+      , long = "$b = %s$, %s, $\\text{ER}_\\text{dir} = %s$, $p_\\text{dir} %s$"
     )
     , mean_fix, hdi, evidence_ratio_direction, probability_direction
   )
 }
 
 #' Shorthand wrapper for `rep_bayes_coef()` text reports.
-rbc <- function(x, ..., coef_calc = NULL, .rep = "text"){
+rbc <- function(x, ..., .rep = "text", coef_calc = NULL){
   rep_bayes_coef(x, .rep = .rep, coef_calc = coef_calc, ...)
 }
 
@@ -219,6 +224,7 @@ bayes_diag <- function( bayes_model, convergence = TRUE, offset = 0){
   bayes_coef_plot( bayes_model, offset = offset )
 }
 
+
 #' Apply Transformation Functions to Data
 #'
 #' @description
@@ -246,6 +252,10 @@ bayes_diag <- function( bayes_model, convergence = TRUE, offset = 0){
 #'   \item \code{log}: Apply the natural logarithm
 #'   \item \code{log2}: Apply the base-2 logarithm
 #'   \item \code{log10}: Apply the base-10 logarithm
+#'   \item \code{dnorm}: Apply a density function
+#'   \item \code{pnorm}: Apply a distribution function
+#'   \item \code{qnorm}: Apply a quantile function
+#'   \item \code{rnorm}: Apply a random deviates
 #' }
 #'
 #' @examples
@@ -276,14 +286,14 @@ bayes_diag <- function( bayes_model, convergence = TRUE, offset = 0){
 #'
 #' @export
 bayes_estimate_transformation <- function(data, transformation, coefficient = NULL) {
+
   # If transformation is already a function, use it directly
-  transform_func <- if( is.function(transformation) ) {
-    transformation
-  }
+  transform_func <- if( is.function(transformation) ) transformation
+
   if( transformation %in% c("mean", "m", "M") ) return( data )
   else {
     # Otherwise, get the function based on the name
-    transform_func <- switch(
+    transform_func <-switch(
       transformation,
       plogis = plogis,
       dlogis = dlogis,
@@ -292,26 +302,30 @@ bayes_estimate_transformation <- function(data, transformation, coefficient = NU
       log    = log,
       log2   = log2,
       log10  = log10,
+      dnorm  = dnorm,
+      pnorm  = pnorm,
+      qnorm  = qnorm,
+      rnorm  = rnorm,
       # Add a default case to handle invalid transformation names
       stop( paste("Unknown transformation:", transformation) )
     )
   }
 
   # Apply the function to the data
-  if (is.null(coefficient)) {
+  if( is.null(coefficient) ){
     # If data is a vector, just apply the transformation
-    if (is.vector(data) && !is.list(data)) {
-      return(transform_func(data))
+    if( is.vector(data) && !is.list(data) ){
+      return( transform_func(data) )
     } else {
       # Handle case when user passes a whole tibble/data.frame without coefficient
       stop("Must specify a coefficient when data is not a simple vector")
     }
   } else {
     # Handle different data types
-    if (is.data.frame(data) || inherits(data, "data.frame") || inherits(data, "tbl_df")) {
+    if( is.data.frame(data) || inherits(data, "data.frame") || inherits(data, "tbl_df") ){
       # Data frame or tibble case - use [[ ]] for extraction
-      if (!coefficient %in% names(data)) {
-        stop(paste("Column", coefficient, "not found in the data"))
+      if( !coefficient %in% names(data) ){
+        stop( paste("Column", coefficient, "not found in the data") )
       }
 
       # Create a copy of the data to avoid modifying the original
@@ -322,27 +336,27 @@ bayes_estimate_transformation <- function(data, transformation, coefficient = NU
       result[[coefficient]] <- transform_func(column_data)
 
       return(result)
-    } else if (is.matrix(data)) {
+    } else if( is.matrix(data) ){
       # Matrix case - use [, ] for extraction
       result <- data  # Create a copy
 
       # Handle either numeric index or column name
       col_index <- coefficient
-      if (is.character(coefficient)) {
+      if( is.character(coefficient) ){
         # Check if the matrix has column names
-        if (is.null(colnames(data))) {
+        if( is.null(colnames(data)) ){
           stop("Matrix has no column names. Use a numeric index instead.")
         }
-        if (!coefficient %in% colnames(data)) {
-          stop(paste("Column name", coefficient, "not found in the matrix"))
+        if( !coefficient %in% colnames(data) ){
+          stop( paste("Column name", coefficient, "not found in the matrix") )
         }
-        col_index <- which(colnames(data) == coefficient)
-      } else if (is.numeric(coefficient)) {
-        if (coefficient > ncol(data) || coefficient < 1) {
-          stop(paste("Invalid column index:", coefficient))
+        col_index <- which( colnames(data) == coefficient )
+      } else if( is.numeric(coefficient) ){
+        if( coefficient > ncol(data) || coefficient < 1 ){
+          stop( paste("Invalid column index:", coefficient) )
         }
       } else {
-        stop("For matrices, coefficient must be either a column name or numeric index")
+        stop( "For matrices, coefficient must be either a column name or numeric index" )
       }
 
       # Apply transformation
@@ -355,18 +369,10 @@ bayes_estimate_transformation <- function(data, transformation, coefficient = NU
   }
 }
 
-rb_tbl <- function(model, col_names, ...){
 
-  #' unwrap ...
-  #' fetch what is relevant for rb_tabl_summarise and send further.
-  #'
-  rb_table_summarise(model, ) |>
-    rb_bayes_add_sig() |>
-    rename_with(col_names)
-}
-
-
-rb_table_summarise <- function(model
+#'
+#' @param coef_except Vector of named coefficients (can take regex)
+bayes_tbl_sum <- function(bayes_model
                           , add_sigma = FALSE
                           , add_loo = FALSE
                           , add_R2 = FALSE
@@ -389,7 +395,6 @@ rb_table_summarise <- function(model
     add_sigma  = T
     add_loo    = T
     add_R2     = T
-    add_loo_R2 = T
   }
 
   #' FUNCTION FUNCTIONS
@@ -420,7 +425,7 @@ rb_table_summarise <- function(model
   var_names <- colnames(mod_data)
 
   # Get BETA variable names
-  var_b_names <- var_names[stringr::str_detect(var_names, "^b_")]
+  var_b_names <- var_names[stringr::str_detect(var_names, "^b")]
 
   ###   ADD COEFFICIENTS   ###
   # FOR EACH BETA. Get the posterior (m, hdi, er, p | and)
@@ -432,7 +437,7 @@ rb_table_summarise <- function(model
     #' additional - also ignore case, then we do not want to estimate the
     #' coefficient differently (i.e., follow est_formula).
     except_coefficient_switch <- purrr::map(coef_except, \(except){
-      stringr::str_starts(coefficient, stringr::regex(paste0("^", except), ignore_case = T ))
+      stringr::str_detect(coefficient, stringr::regex(except, ignore_case = T ))
     }) |> list_c()
 
     # If coefficient is except, then mean transformation, otherwise, as specified
@@ -448,7 +453,7 @@ rb_table_summarise <- function(model
 
     # Frame
     coef_est <- tibble::tibble(
-      var = stringr::str_replace(coefficient, "b_", "")
+      var = stringr::str_replace(coefficient, "(^b_)|(^bsp_)", "")
       , m = c_m, hdi = c_hdi, er = c_er, p = c_p)
 
     # If convergence is enabled, add the convergence statistic for each BETA
@@ -576,6 +581,7 @@ rb_table_summarise <- function(model
       R2_name <- ifelse(fmt_md, "$\\text{R}^2$", "R2")
 
       r2 <- tidybayes::mean_hdi( bayes_model[["criteria"]][["bayes_R2"]] ) |>
+        filter(row_number() == 1) |>
         fmt_APA_numbers(.chr=T, .low_val=T, .rm_leading_0 = T)
 
       r2_df <- tibble::tibble(
@@ -598,7 +604,7 @@ rb_table_summarise <- function(model
 }
 
 
-bayes_tbl_add_sig <- function(data, sig = .95, na.rm = TRUE){
+bayes_tbl_add_sig <- function(data, sig = .95, na.rm = T){
   #' Function to add significance marker to tables produced from @bayes_tbl_sum.
 
   require(tidyverse)
@@ -608,7 +614,7 @@ bayes_tbl_add_sig <- function(data, sig = .95, na.rm = TRUE){
   if(na.rm) data <- data |> mutate( ppp222 = if_else( is.na(ppp222), 0, ppp222) )
   data |>
     mutate(
-      m  = if_else(ppp222 > sig, paste0(m,"*"), m),
+      m  = if_else(ppp222 >= sig, paste0(m,"*"), m),
       ppp222 = NULL
     )
 }
@@ -683,4 +689,101 @@ tab_bayes_generics <- function(data, fmt_md_var = F, pre_footnote="", post_footn
   }
 
   data
+}
+
+
+
+
+#' Calculate Expected Value with HDI for Ordinal Bayesian Models
+#'
+#' Computes the expected value and highest density interval (HDI) across
+#' ordinal categories for cumulative ordinal regression models.
+#'
+#' @param bayes_model A Bayesian ordinal regression model object (e.g., from brms)
+#' @param transformation Character string specifying the inverse link function.
+#'   Options: "pnorm" (probit), "plogis" (logit). Default is "pnorm".
+#' @param reference Numeric value for the linear predictor. Use 0 for reference
+#'   level, or add coefficient values for other levels. Default is 0.
+#' @param categories Optional numeric vector of category values. If NULL (default),
+#'   assumes sequential integers from 1 to (number of intercepts + 1).
+#' @param prob Probability mass for the HDI. Default is 0.95 (95% HDI).
+#'
+#' @return List containing:
+#'   - estimate: posterior mean of expected value
+#'   - median: posterior median of expected value
+#'   - lower: lower bound of HDI
+#'   - upper: upper bound of HDI
+#'
+#' @examples
+#' # For reference level (e.g., GPT3.0)
+#' result <- bayes_coef_intercept_hdi(mod.quality$appr, transformation = "pnorm")
+#' cat("Expected value:", result$estimate,
+#'     "HDI: [", result$lower, ",", result$upper, "]\n")
+#'
+#' @export
+bayes_coef_intercept <- function(bayes_model,
+                                 transformation,
+                                 reference = 0,
+                                 categories = NULL,
+                                 prob = 0.95) {
+  require(tidybayes)
+  require(posterior)
+  require(bayestestR)
+
+  # Get posterior draws
+  draws <- as_draws_df(bayes_model)
+
+  # Extract intercept column names
+  intercept_cols <- grep("^b_Intercept\\[", colnames(draws), value = TRUE)
+
+  # Determine transformation function
+  transform_fn <- match.fun(transformation)
+
+  # Define category values if not provided
+  n_intercepts <- length(intercept_cols)
+  if (is.null(categories)) {
+    categories <- 1:(n_intercepts + 1)
+  }
+
+  # Verify length match
+  if (length(categories) != (n_intercepts + 1)) {
+    stop("Length of 'categories' must equal number of intercepts + 1")
+  }
+
+  # Calculate expected value for each posterior draw
+  n_draws <- nrow(draws)
+  expected_values <- numeric(n_draws)
+
+  for (i in 1:n_draws) {
+    # Extract intercepts for this draw
+    intercepts_draw <- as.numeric(draws[i, intercept_cols])
+
+    # Calculate cumulative probabilities
+    cum_probs <- transform_fn(intercepts_draw - reference)
+    cum_probs <- c(0, cum_probs, 1)
+
+    # Calculate category probabilities
+    cat_probs <- diff(cum_probs)
+
+    # Calculate expected value for this draw
+    expected_values[i] <- sum(categories * cat_probs)
+  }
+
+  # Calculate summary statistics
+  result <- list(
+    estimate = mean(expected_values),
+    median   = median(expected_values),
+    sd       = sd(expected_values),
+    qlower   = quantile(expected_values, probs = (1 - prob) / 2)[[1]],
+    qupper   = quantile(expected_values, probs = 1 - (1 - prob) / 2)[[1]]
+  )
+
+  # Add HDI using bayestestR if available
+  if (requireNamespace("bayestestR", quietly = TRUE)) {
+    hdi_result <- bayestestR::hdi(expected_values, ci = prob)
+    result$hdi_lower <- hdi_result$CI_low
+    result$hdi_upper <- hdi_result$CI_high
+  }
+
+  return(result)
 }
