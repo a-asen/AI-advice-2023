@@ -1,0 +1,7 @@
+m <- list()
+m$d   <- as.matrix(mod.detect)
+m$p   <- as.matrix(mod.pref)
+m$q.h <- as.matrix(mod.quality$help)
+m$q.e <- as.matrix(mod.quality$eff)
+m$q.a <- as.matrix(mod.quality$appr)
+m$q.s <- as.matrix(mod.quality$sens)
