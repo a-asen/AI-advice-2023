@@ -27,50 +27,41 @@ quarto_load_project(relative_path)
 
 ## Statistical methods
 
-All data analyses were conducted in R [@rcoreteam2025]. We used Bayesian statistics implementing logistic and ordered-probit models with the brms package [@bükner2017] that uses Hamiltonian Monte-Carlo (HMC) algorithms via the Stan software [@standevelopmentteam2025]. The default priors in the brms pacakge are uniform and are uninformative for fixed effects, corresponding to m = 0 and an SD = 2.5. All models were ran with 6 separate chains of 6000 iterations each and the first 3000 iterations were discarded (warmup). Convergence was determined by visual inspection of the traceplots and ensuring that the ̂R values were below 1.05 [@vehtari2021]. We described the posterior distribution by highlighting the estimates mean and its corresponding 95% highest density interval (HDI). In addition, we provide the evidence ratio ($\text{ER}_\text{dir}$) for the effect (coefficient) being in one direction against the other (e.g., *b* = 1.1 with an ER = 20, indicates that there are 20 times more evidence that the effect is positive rather than negative). We also describe the probability ($p_\text{dir}$) that the posterior effects (coefficents) is in one direction against the other (e.g., *b* = -0.8, $p_\text{dir} = .95$ indicates that there is a 95% probability that the effect is negative rather than positive). To give a sense of the magnitude of the effects, we will describe the effect of the coefficient estiamtes in terms of the ER. An effect with an ER below 5 will be considered as no evidence, while an ER below 10 will be described as weak, below 20 as tentative, and above 20 as substantial. Although, it is important to note that these threshold are arbitrary and only describe a "degree" of confidence rather than a strict significant or non-significant effect. 
+All data analyses were conducted in R [@rcoreteam2025]. We used Bayesian statistics implementing logistic and ordered-probit models with the brms package [@bürkner2017] that uses Hamiltonian Monte-Carlo (HMC) algorithms via the Stan software [@standevelopmentteam2024]. The default priors in the brms pacakge are uniform and are uninformative for fixed effects, corresponding to m = 0 and an SD = 2.5. All models were ran with 6 separate chains of 6000 iterations each and the first 3000 iterations were discarded (warmup). Convergence was determined by visual inspection of the traceplots and ensuring that the $\hat{\text{R}}$ values were below 1.05 [@vehtari2017]. We described the posterior distribution by highlighting the estimates mean and its corresponding 95% highest density interval (HDI). In addition, we provide the evidence ratio ($\text{ER}_\text{dir}$) for the effect (coefficient) being in one direction against the other (e.g., *b* = 1.1 with an ER = 20, indicates that there are 20 times more evidence that the effect is positive rather than negative). We also describe the probability ($p_\text{dir}$) that the posterior effects (coefficients) is in one direction against the other (e.g., *b* = -0.8, $p_\text{dir} = .95$ indicates that there is a 95% probability that the effect is negative rather than positive). To give a sense of the magnitude of the effects, we will describe the effect of the coefficient estimates in terms of the ER. An effect with an ER below 5 will be considered as no evidence, while an ER below 10 will be described as weak, below 20 as tentative, and above 20 as substantial [@alexandersen2025]. Although, it is important to note that these threshold are arbitrary and only describe a "degree" of confidence rather than a strict significant or non-significant effect.
 
-For the preference study, we used a logistic hierarchical regression model with the dependent variable Choice (AI = 1, vs. human = 0) and the predictor Model (GPT3.0, GPT3.5, GPT4.0). In the model, each subject received their own intercept. We compared this model against two others that included Trust (in AI) as a predictor and one with an interaction with Model. Model selection suggested that the simpler model, containing only Model, performed the best.
+For the preference study, we used a logistic hierarchical regression model with the dependent variable Choice (AI = 1, vs. human = 0) and the predictor Model (GPT3.0, GPT3.5, GPT4.0). In the model, each subject received their own intercept. We compared this model against two others that included Trust (in AI) as a predictor and one with an interaction with Model. Model selection suggested that the model containing only the predictor Model performed the best, which we decided to use.
 
-For the identification study, we used a logistic hierarchcial regression model with the depenedet variable Choice (1 correct identification, 0 false identification) with Source (Human, GPT3.0, GPT3.5, GPT4.0) as the predictor. Each subject received their own intercept included in the model. We compared this model against models containing a random intercept for the questions. Model comparison did not suggest that a random intercept for the mdoels improved the model and, therefore, we used the simpler model containing only Model. 
+For the identification study, we used a logistic hierarchcial regression model with the depenedet variable Choice (1 correct identification, 0 false identification) with Source (Human, GPT3.0, GPT3.5, GPT4.0) as the predictor. Each subject received their own intercept included in the model. We compared this model against models containing a random intercept for the questions. Model comparison did not suggest that a random intercept for the questions improved the model; therefore, we used the simpler model containing only the predictor Source.
 
-For the quality study, we used used four ordered-probit model for each of the dependent variables of quality assessment (Helpfulness, Effectiveness, Appropriateness and Sensitivity). The models included the predictor Model and a random intercept for both Subjects and Questions. The models were compared against the simpler model containing only a random intercept for Subjecs. Performance were approximately equal for 2 of the models, and better for 2 models having both random intercept for Subject and Question. For the sake of simplicity, and for lacking larger samples, we used the simpler model witb only a random intercept for Subject for all the dependent variables.
+For the quality study, we used used four ordered-probit models for each of the dependent variables of quality assessment (Helpfulness, Effectiveness, Appropriateness and Sensitivity). The models included the predictor Model and a random intercept for both Subjects and Questions. The models were compared against the simpler model containing only a random intercept for Subjecs. Performance were approximately equal for 2 of the models, and better for 2 models having both random intercept for Subject and Question. For the sake of simplicity, and for lacking larger sample, we decided to use the simpler model with only a random intercept for Subject for all the dependent variables.
 
 # Results
 
 ## Identification study (1)
 
-Results for the detection study (@tbl-logistics) indicated substantial evidence that our participants managed to identify the human generated answers (`r rbc(m$d[,"b_true_answerHuman"], coef_calc="plogis")`) and the GPT4.0 generated answers (`r rbc(m$d[, "b_true_answerGPT4.0"], coef_calc="plogis")`). However, no evidence suggested that our participants could detect the GPT3.0 (`r rbc(m$d[,"b_true_answerGPT3.0"], coef_calc="plogis")`), produced advice and only weak evidence that they could detect the GPT3.5 (`r rbc(m$d[, "b_true_answerGPT3.5"], coef_calc="plogis")`) produced advice. 
+Results from the identification experiment (@fig-preference-and-detect a; @tbl-logistics) indicated substantial evidence that the participants managed to identify the Human (`r rbc(m$d[["b_true_answerHuman"]], coef_calc="plogis")`) generated advice as compared to the GPT generated advice, as well as substantial evidence that GPT4.0 generated advice (`r rbc(m$d[["b_true_answerGPT4.0"]], coef_calc="plogis")`) could be identified above Human generated advice. However, no evidence suggested that the participants could identify the GPT3.0 (`r rbc(m$d[["b_true_answerGPT3.0"]], coef_calc="plogis")`) generated advice, and only weak evidence that they could detect the GPT3.5 (`r rbc(m$d[["b_true_answerGPT3.5"]], coef_calc="plogis")`) generated advice as compared to the human advice.
 
 ## Preference study (2)
+@fig-preference-and-detect
+As for the preference of the advice (@fig-preference-and-detect b; @tbl-logistics), the participants indicated substantial evidence for a preference of the GPT3.0 (`r rbc(m$p[["b_modelGPT3.0"]], coef_calc="plogis")`), GPT3.5 (`r rbc(m$p[["b_modelGPT3.5"]], coef_calc="plogis")`) and GPT4.0 (`r rbc(m$p[["b_modelGPT4.0"]], coef_calc="plogis")`) generated advice compared to the human advice. Generally, between the models, there was at best weak evidence for a difference between the GPT3.5 and the GPT4.0 (`r rbc(m$p[["diff_3.5_4.0"]], coef_calc="plogis")`), and otherwise no evidence in favour of a difference (GPT3.0 vs GPT3.5: `r rbc(m$p[["diff_3.0_3.5"]], coef_calc="plogis")`; GPT3.0 vs GPT4.0: `r rbc(m$p[["diff_3.0_4.0"]], coef_calc="plogis")` )
 
-As for the preference (@tbl-logistics) of the advice, our participants indicated substantial evidence for a preference for the GPT3.0 generated advice (`r rbc(m$p[,"b_Intercept"], coef_calc="plogis")`) but not for the GPT3.5: `r rbc(m$p[,"b_modelGPT3.5"], coef_calc="plogis")` or the GPT4.0: `r rbc(m$p[,"b_modelGPT4.0"], coef_calc="plogis")`) generated advice. 
-
-
-```{r Plot of trust, warning=FALSE, message=FALSE}
-#| label: fig-preference-for-ai-trust-level
+```{r}
+#| label: fig-preference-and-detect
 #| fig-cap: Influence of Trust Leve on Preference for AI Advice
 #| cap-location: top 
 #| fig-width: 6
 #| fig-height: 3
 #| fig-dpi: 300
 #| fig-format: svg
+#| include: true 
 
 figs[["Identification_of_Sources"]] + 
   figs[["Advice_preference"]] 
 ```
 
-
 # Study 3 - Quality
 
-The descriptive trends for the quality study is presented in @fig-quality-of-advice showing a general increase in advice quality with AI and further with newer models. 
-
-For the dependent variable Appropriateness, we observed substantial evidence that all AI generated answers (GPT3.0: `r rbc(m$q.a[,"b_SourceGPT3"])`; GPT3.5: `r rbc(m$q.s[,"b_SourceGPT3.5"])`; GPT4.0: `r rbc(m$q.s[,"b_SourceGPT4"])` ) were rated as more appropriate compared to the human answers (`r bayes_coef_intercept(mod.quality$appr, "pnorm") |> fmt_APA_numbers() |> (\(x) sprintf("M = %.2f, HDI = [%.2f, %.2f]", x["estimate"], x["hdi_lower"], x["hdi_upper"]))()`).
-
-For the dependent variable Effectiveness, we observed substantial evidence that GPT4.0 generated more Effective advice compared to the human answers (`r bayes_coef_intercept(mod.quality$eff, "pnorm") |> fmt_APA_numbers() |> (\(x) sprintf("M = %.2f, HDI = [%.2f, %.2f]", x["estimate"], x["hdi_lower"], x["hdi_upper"]))()`). Meanwhile, we observed no evidence that GPT3.0 (`r rbc(m$q.e[,"b_SourceGPT3"])`) or GPT 3.5 (`r rbc(m$q.e[,"b_SourceGPT3.5"])`) were rated as more effective than the human answers. 
-
-For the dependent variable Helpfulness a similar pattern was observed. We found substantial evidence that the GPT4.0 (`r rbc(m$q.h[,"b_SourceGPT4"])`) generated advice were rated as more helpful than the human answers (`r bayes_coef_intercept(mod.quality$appr, "pnorm") |> fmt_APA_numbers() |> (\(x) sprintf("M = %.2f, HDI = [%.2f, %.2f]", x["estimate"], x["hdi_lower"], x["hdi_upper"]))()`). Whereas no evidence suggested that GPT3.0 (`r rbc(m$q.h[,"b_SourceGPT3"])`), but tentative evidence that GPT3.5 (`r rbc(m$q.h[,"b_SourceGPT3.5"])`) were more helpful than the human answers. 
-
-For the dependent variable Sensitivity, all AI generated answers (GPT3.0: `r rbc(m$q.s[,"b_SourceGPT3"])`; GPT3.5: `r rbc(m$q.s[,"b_SourceGPT3.5"])`; GPT4.0: `r rbc(m$q.s[,"b_SourceGPT4"])`) were rated as more sensitive than the human generated answers (Human: `r bayes_coef_intercept(mod.quality$sens, "pnorm") |> fmt_APA_numbers() |> (\(x) sprintf("M = %.2f, HDI = [%.2f, %.2f]", x["estimate"], x["hdi_lower"], x["hdi_upper"]))()`). 
+The descriptive trends for the quality study is presented in @fig-quality-of-advice showing a general increase in advice quality with AI and further with newer models. For the dependent variable Appropriateness, we observed substantial evidence that all AI generated answers (GPT3.0: `r rbc(m$q.a[["b_SourceGPT3"]])`; GPT3.5: `r rbc(m$q.s[["b_SourceGPT3.5"]])`; GPT4.0: `r rbc(m$q.s[["b_SourceGPT4"]])` ) were rated as more Appropriate compared to the Human advice (`r m$q.aI`). For the dependent variable Effectiveness, we observed substantial evidence that GPT4.0 generated more Effective advice as compared to the Human advice (`r m$q.eI`). Meanwhile, we observed no evidence that GPT3.0 (`r rbc(m$q.e[["b_SourceGPT3"]])`) or GPT 3.5 (`r rbc(m$q.e[["b_SourceGPT3.5"]])`) were rated as more Effective than the human advice. For the dependent variable Helpfulness a similar pattern was observed. We found substantial evidence that the GPT4.0 (`r rbc(m$q.h[["b_SourceGPT4"]])`) generated advice were rated as more Helpful than the Human advice (`r m$q.hI`). Whereas no evidence suggested that the GPT3.0 (`r rbc(m$q.h[["b_SourceGPT3"]])`) were more Helpful than Human advice, but tentative evidence that GPT3.5 (`r rbc(m$q.h[["b_SourceGPT3.5"]])`) were more helpful than the Human advice. Lastly, for the dependent variable Sensitivity, all AI generated advice (GPT3.0: `r rbc(m$q.s[["b_SourceGPT3"]])`; GPT3.5: `r rbc(m$q.s[["b_SourceGPT3.5"]])`; GPT4.0: `r rbc(m$q.s[["b_SourceGPT4"]])`) were rated as more Sensitive than the Human advice (`r m$q.sI`).
 
 
 ```{r}
@@ -85,11 +76,24 @@ figs[["Quality_of_advice"]]
 ```
 
 
+
+{{< pagebreak >}}
+
 ::: {#refs}
 :::
 
+{{< pagebreak >}}
 
 # Supplementary {.appendix}
+
+
+
+::: callout-important
+It is interesting to note that the explained variance is large for the identificaiton and preference study, but low for the quality study. This suggests that the source (AI or human) does not explain a large variety of variance for the quality of the rating. We may postulate other reasonable variables to explain the lacking fit, such as sex -- females may rate different than males, increasing variability and hence reducing the explained variance.
+:::
+
+.
+
 
 ```{r}
 #| label: tbl-logistics
@@ -99,7 +103,6 @@ figs[["Quality_of_advice"]]
 
 tbls[["indentification+preference"]]
 ```
-
 
 
 ```{r}
